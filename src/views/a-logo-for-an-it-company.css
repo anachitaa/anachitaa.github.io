@@ -1,0 +1,456 @@
+.a-logo-for-an-it-company-container {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #000000;
+}
+.a-logo-for-an-it-company-menue {
+  height: 121px;
+  display: flex;
+  padding: 0 80px;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.a-logo-for-an-it-company-navlink {
+  display: contents;
+}
+.a-logo-for-an-it-company-frame92 {
+  width: 165px;
+  height: 51.44117736816406px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("/external/tq_olqytaor-_-9ctg-1500h.png");
+}
+.a-logo-for-an-it-company-frame84 {
+  gap: 10px;
+  bottom: 8rem;
+  display: flex;
+  position: relative;
+  transform: rotate(270deg);
+  align-self: flex-start;
+  align-items: flex-end;
+  margin-right: 130px;
+  flex-direction: column;
+}
+.a-logo-for-an-it-company-navlink1 {
+  display: contents;
+}
+.a-logo-for-an-it-company-frame841 {
+  width: 120px;
+  height: 38px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+.a-logo-for-an-it-company-text {
+  top: 6px;
+  left: 5px;
+  color: rgba(0, 0, 0, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.a-logo-for-an-it-company-frame85 {
+  width: 120px;
+  height: 38px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 71, 247, 1);
+}
+.a-logo-for-an-it-company-text02 {
+  top: 6px;
+  left: 5px;
+  color: rgba(255, 255, 255, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.a-logo-for-an-it-company-frame86 {
+  width: 120px;
+  height: 38px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(71, 199, 255, 1);
+}
+.a-logo-for-an-it-company-text04 {
+  top: 6px;
+  left: 5px;
+  color: rgba(255, 255, 255, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.a-logo-for-an-it-company-frame87 {
+  width: 120px;
+  height: 38px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 255, 117, 1);
+}
+.a-logo-for-an-it-company-text06 {
+  top: 6px;
+  left: 5px;
+  color: rgba(0, 0, 0, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.a-logo-for-an-it-company-frame88 {
+  width: 120px;
+  height: 38px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 71, 71, 1);
+}
+.a-logo-for-an-it-company-text08 {
+  top: 6px;
+  left: 5px;
+  color: rgba(255, 255, 255, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.a-logo-for-an-it-company-frame89 {
+  width: 120px;
+  height: 38px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 152, 31, 1);
+}
+.a-logo-for-an-it-company-text10 {
+  top: 6px;
+  left: 5px;
+  color: rgba(255, 255, 255, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.a-logo-for-an-it-company-frame90 {
+  width: 120px;
+  height: 38px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(151, 71, 255, 1);
+}
+.a-logo-for-an-it-company-text12 {
+  top: 6px;
+  left: 5px;
+  color: rgba(255, 255, 255, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.a-logo-for-an-it-company-frame91 {
+  width: 120px;
+  height: 38px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(207, 255, 71, 1);
+}
+.a-logo-for-an-it-company-text14 {
+  top: 6px;
+  left: 5px;
+  color: rgba(0, 0, 0, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.a-logo-for-an-it-company-text16 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 0px;
+  font-stretch: normal;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: 0px;
+  text-decoration: none;
+}
+.a-logo-for-an-it-company-tshirts {
+  gap: 65px;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+  justify-content: center;
+}
+.a-logo-for-an-it-company-rectangle34 {
+  width: 1000px;
+  height: auto;
+}
+.a-logo-for-an-it-company-rectangle341 {
+  width: 1000px;
+  height: 356px;
+}
+.a-logo-for-an-it-company-rectangle342 {
+  width: 1000px;
+  height: 370px;
+}
+.a-logo-for-an-it-company-rectangle343 {
+  width: 1000px;
+  height: 510px;
+}
+.a-logo-for-an-it-company-frame49 {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
+  padding-bottom: 0px;
+}
+.a-logo-for-an-it-company-text17 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  flex-grow: 1;
+  font-size: 25px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .a-logo-for-an-it-company-menue {
+    gap: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .a-logo-for-an-it-company-frame84 {
+    transform: rotate(270deg);
+  }
+  .a-logo-for-an-it-company-text16 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: var(--dl-space-space-fourunits);
+    padding-right: var(--dl-space-space-fourunits);
+    text-decoration: none;
+  }
+  .a-logo-for-an-it-company-tshirts {
+    gap: var(--dl-space-space-threeunits);
+  }
+  .a-logo-for-an-it-company-rectangle34 {
+    width: 800px;
+    height: auto;
+  }
+  .a-logo-for-an-it-company-rectangle341 {
+    width: 800px;
+    height: auto;
+  }
+  .a-logo-for-an-it-company-rectangle342 {
+    width: 800px;
+    height: auto;
+  }
+  .a-logo-for-an-it-company-rectangle343 {
+    width: 800px;
+    height: auto;
+  }
+  .a-logo-for-an-it-company-frame49 {
+    width: 100%;
+  }
+  .a-logo-for-an-it-company-text17 {
+    color: rgb(255, 255, 255);
+    width: auto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+}
+@media(max-width: 767px) {
+  .a-logo-for-an-it-company-menue {
+    gap: var(--dl-space-space-fourunits);
+    width: 100vw;
+  }
+  .a-logo-for-an-it-company-text16 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+    text-decoration: none;
+  }
+  .a-logo-for-an-it-company-tshirts {
+    gap: var(--dl-space-space-twounits);
+  }
+  .a-logo-for-an-it-company-rectangle34 {
+    width: 600px;
+  }
+  .a-logo-for-an-it-company-rectangle341 {
+    width: 600px;
+  }
+  .a-logo-for-an-it-company-rectangle342 {
+    width: 600px;
+  }
+  .a-logo-for-an-it-company-rectangle343 {
+    width: 600px;
+  }
+  .a-logo-for-an-it-company-frame49 {
+    padding-left: var(--dl-space-space-fiveunits);
+    padding-right: var(--dl-space-space-fiveunits);
+  }
+  .a-logo-for-an-it-company-text17 {
+    color: rgb(255, 255, 255);
+  }
+}
+@media(max-width: 420px) {
+  .a-logo-for-an-it-company-menue {
+    gap: var(--dl-space-space-fourunits);
+    width: 417px;
+    height: 77px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    justify-content: center;
+  }
+  .a-logo-for-an-it-company-frame92 {
+    transform: scale(0.6,0.6);
+  }
+  .a-logo-for-an-it-company-frame84 {
+    bottom: 9.5rem;
+    transform: rotate(270deg) scale(0.6, 0.6);
+    margin-right: 90px;
+  }
+  .a-logo-for-an-it-company-text16 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    text-decoration: none;
+  }
+  .a-logo-for-an-it-company-tshirts {
+    gap: var(--dl-space-space-twounits);
+  }
+  .a-logo-for-an-it-company-rectangle34 {
+    width: 350px;
+  }
+  .a-logo-for-an-it-company-rectangle341 {
+    width: 350px;
+  }
+  .a-logo-for-an-it-company-rectangle342 {
+    width: 350px;
+  }
+  .a-logo-for-an-it-company-rectangle343 {
+    width: 350px;
+  }
+  .a-logo-for-an-it-company-frame49 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .a-logo-for-an-it-company-text17 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+}

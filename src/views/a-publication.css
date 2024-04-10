@@ -1,0 +1,198 @@
+.a-publication-container {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+}
+.a-publication-text {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 0px;
+  font-stretch: normal;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: 0px;
+  text-decoration: none;
+}
+.a-publication-frame55 {
+  gap: 65px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+  justify-content: center;
+}
+.a-publication-tshirts {
+  gap: 65px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.a-publication-frame6 {
+  gap: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+.a-publication-rectangle34 {
+  width: 365px;
+  height: 500px;
+}
+.a-publication-rectangle36 {
+  width: 365px;
+  height: 500px;
+}
+.a-publication-rectangle35 {
+  width: 365px;
+  height: 500px;
+}
+.a-publication-tshirts1 {
+  gap: 65px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.a-publication-frame61 {
+  gap: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+.a-publication-rectangle351 {
+  width: 1082px;
+  height: 812px;
+}
+.a-publication-frame49 {
+  width: 1200px;
+  display: flex;
+  padding: 0 0 0 70px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.a-publication-text1 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 25px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .a-publication-text {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: var(--dl-space-space-fourunits);
+    padding-right: var(--dl-space-space-fourunits);
+    text-decoration: none;
+  }
+  .a-publication-rectangle34 {
+    width: 280px;
+    height: auto;
+  }
+  .a-publication-rectangle36 {
+    width: 280px;
+    height: auto;
+  }
+  .a-publication-rectangle35 {
+    width: 280px;
+    height: auto;
+  }
+  .a-publication-rectangle351 {
+    width: 900px;
+    height: auto;
+  }
+  .a-publication-frame49 {
+    width: 100%;
+  }
+  .a-publication-text1 {
+    color: rgb(255, 255, 255);
+    width: auto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+}
+@media(max-width: 767px) {
+  .a-publication-text {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+    text-decoration: none;
+  }
+  .a-publication-rectangle34 {
+    width: 220px;
+  }
+  .a-publication-rectangle36 {
+    width: 220px;
+  }
+  .a-publication-rectangle35 {
+    width: 220px;
+  }
+  .a-publication-rectangle351 {
+    width: 700px;
+  }
+  .a-publication-text1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+}
+@media(max-width: 420px) {
+  .a-publication-text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    text-decoration: none;
+  }
+  .a-publication-frame6 {
+    flex-direction: column;
+  }
+  .a-publication-rectangle34 {
+    width: 300px;
+  }
+  .a-publication-rectangle36 {
+    width: 300px;
+  }
+  .a-publication-rectangle35 {
+    width: 300px;
+  }
+  .a-publication-rectangle351 {
+    width: 400px;
+  }
+  .a-publication-text1 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,254 @@
+.a-font-meant-for-display-container {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+}
+.a-font-meant-for-display-text {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 0px;
+  font-stretch: normal;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: 0px;
+  text-decoration: none;
+}
+.a-font-meant-for-display-container1 {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+}
+.a-font-meant-for-display-rectangle8 {
+  width: 100%;
+  height: auto;
+}
+.a-font-meant-for-display-component3 {
+  width: 100%;
+  height: 357px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.a-font-meant-for-display-frame5 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 333px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.a-font-meant-for-display-font1 {
+  top: 0px;
+  left: 0px;
+  width: 1200px;
+  height: 337px;
+  position: absolute;
+}
+.a-font-meant-for-display-frame6 {
+  gap: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.a-font-meant-for-display-frame1 {
+  width: 350px;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.a-font-meant-for-display-l10223211 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+.a-font-meant-for-display-frame3 {
+  width: 350px;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.a-font-meant-for-display-l10223213 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+.a-font-meant-for-display-frame2 {
+  width: 350px;
+  height: 532px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.a-font-meant-for-display-l10223212 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+.a-font-meant-for-display-frame51 {
+  width: 1100px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("/external/tq_yamwc20kv2-z0lk-300h.png");
+}
+@media(max-width: 991px) {
+  .a-font-meant-for-display-text {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: var(--dl-space-space-fourunits);
+    padding-right: var(--dl-space-space-fourunits);
+    text-decoration: none;
+  }
+  .a-font-meant-for-display-component3 {
+    height: 269px;
+  }
+  .a-font-meant-for-display-frame5 {
+    height: 268px;
+  }
+  .a-font-meant-for-display-font1 {
+    width: 948px;
+    height: 266px;
+  }
+  .a-font-meant-for-display-frame1 {
+    width: 270px;
+    height: auto;
+  }
+  .a-font-meant-for-display-frame3 {
+    width: 270px;
+  }
+  .a-font-meant-for-display-frame2 {
+    width: 270px;
+    height: 408px;
+  }
+  .a-font-meant-for-display-frame51 {
+    width: 900px;
+    height: 230px;
+  }
+}
+@media(max-width: 767px) {
+  .a-font-meant-for-display-text {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+    text-decoration: none;
+  }
+  .a-font-meant-for-display-component3 {
+    height: 201px;
+  }
+  .a-font-meant-for-display-frame5 {
+    height: 212px;
+  }
+  .a-font-meant-for-display-font1 {
+    width: 727px;
+    height: 203px;
+  }
+  .a-font-meant-for-display-frame1 {
+    width: 200px;
+  }
+  .a-font-meant-for-display-frame3 {
+    width: 200px;
+  }
+  .a-font-meant-for-display-frame2 {
+    width: 200px;
+    height: 303px;
+  }
+  .a-font-meant-for-display-frame51 {
+    width: 700px;
+    height: 180px;
+  }
+}
+@media(max-width: 420px) {
+  .a-font-meant-for-display-container {
+    background-color: #000000;
+  }
+  .a-font-meant-for-display-text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    text-decoration: none;
+  }
+  .a-font-meant-for-display-container1 {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .a-font-meant-for-display-component3 {
+    width: 398px;
+    height: 121px;
+  }
+  .a-font-meant-for-display-frame5 {
+    height: 138px;
+  }
+  .a-font-meant-for-display-font1 {
+    width: 418px;
+    height: 116px;
+  }
+  .a-font-meant-for-display-frame6 {
+    width: 373px;
+    height: auto;
+  }
+  .a-font-meant-for-display-frame1 {
+    width: 100px;
+  }
+  .a-font-meant-for-display-frame3 {
+    width: 100px;
+    height: 152px;
+  }
+  .a-font-meant-for-display-l10223213 {
+    width: 100px;
+  }
+  .a-font-meant-for-display-frame2 {
+    width: 100px;
+    height: 152px;
+  }
+  .a-font-meant-for-display-frame51 {
+    width: 380px;
+    height: 100px;
+  }
+}

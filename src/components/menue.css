@@ -1,0 +1,388 @@
+.menue-menue {
+  height: 121px;
+  display: flex;
+  padding: 0 80px;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.menue-frame92 {
+  width: 165px;
+  height: 51.44117736816406px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-image: url("/external/tq_olqytaor-_-9ctg-1500h.png");
+}
+
+.menue-frame84 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center children horizontally */
+  gap: 10px;
+  bottom: 8rem;
+  position: relative;
+  transform: rotate(270deg);
+  align-self: flex-start;
+  margin-right: 130px;
+}
+
+.menue-frame841 {
+  width: 120px;
+  height: 38px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
+  position: relative;
+  cursor: pointer;  /* Indicates the element is clickable */
+}
+
+.menue-frame841:hover {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-frame841.about {
+  width: 160px;  /* Keep the expanded width */
+  margin-left: -20px;  /* Maintain the adjusted margins */
+  margin-right: -20px;
+}
+
+.menue-text {
+  top: 6px;
+  left: 5px;
+  color: rgba(0, 0, 0, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.menue-frame85 {
+  width: 120px;
+  height: 38px;
+  background-color: rgba(255, 71, 247, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
+  position: relative;
+}
+
+.menue-frame85:hover {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-frame85.clothing {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-text02 {
+  top: 6px;
+  left: 5px;
+  color: rgba(255, 255, 255, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.menue-frame86 {
+  width: 120px;
+  height: 38px;
+  background-color: rgba(71, 199, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
+  position: relative;
+}
+
+.menue-frame86:hover {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-frame86.others {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-text04 {
+  top: 6px;
+  left: 5px;
+  color: rgba(255, 255, 255, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.menue-frame87 {
+  width: 120px;
+  height: 38px;
+  background-color: rgba(0, 255, 117, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
+  position: relative;
+}
+
+.menue-frame87:hover {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-frame87.type1 {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-text06 {
+  top: 6px;
+  left: 5px;
+  color: rgba(0, 0, 0, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.menue-frame88 {
+  width: 120px;
+  height: 38px;
+  background-color: rgba(255, 71, 71, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
+  position: relative;
+}
+
+.menue-frame88:hover {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-frame88.publication {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-text08 {
+  top: 6px;
+  left: 5px;
+  color: rgba(255, 255, 255, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.menue-frame89 {
+  width: 120px;
+  height: 38px;
+  background-color: rgba(255, 152, 31, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
+  position: relative;
+}
+
+.menue-frame89:hover {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-frame89.objects {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-text10 {
+  top: 6px;
+  left: 5px;
+  color: rgba(255, 255, 255, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.menue-frame90 {
+  width: 120px;
+  height: 38px;
+  background-color: rgba(151, 71, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
+  position: relative;
+}
+
+.menue-frame90:hover {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-frame90.branding {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-text12 {
+  top: 6px;
+  left: 5px;
+  color: rgba(255, 255, 255, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.menue-frame91 {
+  width: 120px;
+  height: 38px;
+  background-color: rgba(207, 255, 71, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
+  position: relative;
+}
+
+.menue-frame91:hover {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-frame91.animations {
+  width: 160px;
+  margin-left: -20px; /* Shift left to compensate for the increased width */
+  margin-right: -20px; /* Shift right to compensate as well */
+}
+
+.menue-text14 {
+  top: 6px;
+  left: 5px;
+  color: rgba(0, 0, 0, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Helvetica Neue;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .menue-menue {
+    gap: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .menue-frame84 {
+    transform: rotate(270deg);
+  }
+}
+@media(max-width: 767px) {
+  .menue-menue {
+    gap: var(--dl-space-space-fourunits);
+    width: 100vw;
+  }
+}
+@media(max-width: 420px) {
+  .menue-menue {
+    gap: var(--dl-space-space-fourunits);
+    width: 417px;
+    height: 77px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    justify-content: center;
+  }
+  .menue-frame92 {
+    transform: scale(0.6,0.6);
+  }
+  .menue-frame84 {
+    bottom: 9.5rem;
+    transform: rotate(270deg) scale(0.6, 0.6);
+    margin-right: 90px;
+  }
+}
