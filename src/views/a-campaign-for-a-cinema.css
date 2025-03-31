@@ -1,0 +1,1066 @@
+.a-campaign-for-a-cinema-container {
+    gap: var(--dl-space-space-oneandhalfunits);
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+  }
+  .a-campaign-for-a-cinema-menue {
+    height: 121px;
+    display: flex;
+    padding: 0 80px;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .a-campaign-for-a-cinema-frame92 {
+    width: 165px;
+    height: 51.44117736816406px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-size: cover;
+    background-image: url("/external/tq_olqytaor-_-9ctg-1500h.png");
+  }
+  .a-campaign-for-a-cinema-frame84 {
+    gap: 10px;
+    bottom: 8rem;
+    display: flex;
+    position: relative;
+    transform: rotate(270deg);
+    align-self: flex-start;
+    align-items: flex-end;
+    margin-right: 130px;
+    flex-direction: column;
+  }
+  .a-campaign-for-a-cinema-navlink {
+    display: contents;
+  }
+  .a-campaign-for-a-cinema-frame841 {
+    width: 120px;
+    height: 38px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .a-campaign-for-a-cinema-text {
+    top: 6px;
+    left: 5px;
+    color: rgba(0, 0, 0, 1);
+    width: 110px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-frame85 {
+    width: 120px;
+    height: 38px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 71, 247, 1);
+  }
+  .a-campaign-for-a-cinema-text02 {
+    top: 6px;
+    left: 5px;
+    color: rgba(255, 255, 255, 1);
+    width: 110px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-frame86 {
+    width: 120px;
+    height: 38px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(71, 199, 255, 1);
+  }
+  .a-campaign-for-a-cinema-text04 {
+    top: 6px;
+    left: 5px;
+    color: rgba(255, 255, 255, 1);
+    width: 110px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-frame87 {
+    width: 120px;
+    height: 38px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(0, 255, 117, 1);
+  }
+  .a-campaign-for-a-cinema-text06 {
+    top: 6px;
+    left: 5px;
+    color: rgba(0, 0, 0, 1);
+    width: 110px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-frame88 {
+    width: 120px;
+    height: 38px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 71, 71, 1);
+  }
+  .a-campaign-for-a-cinema-text08 {
+    top: 6px;
+    left: 5px;
+    color: rgba(255, 255, 255, 1);
+    width: 110px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-frame89 {
+    width: 120px;
+    height: 38px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 152, 31, 1);
+  }
+  .a-campaign-for-a-cinema-text10 {
+    top: 6px;
+    left: 5px;
+    color: rgba(255, 255, 255, 1);
+    width: 110px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-frame90 {
+    width: 120px;
+    height: 38px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(151, 71, 255, 1);
+  }
+  .a-campaign-for-a-cinema-text12 {
+    top: 6px;
+    left: 5px;
+    color: rgba(255, 255, 255, 1);
+    width: 110px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-frame91 {
+    width: 120px;
+    height: 38px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(207, 255, 71, 1);
+  }
+  .a-campaign-for-a-cinema-text14 {
+    top: 6px;
+    left: 5px;
+    color: rgba(0, 0, 0, 1);
+    width: 110px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-text16 {
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    font-size: 50px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 0px;
+    font-stretch: normal;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 0px;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-tshirts {
+    gap: 65px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    flex-direction: column;
+    padding-bottom: 12%;
+    justify-content: center;
+  }
+  .a-campaign-for-a-cinema-frame95 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .a-campaign-for-a-cinema-rectangle34 {
+    width: 47%;
+    height: auto;
+  }
+  .a-campaign-for-a-cinema-rectangle35 {
+    width: 47%;
+    height: auto;
+  }
+  .a-campaign-for-a-cinema-frame93 {
+    gap: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .a-campaign-for-a-cinema-rectangle341 {
+    width: 100%;
+    height: auto;
+  }
+  .a-campaign-for-a-cinema-frame94 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .a-campaign-for-a-cinema-rectangle342 {
+    width: 30%;
+    height: auto;
+  }
+  .a-campaign-for-a-cinema-rectangle36 {
+    width: 30%;
+    height: auto;
+  }
+  .a-campaign-for-a-cinema-rectangle351 {
+    width: 30%;
+    height: auto;
+  }
+  .a-campaign-for-a-cinema-frame54 {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .a-campaign-for-a-cinema-frame97 {
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+    align-items: stretch;
+    flex-shrink: 0;
+    padding-top: 0 0 0 70px;
+    padding-left: 0px;
+    padding-right: 0 0 0 70px;
+    padding-bottom: 0 0 0 70px;
+    justify-content: space-between;
+  }
+  .a-campaign-for-a-cinema-text17 {
+    color: rgb(255, 255, 255);
+    width: 320px;
+    height: auto;
+    font-size: 30px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-frame971 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding-top: 0 0 0 70px;
+    padding-left: 0px;
+    padding-right: 0 0 0 70px;
+    padding-bottom: 0 0 0 70px;
+    justify-content: flex-end;
+  }
+  .a-campaign-for-a-cinema-text18 {
+    color: rgb(255, 255, 255);
+    width: 376px;
+    height: auto;
+    font-size: 30px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-frame972 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding-top: 0 0 0 70px;
+    padding-left: 0px;
+    padding-right: 0 0 0 70px;
+    padding-bottom: 0 0 0 70px;
+    justify-content: flex-end;
+  }
+  .a-campaign-for-a-cinema-text19 {
+    color: rgb(255, 255, 255);
+    width: 376px;
+    height: auto;
+    font-size: 30px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-frame98 {
+    width: 100%;
+    display: flex;
+    padding: 0 0 0 70px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: flex-end;
+  }
+  .a-campaign-for-a-cinema-text20 {
+    color: rgba(255, 255, 255, 1);
+    width: 376px;
+    height: auto;
+    font-size: 30px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-frame99 {
+    width: 100%;
+    display: flex;
+    padding: 0 0 0 70px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: flex-end;
+  }
+  .a-campaign-for-a-cinema-text21 {
+    color: rgba(255, 255, 255, 1);
+    width: 376px;
+    height: auto;
+    font-size: 30px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-frame100 {
+    width: 100%;
+    display: flex;
+    padding: 0 0 0 70px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: flex-end;
+  }
+  .a-campaign-for-a-cinema-text22 {
+    color: rgba(255, 255, 255, 1);
+    width: 376px;
+    height: auto;
+    font-size: 30px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-frame101 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding-top: 0 0 0 70px;
+    padding-left: 1000px;
+    padding-right: 0 0 0 70px;
+    padding-bottom: 0 0 0 70px;
+    justify-content: flex-end;
+  }
+  .a-campaign-for-a-cinema-text23 {
+    color: rgba(255, 255, 255, 1);
+    width: 376px;
+    height: auto;
+    font-size: 30px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .a-campaign-for-a-cinema-frame96 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .a-campaign-for-a-cinema-text24 {
+    color: rgba(255, 255, 255, 1);
+    width: auto;
+    height: auto;
+    flex-grow: 1;
+    font-size: 30px;
+    font-style: Bold;
+    text-align: left;
+    
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  @media(max-width: 1900px) {
+    .a-campaign-for-a-cinema-text16 {
+      color: rgb(255, 255, 255);
+      font-size: 40px;
+      font-weight: 700;
+      line-height: normal;
+      padding-left: 10%;
+      padding-right: 10%;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-tshirts {
+      padding-top: 2%;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-bottom: 12%;
+    }
+    .a-campaign-for-a-cinema-rectangle35 {
+      width: 47%;
+    }
+    .a-campaign-for-a-cinema-rectangle342 {
+      width: 30%;
+    }
+    .a-campaign-for-a-cinema-rectangle36 {
+      width: 30%;
+    }
+    .a-campaign-for-a-cinema-rectangle351 {
+      width: 30%;
+    }
+    .a-campaign-for-a-cinema-text17 {
+      font-size: 28px;
+    }
+    .a-campaign-for-a-cinema-text18 {
+      font-size: 28px;
+    }
+    .a-campaign-for-a-cinema-text19 {
+      font-size: 28px;
+    }
+    .a-campaign-for-a-cinema-text20 {
+      font-size: 28px;
+    }
+    .a-campaign-for-a-cinema-text21 {
+      font-size: 28px;
+    }
+    .a-campaign-for-a-cinema-text22 {
+      font-size: 28px;
+    }
+    .a-campaign-for-a-cinema-text23 {
+      font-size: 28px;
+    }
+    .a-campaign-for-a-cinema-text24 {
+      font-size: 28px;
+    }
+  }
+  @media(max-width: 1800px) {
+    .a-campaign-for-a-cinema-rectangle34 {
+      width: 47%;
+    }
+  }
+  @media(max-width: 1600px) {
+    .a-campaign-for-a-cinema-rectangle34 {
+      width: 580px;
+    }
+    .a-campaign-for-a-cinema-rectangle36 {
+      width: 370px;
+    }
+    .a-campaign-for-a-cinema-rectangle351 {
+      width: 370px;
+    }
+  }
+  @media(max-width: 1400px) {
+    .a-campaign-for-a-cinema-text16 {
+      color: rgb(255, 255, 255);
+      font-size: 30px;
+      font-weight: 700;
+      line-height: normal;
+      padding-left: 10%;
+      padding-right: 10%;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-tshirts {
+      padding-left: 10&;
+      padding-right: 10&;
+      padding-bottom: 12%;
+    }
+    .a-campaign-for-a-cinema-rectangle34 {
+      width: 47%;
+    }
+    .a-campaign-for-a-cinema-rectangle35 {
+      width: 47%;
+    }
+    .a-campaign-for-a-cinema-rectangle342 {
+      width: 30%;
+    }
+    .a-campaign-for-a-cinema-rectangle36 {
+      width: 30%;
+    }
+    .a-campaign-for-a-cinema-rectangle351 {
+      width: 30%;
+    }
+    .a-campaign-for-a-cinema-text17 {
+      width: 280px;
+      font-size: 25px;
+    }
+    .a-campaign-for-a-cinema-text18 {
+      color: rgb(255, 255, 255);
+      font-size: 25px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-text19 {
+      font-size: 25px;
+    }
+    .a-campaign-for-a-cinema-text20 {
+      font-size: 25px;
+    }
+    .a-campaign-for-a-cinema-text21 {
+      font-size: 25px;
+    }
+    .a-campaign-for-a-cinema-text22 {
+      font-size: 25px;
+    }
+    .a-campaign-for-a-cinema-frame101 {
+      padding-top: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      justify-content: flex-end;
+    }
+    .a-campaign-for-a-cinema-text23 {
+      color: rgb(255, 255, 255);
+      font-size: 25px;
+    }
+    .a-campaign-for-a-cinema-text24 {
+      font-size: 25px;
+    }
+  }
+  
+  @media(max-width: 991px) {
+    .a-campaign-for-a-cinema-menue {
+      gap: var(--dl-space-space-fourunits);
+      padding-left: var(--dl-space-space-twounits);
+      padding-right: var(--dl-space-space-twounits);
+    }
+    .a-campaign-for-a-cinema-frame84 {
+      transform: rotate(270deg);
+    }
+    .a-campaign-for-a-cinema-text16 {
+    margin-top: 20%;
+      color: rgb(255, 255, 255);
+      font-size: 30px;
+      font-weight: 700;
+      line-height: normal;
+      padding-left: 10%;
+      padding-right: 10%;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame95 {
+      width: 100%;
+      align-self: center;
+    }
+    .a-campaign-for-a-cinema-rectangle34 {
+      width: 47%;
+      height: auto;
+    }
+    .a-campaign-for-a-cinema-rectangle35 {
+      width: 47%;
+      height: auto;
+    }
+    .a-campaign-for-a-cinema-frame93 {
+      width: auto;
+    }
+    .a-campaign-for-a-cinema-rectangle341 {
+      width: 100%;
+    }
+    .a-campaign-for-a-cinema-frame94 {
+      width: 100%;
+    }
+    .a-campaign-for-a-cinema-rectangle342 {
+      width: 30%;
+      height: auto;
+    }
+    .a-campaign-for-a-cinema-rectangle36 {
+      width: 30%;
+      height: auto;
+    }
+    .a-campaign-for-a-cinema-rectangle351 {
+      width: 30%;
+      height: auto;
+    }
+    .a-campaign-for-a-cinema-frame97 {
+      width: 100%;
+      align-items: center;
+    }
+    .a-campaign-for-a-cinema-text17 {
+      color: rgb(255, 255, 255);
+      width: 160px;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame971 {
+      width: 900px;
+    }
+    .a-campaign-for-a-cinema-text18 {
+      color: rgb(255, 255, 255);
+      font-size: 22px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame972 {
+      width: 900px;
+    }
+    .a-campaign-for-a-cinema-text19 {
+      color: rgb(255, 255, 255);
+      font-size: 22px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame98 {
+      width: 900px;
+    }
+    .a-campaign-for-a-cinema-text20 {
+      color: rgb(255, 255, 255);
+      font-size: 22px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame99 {
+      width: 900px;
+    }
+    .a-campaign-for-a-cinema-text21 {
+      color: rgb(255, 255, 255);
+      font-size: 22px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame100 {
+      width: 900px;
+    }
+    .a-campaign-for-a-cinema-text22 {
+      color: rgb(255, 255, 255);
+      font-size: 22px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame101 {
+      width: 900px;
+    }
+    .a-campaign-for-a-cinema-text23 {
+      color: rgb(255, 255, 255);
+      font-size: 22px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame96 {
+      width: auto;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .a-campaign-for-a-cinema-text24 {
+      color: rgb(255, 255, 255);
+      font-size: 22px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+  }
+  @media(max-width: 767px) {
+    .a-campaign-for-a-cinema-menue {
+      gap: var(--dl-space-space-fourunits);
+      width: 100vw;
+    }
+    .a-campaign-for-a-cinema-text16 {
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      font-weight: 700;
+      line-height: normal;
+      padding-left: 10%;
+      padding-right: 10%;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-tshirts {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .a-campaign-for-a-cinema-frame95 {
+      gap: var(--dl-space-space-fourunits);
+      width: 100%;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .a-campaign-for-a-cinema-rectangle34 {
+      width: 100%;
+    }
+    .a-campaign-for-a-cinema-rectangle35 {
+      width: 100%;
+    }
+    .a-campaign-for-a-cinema-rectangle341 {
+      width: 100%;
+    }
+    .a-campaign-for-a-cinema-frame94 {
+      gap: var(--dl-space-space-twounits);
+      width: 100%;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .a-campaign-for-a-cinema-rectangle342 {
+      width: 100%;
+    }
+    .a-campaign-for-a-cinema-rectangle36 {
+      width: 100%;
+    }
+    .a-campaign-for-a-cinema-rectangle351 {
+      width: 100%;
+    }
+    .a-campaign-for-a-cinema-frame54 {
+      width: 100%;
+      font-size: 18px;
+    }
+    .a-campaign-for-a-cinema-frame97 {
+      width: 100%;
+      padding: 0px;
+      align-self: flex-start;
+      justify-content: flex-start;
+    }
+    .a-campaign-for-a-cinema-text17 {
+      color: rgb(255, 255, 255);
+      width: 120px;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame971 {
+      width: 100%;
+      padding: 0px;
+    }
+    .a-campaign-for-a-cinema-text18 {
+      color: rgb(255, 255, 255);
+      width: 200px;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame972 {
+      width: 100%;
+      padding: 0px;
+    }
+    .a-campaign-for-a-cinema-text19 {
+      color: rgb(255, 255, 255);
+      width: 200px;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame98 {
+      width: 100%;
+      padding: 0px;
+    }
+    .a-campaign-for-a-cinema-text20 {
+      color: rgb(255, 255, 255);
+      width: 200px;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame99 {
+      width: 100%;
+      padding: 0px;
+    }
+    .a-campaign-for-a-cinema-text21 {
+      color: rgb(255, 255, 255);
+      width: 200px;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame100 {
+      width: 100%;
+      padding: 0px;
+    }
+    .a-campaign-for-a-cinema-text22 {
+      color: rgb(255, 255, 255);
+      width: 200px;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame101 {
+      width: 100%;
+      padding: 0px;
+      justify-content: flex-end;
+    }
+    .a-campaign-for-a-cinema-text23 {
+      color: rgb(255, 255, 255);
+      width: 200px;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame96 {
+      width: auto;
+    }
+    .a-campaign-for-a-cinema-text24 {
+      width: auto;
+      font-size: 18px;
+    }
+  }
+  @media(max-width: 420px) {
+    .a-campaign-for-a-cinema-menue {
+      gap: var(--dl-space-space-fourunits);
+      width: 417px;
+      height: 77px;
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+      justify-content: center;
+    }
+    .a-campaign-for-a-cinema-frame92 {
+      transform: scale(0.6,0.6);
+    }
+    .a-campaign-for-a-cinema-frame84 {
+      bottom: 9.5rem;
+      transform: rotate(270deg) scale(0.6, 0.6);
+      margin-right: 90px;
+    }
+    .a-campaign-for-a-cinema-text16 {
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      font-weight: 700;
+      line-height: normal;
+      padding-left: 10%;
+      padding-right: 10%;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-tshirts {
+      gap: var(--dl-space-space-threeunits);
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .a-campaign-for-a-cinema-frame95 {
+      gap: var(--dl-space-space-twounits);
+    }
+    .a-campaign-for-a-cinema-rectangle34 {
+      width: 300px;
+    }
+    .a-campaign-for-a-cinema-rectangle35 {
+      width: 300px;
+    }
+    .a-campaign-for-a-cinema-rectangle341 {
+      width: 300px;
+    }
+    .a-campaign-for-a-cinema-frame94 {
+      gap: var(--dl-space-space-threeunits);
+      width: auto;
+    }
+    .a-campaign-for-a-cinema-rectangle342 {
+      width: 300px;
+    }
+    .a-campaign-for-a-cinema-rectangle36 {
+      width: 300px;
+    }
+    .a-campaign-for-a-cinema-rectangle351 {
+      width: 300px;
+    }
+    .a-campaign-for-a-cinema-frame54 {
+      padding-left: var(--dl-space-space-fourunits);
+      padding-right: var(--dl-space-space-fourunits);
+    }
+    .a-campaign-for-a-cinema-frame97 {
+      gap: var(--dl-space-space-unit);
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    .a-campaign-for-a-cinema-text17 {
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-text18 {
+      color: rgb(255, 255, 255);
+      width: 100%;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-text19 {
+      color: rgb(255, 255, 255);
+      width: 100%;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-text20 {
+      color: rgb(255, 255, 255);
+      width: 100%;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-text21 {
+      color: rgb(255, 255, 255);
+      width: 100%;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-text22 {
+      color: rgb(255, 255, 255);
+      width: 100%;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame101 {
+      flex-direction: column;
+    }
+    .a-campaign-for-a-cinema-text23 {
+      color: rgb(255, 255, 255);
+      width: 100%;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    .a-campaign-for-a-cinema-frame96 {
+      padding-left: var(--dl-space-space-fourunits);
+      padding-right: var(--dl-space-space-fourunits);
+    }
+    .a-campaign-for-a-cinema-text24 {
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+    }
+  }
+  

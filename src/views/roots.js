@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet";
 
-import Menue from '../components/menue'
-import './roots.css'
+import "./roots.css";
+import Menue from "../components/menue";
+import ModalImage from "react-modal-image";
 
 const Roots = (props) => {
   return (
@@ -12,82 +14,90 @@ const Roots = (props) => {
         <title>roots - Ana Portofolio</title>
         <meta property="og:title" content="roots - Ana Portofolio" />
       </Helmet>
-      <Menue></Menue>
-      <span className="roots-text">a series of photos - Roots </span>
+      <Menue />
+      <span className="roots-text16">
+        <span className="roots-text17">a series of photos - Roots </span>
+        <br></br>
+      </span>
       <div className="roots-frame54">
         <div className="roots-tshirts">
-          <div className="roots-frame6">
-            <img
-              alt="Rectangle354211"
-              src="/external/rectangle354211-b121-500w.png"
-              className="roots-rectangle35"
-            />
-          </div>
-          <div className="roots-frame61">
-            <img
-              alt="Rectangle354211"
-              src="/external/rectangle354211-xvru-500w.png"
-              className="roots-rectangle351"
-            />
-          </div>
+          <ModalImage
+            alt="photo 1"
+            small="/external/roots/1.png"
+            large="/external/roots/1.png"
+            hideDownload={true}
+            className="roots-rectangle35"
+          />
+          <ModalImage
+            alt="photo 2"
+            small="/external/roots/2.png"
+            large="/external/roots/2.png"
+            hideDownload={true}
+            className="roots-rectangle35"
+          />
         </div>
         <div className="roots-tshirts1">
-          <div className="roots-frame62">
-            <img
-              alt="Rectangle354211"
-              src="/external/rectangle354211-oze-500w.png"
-              className="roots-rectangle352"
-            />
-          </div>
-          <div className="roots-frame63">
-            <img
-              alt="Rectangle354211"
-              src="/external/rectangle354211-atzn-500w.png"
-              className="roots-rectangle353"
-            />
-          </div>
+        <ModalImage
+            alt="photo 2"
+            small="/external/roots/3.png"
+            large="/external/roots/3.png"
+            hideDownload={true}
+            className="roots-rectangle351"
+          />
+          <ModalImage
+            alt="photo 2"
+            small="/external/roots/4.png"
+            large="/external/roots/4.png"
+            hideDownload={true}
+            className="roots-rectangle353"
+          />
         </div>
         <div className="roots-tshirts2">
-          <div className="roots-frame64">
-            <img
-              alt="Rectangle354211"
-              src="/external/rectangle354211-mc2q-500w.png"
-              className="roots-rectangle354"
-            />
-          </div>
-          <div className="roots-frame65">
-            <img
-              alt="Rectangle354211"
-              src="/external/rectangle354211-uptd-500w.png"
-              className="roots-rectangle355"
-            />
-          </div>
+        <ModalImage
+            alt="photo 2"
+            small="/external/roots/5.png"
+            large="/external/roots/5.png"
+            hideDownload={true}
+            className="roots-rectangle352"
+          />
+          <ModalImage
+            alt="photo 2"
+            small="/external/roots/5.png"
+            large="/external/roots/5.png"
+            hideDownload={true}
+            className="roots-rectangle352"
+          />
         </div>
         <div className="roots-frame49">
-          <span className="roots-text1">
-            This publication draws inspiration from a 1971 magazine called
-            &apos;Ain’t I A Woman.&apos; While its content is derived from the
-            original magazine, my main focus lies in exploring how we read
-            articles, emphasizing grid and microtypography.
+          <span className="roots-text19">
+            In my installation, I explore how childhood packaging shapes
+            perceptions of graphic design. Romanian products have greatly
+            influenced my aesthetic sensibilities, as reflected in photos
+            contrasting humble snacks with elegant objects. I contemplate the
+            values we hold and their origins, shaped by our upbringing. It
+            serves as a visual tribute to the enduring impact of childhood
+            design.
           </span>
         </div>
-        <div className="roots-tshirts3">
-          <div className="roots-frame66">
-            <img
-              alt="Rectangle364211"
-              src="/external/rectangle364211-wt9u-400h.png"
-              className="roots-rectangle36"
-            />
-            <img
-              alt="Rectangle354211"
-              src="/external/rectangle354211-k17q-400h.png"
-              className="roots-rectangle356"
-            />
-          </div>
+        <div className="roots-frame6">
+          <ModalImage
+            alt="Rectangle364211"
+            small="/external/roots/roots_expo.jpg"
+            large="/external/roots/roots_expo.jpg"
+            hideDownload={true}
+            className="roots-rectangle35"
+          />
+          <ModalImage
+            alt="Rectangle354211"
+            small="/external/roots/roots_expo3.jpg"
+            large="/external/roots/roots_expo3.jpg"
+            hideDownload={true}
+            className="roots-rectangle35"
+          />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Roots
+export default Roots;

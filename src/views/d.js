@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 
 import './d.css'
 import Menue from '../components/menue'
+import ModalImage from 'react-modal-image'
 
 const D = (props) => {
   return (
@@ -15,7 +16,7 @@ const D = (props) => {
       </Helmet>
       <Menue />
       <span className="d-text16">
-        <span className="d-text17">some 3D printed objects</span>
+        <span className="d-text17">a series of 3D printed objects</span>
         <br></br>
       </span>
       <div className="d-tshirts">
@@ -23,19 +24,25 @@ const D = (props) => {
           <span className="d-text19">
             a chess board, fully 3D printed with PLA
           </span>
-          <img
+          <ModalImage
             alt="Rectangle344138"
-            src="/external/rectangle344138-2e3m-300w.png"
+            small="/3d/chess-1500w.jpg"
+            large="/3d/chess-1500w.jpg"
+            hideDownload={true}
             className="d-rectangle34"
           />
-          <img
+          <ModalImage
             alt="Rectangle364138"
-            src="/external/rectangle364138-ex3m-300w.png"
+            small="/3d/sah-min-1500w.jpg"
+            large="/3d/sah-min-1500w.jpg"
+            hideDownload={true}
             className="d-rectangle36"
           />
-          <img
+          <ModalImage
             alt="Rectangle354138"
-            src="/external/rectangle354138-mw3f-300w.png"
+            small="/3d/chess2-1500w.jpg"
+            large="/3d/chess2-1500w.jpg"
+            hideDownload={true}
             className="d-rectangle35"
           />
         </div>
@@ -67,19 +74,25 @@ const D = (props) => {
             <br></br>
             <span>with PLA</span>
           </span>
-          <img
+          <ModalImage
             alt="Rectangle374139"
-            src="/external/rectangle374139-xiz9-300w.png"
+            small="/3d/img_7727-min-1500w.jpg"
+            large='/3d/img_7727-min-1500w.jpg'
+            hideDownload={true}
             className="d-rectangle37"
           />
-          <img
+          <ModalImage
             alt="Rectangle344138"
-            src="/external/rectangle344138-g1sk-300w.png"
+            small="/3d/img_7732-min-1500w.jpg"
+            large='/3d/img_7732-min-1500w.jpg'
+            hideDownload={true}
             className="d-rectangle341"
           />
-          <img
+          <ModalImage
             alt="Rectangle354138"
-            src="/external/rectangle354138-nxwy-300w.png"
+            small="/3d/img_7717-min-1500w.jpg"
+            large='/3d/img_7717-min-1500w.jpg'
+            hideDownload={true}
             className="d-rectangle351"
           />
         </div>

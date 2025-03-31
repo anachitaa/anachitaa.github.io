@@ -61,11 +61,6 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
-
-body {
-  background-color: #000000;
-}
-
 .list {
   width: 100%;
   margin: 1em 0px 1em 0px;
@@ -80,6 +75,9 @@ body {
 .teleport-show {
   display: flex !important;
   transform: none !important;
+}
+body, html{
+  background-color: #000000;
 }
 .Heading {
   font-size: 32px;
@@ -96,4 +94,8 @@ body {
   line-height: 1.15;
   text-transform: none;
   text-decoration: none;
+}
+
+*{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

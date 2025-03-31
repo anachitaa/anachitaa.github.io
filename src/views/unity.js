@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
-import Menue from '../components/menue'
 import './unity.css'
+import Menue from '../components/menue'
 
 const Unity = (props) => {
   return (
@@ -12,18 +13,18 @@ const Unity = (props) => {
         <title>unity - Ana Portofolio</title>
         <meta property="og:title" content="unity - Ana Portofolio" />
       </Helmet>
-      <Menue></Menue>
-      <span className="unity-text">a virtual walk through - Paper Town</span>
+     <Menue />
+      <span className="unity-text16">a virtual walk through - Paper Town</span>
       <div className="unity-tshirts">
         <div className="unity-frame6">
           <img
             alt="Rectangle354542"
-            src="/external/rectangle354542-nmnm-600w.png"
+            src="/external/rectangle354542-nmnm-1500w.png"
             className="unity-rectangle35"
           />
           <img
             alt="Rectangle344542"
-            src="/external/rectangle344542-v8ws-600w.png"
+            src="/external/rectangle344542-v8ws-1500w.png"
             className="unity-rectangle34"
           />
         </div>
@@ -34,7 +35,7 @@ const Unity = (props) => {
           className="unity-link"
         >
           <div className="unity-frame53">
-            <span className="unity-text1">
+            <span className="unity-text17">
               <span>Try it yourself</span>
             </span>
           </div>
@@ -50,7 +51,7 @@ const Unity = (props) => {
           ></video>
         </div>
         <div className="unity-frame49">
-          <span className="unity-text3">
+          <span className="unity-text19">
             Paper Town is a nostalgic stroll down memory lane, where the
             cityscape mirrors my hometown through the innocent lens of
             childhood, appearing like a paper-cutout version of reality. As you

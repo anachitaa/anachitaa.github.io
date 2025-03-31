@@ -1,8 +1,12 @@
 import {React, useState} from 'react'
 import './menue.css'
 import { Link } from 'react-router-dom/cjs/react-router-dom';
+import { useCategory } from '../context/CategoryContext';
 
-const Menue = ({setActiveCategory}) => {
+const Menue = () => {
+  const { setActiveCategory } = useCategory();  
+
+
   const [about, setAbout] = useState(false);
   const [clothing, setClothing] = useState(false);
   const [others, setOthers] = useState(false);
@@ -14,7 +18,18 @@ const Menue = ({setActiveCategory}) => {
 
   return (
     <div className="menue-menue">
-      <Link to="" className="menue-frame92"></Link>
+      <Link to="/" onClick={() => 
+        {
+          setClothing(false)
+          setAbout(false)
+          setAnimations(false);
+          setBranding(false);
+          setType(false);
+          setObjects(false);
+          setPublcation(false);
+          setOthers(false);
+          setActiveCategory('')
+      }} className="menue-frame92"></Link>
       <div className="menue-frame84">
         <Link to="/about" onClick={() => {
           setAbout(!about)

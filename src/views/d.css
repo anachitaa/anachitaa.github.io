@@ -1,5 +1,5 @@
 .d-container {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
   display: flex;
   overflow: auto;
@@ -62,7 +62,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -87,7 +87,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -112,7 +112,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -137,7 +137,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -162,7 +162,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -187,7 +187,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -212,7 +212,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -237,26 +237,27 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
 .d-text16 {
+  margin-top: 10%;
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 40px;
+  font-size: 50px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   padding-top: 0px;
   font-stretch: normal;
-  padding-left: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-fiveunits);
+  padding-left: 15%;
+  padding-right: 15%;
   padding-bottom: 0px;
   text-decoration: none;
 }
@@ -266,78 +267,187 @@
   height: auto;
   display: flex;
   align-items: center;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-top: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-fiveunits);
+  padding-bottom: 12%;
   justify-content: center;
 }
 .d-frame6 {
-  gap: 20px;
+  width: 100%;
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
+  gap: 4%;
 }
 .d-text19 {
-  color: rgba(255, 255, 255, 1);
-  width: 167px;
+  color: rgb(255, 255, 255);
+  width: 10%;
   height: auto;
-  font-size: 22px;
+  font-size: 30px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
 .d-rectangle34 {
-  width: 270px;
-  height: 370px;
+  width: 100%;
+  height: auto;
 }
 .d-rectangle36 {
-  width: 270px;
-  height: 370px;
+  width: 100%;
+  height: auto;
 }
 .d-rectangle35 {
-  width: 270px;
-  height: 370px;
+  width: 100%;
+  height: auto;
 }
 .d-video {
   width: 100%;
   height: auto;
-  padding-left: var(--dl-space-space-fourunits);
-  padding-right: var(--dl-space-space-fourunits);
 }
 .d-frame51 {
-  gap: 20px;
+  width: 100%;
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
+  gap:4%;
 }
 .d-text20 {
   color: rgb(255, 255, 255);
-  width: 167px;
+  width: 10%;
   height: auto;
-  font-size: 22px;
+  font-size: 30px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
 .d-rectangle37 {
-  width: 270px;
-  height: 370px;
+  width: 100%;
+  height: auto;
 }
 .d-rectangle341 {
-  width: 270px;
-  height: 370px;
+  width: 100%;
+  height: auto;
 }
 .d-rectangle351 {
-  width: 270px;
-  height: 370px;
+  width: 100%;
+  height: auto;
+}
+@media(max-width: 1900px) {
+  .d-text16 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: none;
+  }
+  .d-tshirts {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 12%;
+  }
+  .d-text19 {
+    width: 10%;
+    font-size: 28px;
+  }
+  .d-rectangle34 {
+    width: 100%;
+  }
+  .d-rectangle36 {
+    width: 100%;
+  }
+  .d-rectangle35 {
+    width: 100%;
+  }
+  .d-text20 {
+    width: 10%;
+    font-size: 28px;
+  }
+  .d-rectangle37 {
+    width: 100%;
+  }
+  .d-rectangle341 {
+    width: 100%;
+  }
+  .d-rectangle351 {
+    width: 100%;
+  }
+}
+@media(max-width: 1400px) {
+  .d-text16 {
+    margin-top: 15%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: none;
+  }
+  .d-tshirts {
+    padding-top: 2%x;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 12%;
+  }
+  .d-text19 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .d-rectangle34 {
+    width: 100%;
+  }
+  .d-rectangle36 {
+    width: 100%;
+  }
+  .d-rectangle35 {
+    width: 100%;
+  }
+  .d-text20 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .d-rectangle37 {
+    width: 100%;
+  }
+  .d-rectangle341 {
+    width: 100%;
+  }
+  .d-rectangle351 {
+    width: 100%;
+  }
+}
+@media(max-width: 1200px) {
+  .d-rectangle36 {
+    width: 100%;
+  }
+  .d-rectangle35 {
+    width: 100%;
+  }
+  .d-rectangle37 {
+    width: 100%;
+  }
+  .d-rectangle351 {
+    width: 100%;
+  }
 }
 @media(max-width: 991px) {
   .d-menue {
@@ -349,51 +459,71 @@
     transform: rotate(270deg);
   }
   .d-text16 {
+    margin-top: 20%;
     color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: 700;
     line-height: normal;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
     text-decoration: none;
   }
   .d-text17 {
     color: #ffffff;
-    font-size: 35px;
     font-weight: 700;
     line-height: normal;
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
     text-decoration: none;
   }
+  .d-tshirts {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .d-frame6 {
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 4%;
+  }
   .d-text19 {
+    width: 12%;
     font-size: 20px;
   }
   .d-rectangle34 {
-    width: 210px;
+    width: 100%;
     height: auto;
   }
   .d-rectangle36 {
-    width: 210px;
+    width: 100%;
     height: auto;
   }
   .d-rectangle35 {
-    width: 210px;
+    width: 100%;
     height: auto;
   }
+  .d-video {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .d-frame51 {
+    padding-left: 0px;
+    padding-right: 0px;
+    gap:4%;
+  }
   .d-text20 {
+    width: 12%;
     font-size: 20px;
   }
   .d-rectangle37 {
-    width: 210px;
+    width: 100%;
     height: auto;
   }
   .d-rectangle341 {
-    width: 210px;
+    width: 100%;
     height: auto;
   }
   .d-rectangle351 {
-    width: 210px;
+    width: 100%;
     height: auto;
   }
 }
@@ -404,11 +534,11 @@
   }
   .d-text16 {
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     line-height: normal;
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
+    padding-left: 10%;
+    padding-right: 10%;
     text-decoration: none;
   }
   .d-text17 {
@@ -420,39 +550,57 @@
     padding-right: var(--dl-space-space-threeunits);
     text-decoration: none;
   }
+  .d-tshirts {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .d-frame6 {
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 4%;
+  }
   .d-text19 {
     color: rgb(255, 255, 255);
-    width: 100px;
+    width: 12%;
     font-size: 18px;
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
   }
   .d-rectangle34 {
-    width: 170px;
+    width: 100%;
   }
   .d-rectangle36 {
-    width: 170px;
+    width: 100%;
   }
   .d-rectangle35 {
-    width: 170px;
+    width: 100%;
+  }
+  .d-video {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .d-frame51 {
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 4%;
   }
   .d-text20 {
     color: rgb(255, 255, 255);
-    width: 100px;
+    width: 12%;
     font-size: 18px;
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
   }
   .d-rectangle37 {
-    width: 170px;
+    width: 100%;
   }
   .d-rectangle341 {
-    width: 170px;
+    width: 100%;
   }
   .d-rectangle351 {
-    width: 170px;
+    width: 100%;
   }
 }
 @media(max-width: 420px) {
@@ -477,10 +625,8 @@
     font-size: 20px;
     font-weight: 700;
     line-height: normal;
-    padding-top: var(--dl-space-space-unit);
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: var(--dl-space-space-unit);
+    padding-left: 10%;
+    padding-right: 10%;
     text-decoration: none;
   }
   .d-text17 {
@@ -492,8 +638,16 @@
     padding-right: var(--dl-space-space-unit);
     text-decoration: none;
   }
+  .d-tshirts {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
   .d-frame6 {
+    gap: var(--dl-space-space-threeunits);
+    align-items: center;
     flex-direction: column;
+    justify-content: flex-start;
   }
   .d-text19 {
     color: rgb(255, 255, 255);
@@ -505,16 +659,19 @@
     text-decoration: none;
   }
   .d-rectangle34 {
-    width: 200px;
+    width: 100%;
   }
   .d-rectangle36 {
-    width: 200px;
+    width: 100%;
   }
   .d-rectangle35 {
-    width: 200px;
+    width: 100%;
   }
   .d-frame51 {
+    gap: var(--dl-space-space-threeunits);
+    align-items: center;
     flex-direction: column;
+    justify-content: flex-start;
   }
   .d-text20 {
     color: rgb(255, 255, 255);
@@ -523,5 +680,14 @@
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
+  }
+  .d-rectangle37 {
+    width: 100%;
+  }
+  .d-rectangle341 {
+    width: 100%;
+  }
+  .d-rectangle351 {
+    width: 100%;
   }
 }

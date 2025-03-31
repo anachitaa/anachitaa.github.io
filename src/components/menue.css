@@ -1,12 +1,14 @@
 .menue-menue {
   height: 121px;
+  width: 100vw;
   display: flex;
   padding: 0 80px;
-  position: relative;
+  position: absolute;
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
   justify-content: space-between;
+  top: 0;
 }
 .menue-frame92 {
   width: 165px;
@@ -66,7 +68,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -106,7 +108,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -146,7 +148,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -186,7 +188,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -226,7 +228,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -266,7 +268,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -306,7 +308,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -346,12 +348,13 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
+
 @media(max-width: 991px) {
   .menue-menue {
     gap: var(--dl-space-space-fourunits);
@@ -366,13 +369,24 @@
   .menue-menue {
     gap: var(--dl-space-space-fourunits);
     width: 100vw;
+    
   }
+  .menue-frame92 {
+    transform: scale(0.8,0.8);
+  }
+  .menue-frame84 {
+    bottom: 9.5rem;
+    transform: rotate(270deg) scale(0.8, 0.8);
+    margin-right: 90px;
+  }
+
 }
-@media(max-width: 420px) {
+@media(max-width: 550px) {
   .menue-menue {
     gap: var(--dl-space-space-fourunits);
-    width: 417px;
+    width: 100vw;
     height: 77px;
+    gap:100px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     justify-content: center;
@@ -383,6 +397,26 @@
   .menue-frame84 {
     bottom: 9.5rem;
     transform: rotate(270deg) scale(0.6, 0.6);
-    margin-right: 90px;
+    margin-right:20%;
+  }
+}
+
+@media(max-width: 450px) {
+  .menue-menue {
+    gap: var(--dl-space-space-fourunits);
+    width: 100vw;
+    height: 77px;
+    gap:20px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    justify-content: center;
+  }
+  .menue-frame92 {
+    transform: scale(0.5,0.5);
+  }
+  .menue-frame84 {
+    bottom: 10rem;
+    transform: rotate(270deg) scale(0.5, 0.5);
+    margin-right:20%;
   }
 }

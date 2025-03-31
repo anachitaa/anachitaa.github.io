@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
-import Menue from '../components/menue'
 import './a-font-meant-for-display.css'
+import Menue from '../components/menue'
 
 const AFontMeantForDisplay = (props) => {
   return (
@@ -15,49 +16,38 @@ const AFontMeantForDisplay = (props) => {
           content="a-font-meant-for-display - Ana Portofolio"
         />
       </Helmet>
-      <Menue></Menue>
-      <span className="a-font-meant-for-display-text">
+      <Menue />
+      <span className="a-font-meant-for-display-text16">
         a font meant for display
       </span>
       <div className="a-font-meant-for-display-container1">
         <img
           alt="Rectangle83978"
-          src="/animations/font-1500w.gif"
+          src="/animations/b1ce2389-fa76-4288-83f1-1f8dc172c53a-1500w.gif"
           className="a-font-meant-for-display-rectangle8"
         />
-        <div className="a-font-meant-for-display-component3">
-          <div className="a-font-meant-for-display-frame5">
-            <img
-              alt="font1I397"
-              src="/external/font1i397-6a5n-400h.png"
-              className="a-font-meant-for-display-font1"
-            />
-          </div>
-        </div>
+        <img
+          alt="Rectangle83978"
+          src="/external/font1i397-6a5n-1500w.png"
+          className="a-font-meant-for-display-rectangle81"
+        />
         <div className="a-font-meant-for-display-frame6">
-          <div className="a-font-meant-for-display-frame1">
-            <img
-              alt="L10223211I397"
-              src="/external/l10223211i397-6myn-400w.png"
-              className="a-font-meant-for-display-l10223211"
-            />
-          </div>
-          <div className="a-font-meant-for-display-frame3">
-            <img
-              alt="L10223213I397"
-              src="/external/l10223213i397-mpsq-400w.png"
-              className="a-font-meant-for-display-l10223213"
-            />
-          </div>
-          <div className="a-font-meant-for-display-frame2">
-            <img
-              alt="L10223212I397"
-              src="/external/l10223212i397-1t1c-400w.png"
-              className="a-font-meant-for-display-l10223212"
-            />
-          </div>
+          <img
+            alt="Rectangle344078"
+            src="/font/font3.gif"
+            className="a-font-meant-for-display-rectangle34"
+          />
+          <img
+            alt="Rectangle344078"
+            src="/font/font4.gif"
+            className="a-font-meant-for-display-rectangle341"
+          />
         </div>
-        <div className="a-font-meant-for-display-frame51"></div>
+        <img
+          alt="Rectangle83978"
+          src="/external/tq_yamwc20kv2-z0lk-1500w.png"
+          className="a-font-meant-for-display-rectangle82"
+        />
       </div>
     </div>
   )

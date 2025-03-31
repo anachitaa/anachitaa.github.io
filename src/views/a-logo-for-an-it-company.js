@@ -23,22 +23,22 @@ const ALogoForAnITCompany = (props) => {
       <div className="a-logo-for-an-it-company-tshirts">
         <img
           alt="Rectangle344542"
-          src="/external/mtd1.gif"
+          src="/animations/mtd1-1500w.gif"
           className="a-logo-for-an-it-company-rectangle34"
         />
         <img
           alt="Rectangle344656"
-          src="/external/mtd2.png"
+          src="/external/rectangle344656-v6eq-1500w.png"
           className="a-logo-for-an-it-company-rectangle341"
         />
         <img
           alt="Rectangle344657"
-          src="/external/mtd3.png"
+          src="/external/rectangle344657-hupp-1500w.png"
           className="a-logo-for-an-it-company-rectangle342"
         />
         <img
           alt="Rectangle344657"
-          src="/external/mtd4.png"
+          src="/external/rectangle344657-hhkf-1500w.png"
           className="a-logo-for-an-it-company-rectangle343"
         />
         <div className="a-logo-for-an-it-company-frame49">

@@ -1,5 +1,5 @@
 .a-logo-for-an-it-company-container {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
   display: flex;
   overflow: auto;
@@ -67,7 +67,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -92,7 +92,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -117,7 +117,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -142,7 +142,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -167,7 +167,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -192,7 +192,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -217,7 +217,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -242,78 +242,120 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
 .a-logo-for-an-it-company-text16 {
+  margin-top: 10%;
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 40px;
+  font-size: 50px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   padding-top: 0px;
   font-stretch: normal;
-  padding-left: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-fiveunits);
+  padding-left: 15%;
+  padding-right: 15%;
   padding-bottom: 0px;
   text-decoration: none;
 }
 .a-logo-for-an-it-company-tshirts {
   gap: 65px;
-  width: auto;
+  width: 100%;
   height: auto;
   display: flex;
   align-items: center;
-  padding-top: var(--dl-space-space-twounits);
+  padding-top: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-sixunits);
+  padding-bottom: 12%;
   justify-content: center;
 }
 .a-logo-for-an-it-company-rectangle34 {
-  width: 1000px;
+  width: 100%;
   height: auto;
 }
 .a-logo-for-an-it-company-rectangle341 {
-  width: 1000px;
-  height: 356px;
+  width: 100%;
+  height: auto;
 }
 .a-logo-for-an-it-company-rectangle342 {
-  width: 1000px;
-  height: 370px;
+  width: 100%;
+  height: auto;
 }
 .a-logo-for-an-it-company-rectangle343 {
-  width: 1000px;
-  height: 510px;
+  width: 100%;
+  height: auto;
 }
 .a-logo-for-an-it-company-frame49 {
-  width: 1200px;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
-  padding-top: 0px;
-  padding-left: var(--dl-space-space-sixunits);
-  padding-right: var(--dl-space-space-sixunits);
-  padding-bottom: 0px;
 }
 .a-logo-for-an-it-company-text17 {
   color: rgb(255, 255, 255);
+  width: 100%;
   height: auto;
   flex-grow: 1;
-  font-size: 25px;
+  font-size: 30px;
   font-style: Bold;
   text-align: left;
-  font-family: Helvetica Neue;
+  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+@media(max-width: 1900px) {
+  .a-logo-for-an-it-company-text16 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: none;
+  }
+  .a-logo-for-an-it-company-tshirts {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 12%;
+  }
+  .a-logo-for-an-it-company-text17 {
+    font-size: 28px;
+  }
+}
+@media(max-width: 1400px) {
+  .a-logo-for-an-it-company-text16 {
+    margin-top: 15%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: none;
+  }
+  .a-logo-for-an-it-company-tshirts {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 12%;
+  }
+  .a-logo-for-an-it-company-text17 {
+    width: 100%;
+    font-size: 25px;
+  }
 }
 @media(max-width: 991px) {
   .a-logo-for-an-it-company-menue {
@@ -325,31 +367,35 @@
     transform: rotate(270deg);
   }
   .a-logo-for-an-it-company-text16 {
+    margin-top: 20%;
     color: rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     line-height: normal;
-    padding-left: var(--dl-space-space-fourunits);
-    padding-right: var(--dl-space-space-fourunits);
+    padding-left: 10%;
+    padding-right: 10%;
     text-decoration: none;
   }
   .a-logo-for-an-it-company-tshirts {
     gap: var(--dl-space-space-threeunits);
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .a-logo-for-an-it-company-rectangle34 {
-    width: 800px;
+    width: 100%;
     height: auto;
   }
   .a-logo-for-an-it-company-rectangle341 {
-    width: 800px;
+    width: 100%;
     height: auto;
   }
   .a-logo-for-an-it-company-rectangle342 {
-    width: 800px;
+    width: 100%;
     height: auto;
   }
   .a-logo-for-an-it-company-rectangle343 {
-    width: 800px;
+    width: 100%;
     height: auto;
   }
   .a-logo-for-an-it-company-frame49 {
@@ -357,10 +403,12 @@
   }
   .a-logo-for-an-it-company-text17 {
     color: rgb(255, 255, 255);
-    width: auto;
-    font-size: 22px;
+    width: 100%;
+    font-size: 23px;
     font-weight: 700;
     line-height: normal;
+    margin-left: 0px;
+    margin-right: 0px;
     text-decoration: none;
   }
 }
@@ -371,34 +419,39 @@
   }
   .a-logo-for-an-it-company-text16 {
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     line-height: normal;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
+    padding-left: 10%;
+    padding-right: 10%;
     text-decoration: none;
   }
   .a-logo-for-an-it-company-tshirts {
     gap: var(--dl-space-space-twounits);
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .a-logo-for-an-it-company-rectangle34 {
-    width: 600px;
+    width: 100%;
   }
   .a-logo-for-an-it-company-rectangle341 {
-    width: 600px;
+    width: 100%;
   }
   .a-logo-for-an-it-company-rectangle342 {
-    width: 600px;
+    width: 100%;
   }
   .a-logo-for-an-it-company-rectangle343 {
-    width: 600px;
+    width: 100%;
   }
   .a-logo-for-an-it-company-frame49 {
-    padding-left: var(--dl-space-space-fiveunits);
-    padding-right: var(--dl-space-space-fiveunits);
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .a-logo-for-an-it-company-text17 {
     color: rgb(255, 255, 255);
+    margin: 0px;
+    font-size: 18px;
   }
 }
 @media(max-width: 420px) {
@@ -423,34 +476,40 @@
     font-size: 20px;
     font-weight: 700;
     line-height: normal;
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-left: 10%;
+    padding-right: 10%;
     text-decoration: none;
   }
   .a-logo-for-an-it-company-tshirts {
     gap: var(--dl-space-space-twounits);
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .a-logo-for-an-it-company-rectangle34 {
-    width: 350px;
+    width: 100%;
   }
   .a-logo-for-an-it-company-rectangle341 {
-    width: 350px;
+    width: 100%;
   }
   .a-logo-for-an-it-company-rectangle342 {
-    width: 350px;
+    width: 100%;
   }
   .a-logo-for-an-it-company-rectangle343 {
-    width: 350px;
+    width: 100%;
   }
   .a-logo-for-an-it-company-frame49 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .a-logo-for-an-it-company-text17 {
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    width: 100%;
+    font-size: 16px;
     font-weight: 700;
     line-height: normal;
+    margin-left: 0px;
+    margin-right: 0px;
     text-decoration: none;
   }
 }

@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
-import ModalImage from 'react-modal-image';
 
-import Menue from '../components/menue'
 import './a-series-of-hoodies-t-shirts-and-tote-bags.css'
+import Menue from '../components/menue'
+import ModalImage from 'react-modal-image'
 
 const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
   return (
@@ -18,14 +19,14 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
           content="a-series-of-hoodies-t-shirts-and-tote-bags - Ana Portofolio"
         />
       </Helmet>
-      <Menue></Menue>
-      <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text">
-        A series of hoodies, t-shirts and tote bags
+      <Menue />
+      <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text16">
+        a series of hoodies, t-shirts and tote bags
       </span>
       <div className="a-series-of-hoodies-t-shirts-and-tote-bags-tshirts">
         <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame6">
           <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame58">
-            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text01">
+            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text17">
               <span>
                 a hoodie inspired by
                 <span
@@ -34,11 +35,10 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
                   }}
                 />
               </span>
-              <br></br>
               <span>the idea of </span>
               <span>“what is a car?”</span>
             </span>
-            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text06">
+            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text21">
               <span>
                 screen
                 <span
@@ -52,26 +52,30 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
             </span>
           </div>
           <ModalImage
-            small="/external/rectangle344078-lhi-300w.png"
-            large="/external/car_hoodie.jpg"
+            alt="Rectangle344078"
+            small="/t-shirts/car_hoodie-min-1500w.jpg"
+            large='/t-shirts/car_hoodie-min-1500w.jpg'
             hideDownload={true}
             className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle34"
           />
           <ModalImage
-            small="/external/rectangle364078-rpzx-300w.png"
-            large="/external/car_hoodie3.jpg"
+            alt="Rectangle364078"
+            small="/t-shirts/car_hoodie3-min-1500w.jpg"
+            large='/t-shirts/car_hoodie3-min-1500w.jpg'
             hideDownload={true}
             className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle36"
           />
-          <img
+          <ModalImage
             alt="Rectangle354078"
-            src="/external/rectangle354078-bsoe-300w.png"
+            small="/t-shirts/car_hoodie4-min-1500w.jpg"
+            large='/t-shirts/car_hoodie4-min-1500w.jpg'
+            hideDownload={true}
             className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle35"
           />
         </div>
-        <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame51">
+        <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame6">
           <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame581">
-            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text10">
+            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text25">
               <span>a t-shirt </span>
               <br></br>
               <span>
@@ -90,11 +94,10 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
                   }}
                 />
               </span>
-              <br></br>
               <span>a study </span>
               <span>of tarot cards</span>
             </span>
-            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text18">
+            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text32">
               <span>
                 screen
                 <span
@@ -107,23 +110,34 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
               <span>printed</span>
             </span>
           </div>
-          <img
+          <ModalImage
             alt="Rectangle344078"
-            src="/external/rectangle344078-505-300w.png"
+            small="/t-shirts/joker_tricou-min-1500w.png"
+            large='/t-shirts/joker_tricou-min-1500w.png'
+            hideDownload={true}
             className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle341"
           />
-          <img
+          <ModalImage
             alt="Rectangle354078"
-            src="/external/rectangle354078-x3rj-300w.png"
+            small="/t-shirts/joker_tricou2-min-1500w.png"
+            large='/t-shirts/joker_tricou2-min-1500w.png'
+            hideDownload={true}
             className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle351"
           />
+          <ModalImage
+            alt="Rectangle354078"
+            small="/t-shirts/joker_tricou2-min-1500w.png"
+            large='/t-shirts/joker_tricou2-min-1500w.png'
+            hideDownload={true}
+            className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle352"
+          />
         </div>
-        <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame49">
+        <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame6">
           <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame582">
-            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text22">
-              <span>a tote bag and </span>
+            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text36">
               <span>
-                a crew neck based on an illustration inspired by
+                {' '}
+                based on an illustration inspired by
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -148,7 +162,7 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
               </span>
               <span>see anxiety?”</span>
             </span>
-            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text28">
+            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text41">
               <span>
                 screen
                 <span
@@ -161,29 +175,35 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
               <span>printed</span>
             </span>
           </div>
-          <img
+          <ModalImage
             alt="Rectangle344078"
-            src="/external/rectangle344078-7p8s-300w.png"
+            small="/t-shirts/people_trciou-min-1500w.png"
+            large='/t-shirts/people_trciou-min-1500w.png'
+            hideDownload={true}
             className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle342"
           />
-          <img
+          <ModalImage
             alt="Rectangle354078"
-            src="/external/rectangle354078-9wek-300w.png"
-            className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle352"
+            small="/t-shirts/people_toate-min-1500w.png"
+            large='/t-shirts/people_toate-min-1500w.png'
+            hideDownload={true}
+            className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle353"
           />
-          <img
+          <ModalImage
             alt="Rectangle364078"
-            src="/external/rectangle364078-y60e-300w.png"
+            small="/t-shirts/people_tricou2-min-1500w.png"
+            large='/t-shirts/people_tricou2-min-1500w.png'
+            hideDownload={true}
             className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle361"
           />
         </div>
-        <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame52">
+        <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame6">
           <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame583">
-            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text32">
+            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text45">
               a t-shirt inspired by the display font I made and the aesthetic of
               food stickers
             </span>
-            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text33">
+            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text46">
               <span>
                 screen
                 <span
@@ -196,26 +216,32 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
               <span>printed</span>
             </span>
           </div>
-          <img
+          <ModalImage
             alt="Rectangle344098"
-            src="/external/rectangle344098-3nk-300w.png"
+            small="/t-shirts/food_shirt3-min-1500w.jpg"
+            large="/t-shirts/food_shirt3-min-1500w.jpg"
+            hideDownload={true}
             className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle343"
           />
-          <img
+          <ModalImage
             alt="Rectangle354098"
-            src="/external/rectangle354098-csz7-300w.png"
-            className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle353"
+            small="/t-shirts/food_shirt2-min-1500w.jpg"
+            large="/t-shirts/food_shirt2-min-1500w.jpg"
+            hideDownload={true}
+            className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle354"
           />
-          <img
+          <ModalImage
             alt="Rectangle364098"
-            src="/external/rectangle364098-h2dq-300w.png"
+            small="/t-shirts/food_shirt-min-1500w.jpg"
+            large="/t-shirts/food_shirt-min-1500w.jpg"
+            hideDownload={true}
             className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle362"
           />
         </div>
-        <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame50">
+        <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame6">
           <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame584">
-            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text37">
-              <span>a t-shirt </span>
+            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text50">
+              <span>a t-shirt</span>
               <br></br>
               <span>
                 inspired by a photo of old cars from a book found
@@ -227,7 +253,7 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
               </span>
               <span>on the street</span>
             </span>
-            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text42">
+            <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text55">
               <span>
                 screen
                 <span
@@ -240,15 +266,24 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
               <span>printed</span>
             </span>
           </div>
-          <img
+          <ModalImage
             alt="Rectangle344078"
-            src="/external/rectangle344078-nu8-300w.png"
+            small="/t-shirts/car_shirt2-min-1500w.jpg"
+            large="/t-shirts/car_shirt2-min-1500w.jpg"
+            hideDownload={true}
             className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle344"
           />
-          <img
+          <ModalImage
             alt="Rectangle354078"
-            src="/external/rectangle354078-nfgf-300w.png"
-            className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle354"
+            small="/t-shirts/car_shirt-min-1500w.png"
+            large="/t-shirts/car_shirt-min-1500w.png"
+            hideDownload={true}
+            className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle355"
+          />
+          <ModalImage
+            alt="Rectangle354078"
+            small="/t-shirts/car_shirt-min-1500w.png"
+            className="a-series-of-hoodies-t-shirts-and-tote-bags-rectangle356"
           />
         </div>
       </div>
