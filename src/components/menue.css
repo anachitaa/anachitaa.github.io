@@ -1,3 +1,4 @@
+/* Main menu container */
 .menue-menue {
   height: 121px;
   width: 100vw;
@@ -10,6 +11,8 @@
   justify-content: space-between;
   top: 0;
 }
+
+/* Logo styling */
 .menue-frame92 {
   width: 165px;
   height: 51.44117736816406px;
@@ -26,10 +29,11 @@
   image-rendering: crisp-edges;
 }
 
+/* Menu items container */
 .menue-frame84 {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center children horizontally */
+  align-items: center;
   gap: 10px;
   bottom: 8rem;
   position: relative;
@@ -38,327 +42,89 @@
   margin-right: 130px;
 }
 
-.menue-frame841 {
+/* Common button styles */
+.menue-frame841, .menue-frame85, .menue-frame86, .menue-frame87,
+.menue-frame88, .menue-frame89, .menue-frame90, .menue-frame91 {
   width: 120px;
   height: 38px;
-  background-color: rgba(255, 255, 255, 1);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
+  transition: width 1s ease-out, margin 1s ease-out;
   position: relative;
-  cursor: pointer;  /* Indicates the element is clickable */
+  cursor: pointer;
 }
 
-.menue-frame841:hover {
+/* Common button hover styles */
+.menue-frame841:hover, .menue-frame85:hover, .menue-frame86:hover, .menue-frame87:hover,
+.menue-frame88:hover, .menue-frame89:hover, .menue-frame90:hover, .menue-frame91:hover,
+.menue-frame841.about, .menue-frame85.clothing, .menue-frame86.others, .menue-frame87.type1,
+.menue-frame88.publication, .menue-frame89.objects, .menue-frame90.branding, .menue-frame91.animations {
   width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-frame841.about {
-  width: 160px;  /* Keep the expanded width */
-  margin-left: -20px;  /* Maintain the adjusted margins */
+  margin-left: -20px;
   margin-right: -20px;
 }
 
-.menue-text {
-  top: 6px;
-  left: 5px;
-  color: rgba(0, 0, 0, 1);
-  width: 110px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
+/* Button background colors */
+.menue-frame841 {
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .menue-frame85 {
-  width: 120px;
-  height: 38px;
   background-color: rgba(255, 71, 247, 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
-  position: relative;
-}
-
-.menue-frame85:hover {
-  width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-frame85.clothing {
-  width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-text02 {
-  top: 6px;
-  left: 5px;
-  color: rgba(255, 255, 255, 1);
-  width: 110px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
 
 .menue-frame86 {
-  width: 120px;
-  height: 38px;
   background-color: rgba(71, 199, 255, 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
-  position: relative;
-}
-
-.menue-frame86:hover {
-  width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-frame86.others {
-  width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-text04 {
-  top: 6px;
-  left: 5px;
-  color: rgba(255, 255, 255, 1);
-  width: 110px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
 
 .menue-frame87 {
-  width: 120px;
-  height: 38px;
   background-color: rgba(0, 255, 117, 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
-  position: relative;
-}
-
-.menue-frame87:hover {
-  width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-frame87.type1 {
-  width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-text06 {
-  top: 6px;
-  left: 5px;
-  color: rgba(0, 0, 0, 1);
-  width: 110px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
 
 .menue-frame88 {
-  width: 120px;
-  height: 38px;
   background-color: rgba(255, 71, 71, 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
-  position: relative;
-}
-
-.menue-frame88:hover {
-  width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-frame88.publication {
-  width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-text08 {
-  top: 6px;
-  left: 5px;
-  color: rgba(255, 255, 255, 1);
-  width: 110px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
 
 .menue-frame89 {
-  width: 120px;
-  height: 38px;
   background-color: rgba(255, 152, 31, 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
-  position: relative;
-}
-
-.menue-frame89:hover {
-  width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-frame89.objects {
-  width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-text10 {
-  top: 6px;
-  left: 5px;
-  color: rgba(255, 255, 255, 1);
-  width: 110px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
 
 .menue-frame90 {
-  width: 120px;
-  height: 38px;
   background-color: rgba(151, 71, 255, 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
-  position: relative;
-}
-
-.menue-frame90:hover {
-  width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-frame90.branding {
-  width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-text12 {
-  top: 6px;
-  left: 5px;
-  color: rgba(255, 255, 255, 1);
-  width: 110px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
 }
 
 .menue-frame91 {
-  width: 120px;
-  height: 38px;
   background-color: rgba(207, 255, 71, 1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: width 1s ease-out, margin 1s ease-out; /* Animate margin changes */
-  position: relative;
 }
 
-.menue-frame91:hover {
-  width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-frame91.animations {
-  width: 160px;
-  margin-left: -20px; /* Shift left to compensate for the increased width */
-  margin-right: -20px; /* Shift right to compensate as well */
-}
-
-.menue-text14 {
+/* Common text styles */
+.menue-text, .menue-text02, .menue-text04, .menue-text06,
+.menue-text08, .menue-text10, .menue-text12, .menue-text14 {
   top: 6px;
   left: 5px;
-  color: rgba(0, 0, 0, 1);
   width: 110px;
   height: auto;
   position: absolute;
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
 
+/* Text colors */
+.menue-text, .menue-text06, .menue-text14 {
+  color: rgba(0, 0, 0, 1);
+}
+
+.menue-text02, .menue-text04, .menue-text08, .menue-text10, .menue-text12 {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Responsive layouts */
 @media(max-width: 991px) {
   .menue-menue {
     gap: var(--dl-space-space-fourunits);
@@ -369,11 +135,11 @@
     transform: rotate(270deg);
   }
 }
+
 @media(max-width: 767px) {
   .menue-menue {
     gap: var(--dl-space-space-fourunits);
     width: 100vw;
-    
   }
   .menue-frame92 {
     transform: scale(0.8,0.8);
@@ -383,14 +149,14 @@
     transform: rotate(270deg) scale(0.8, 0.8);
     margin-right: 90px;
   }
-
 }
+
 @media(max-width: 550px) {
   .menue-menue {
     gap: var(--dl-space-space-fourunits);
     width: 100vw;
     height: 77px;
-    gap:100px;
+    gap: 100px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     justify-content: center;
@@ -401,7 +167,7 @@
   .menue-frame84 {
     bottom: 9.5rem;
     transform: rotate(270deg) scale(0.6, 0.6);
-    margin-right:20%;
+    margin-right: 20%;
   }
 }
 
@@ -410,7 +176,7 @@
     gap: var(--dl-space-space-fourunits);
     width: 100vw;
     height: 77px;
-    gap:20px;
+    gap: 20px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     justify-content: center;
@@ -421,6 +187,6 @@
   .menue-frame84 {
     bottom: 10rem;
     transform: rotate(270deg) scale(0.5, 0.5);
-    margin-right:20%;
+    margin-right: 20%;
   }
 }

@@ -1,3 +1,4 @@
+/* Main container for 404 page */
 .not-found-container {
   width: 100%;
   display: flex;
@@ -6,7 +7,10 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: #f5f5f5;
 }
+
+/* Content container */
 .not-found-container1 {
   display: flex;
   position: relative;
@@ -14,6 +18,8 @@
   flex-direction: column;
   justify-content: center;
 }
+
+/* Large 404 text */
 .not-found-text1 {
   color: rgb(38, 38, 38);
   font-size: 252px;
@@ -22,6 +28,8 @@
   margin-bottom: -20px;
   letter-spacing: -20px;
 }
+
+/* Message container */
 .not-found-container2 {
   width: 421px;
   display: flex;
@@ -29,7 +37,31 @@
   flex-direction: column;
   justify-content: center;
 }
+
+/* Message text */
 .not-found-text2 {
   text-align: center;
   font-weight: 400;
+  font-size: 18px;
+  color: #666;
+  margin-top: 20px;
+}
+
+/* Responsive styles */
+@media(max-width: 767px) {
+  .not-found-text1 {
+    font-size: 180px;
+  }
+  
+  .not-found-container2 {
+    width: 90%;
+    max-width: 421px;
+  }
+}
+
+@media(max-width: 479px) {
+  .not-found-text1 {
+    font-size: 120px;
+    letter-spacing: -10px;
+  }
 }

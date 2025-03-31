@@ -1,3 +1,4 @@
+/* Base container styles */
 .a-font-meant-for-display-container {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
@@ -9,6 +10,8 @@
   justify-content: center;
   background-color: #000000;
 }
+
+/* Menu container styles (Inherited from Menue component) */
 .a-font-meant-for-display-menue {
   height: 121px;
   display: flex;
@@ -19,6 +22,168 @@
   flex-shrink: 0;
   justify-content: space-between;
 }
+
+/* Main title text */
+.a-font-meant-for-display-text16 {
+  margin-top: 10%;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  font-size: 50px;
+  font-style: Bold;
+  text-align: left;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0 15%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+/* Content section container */
+.a-font-meant-for-display-container1 {
+  gap: var(--dl-space-space-threeunits);
+  width: 70%; /* Use width instead of padding */
+  display: flex;
+  align-items: center;
+  margin: 2% auto 12%; /* Use margin for spacing */
+  flex-direction: column;
+}
+
+/* Image styles */
+.a-font-meant-for-display-rectangle8, 
+.a-font-meant-for-display-rectangle81, 
+.a-font-meant-for-display-rectangle82, 
+.a-font-meant-for-display-rectangle34, 
+.a-font-meant-for-display-rectangle341, 
+.a-font-meant-for-display-rectangle342 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Three-column row container */
+.a-font-meant-for-display-frame6 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 4%; /* Gap between columns */
+}
+
+/* Images within the three-column row */
+.a-font-meant-for-display-rectangle34, 
+.a-font-meant-for-display-rectangle341, 
+.a-font-meant-for-display-rectangle342 {
+  width: 30%; /* Three columns */
+  height: auto;
+}
+
+/* Responsive Styles */
+@media(max-width: 1900px) {
+  .a-font-meant-for-display-text16 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: none;
+  }
+  .a-font-meant-for-display-container1 {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 12%; /* Corrected percentage */
+  }
+  .a-font-meant-for-display-rectangle34, 
+  .a-font-meant-for-display-rectangle341, 
+  .a-font-meant-for-display-rectangle342 {
+    width: 30%; /* Maintain 3 columns */
+  }
+}
+
+@media(max-width: 1800px) {
+  .a-font-meant-for-display-rectangle34 {
+    width: 45%;
+  }
+  .a-font-meant-for-display-rectangle341 {
+    width: 45%;
+  }
+}
+
+@media(max-width: 1400px) {
+  .a-font-meant-for-display-text16 {
+    margin-top: 15%;
+    font-size: 30px;
+  }
+  .a-font-meant-for-display-container1 {
+    width: 80%;
+  }
+}
+
+@media(max-width: 991px) {
+  /* Menu adjustments handled in menue.css */
+  .a-font-meant-for-display-text16 {
+    margin-top: 20%;
+    font-size: 30px;
+  }
+  .a-font-meant-for-display-container1 {
+    width: 80%;
+  }
+  .a-font-meant-for-display-frame6 {
+    gap: 2%; /* Reduce gap */
+  }
+  .a-font-meant-for-display-rectangle34, 
+  .a-font-meant-for-display-rectangle341, 
+  .a-font-meant-for-display-rectangle342 {
+    width: 32%; /* Adjust width slightly */
+  }
+}
+
+@media(max-width: 767px) {
+  /* Menu adjustments handled in menue.css */
+  .a-font-meant-for-display-text16 {
+    margin-top: 25%;
+    font-size: 20px;
+  }
+  .a-font-meant-for-display-container1 {
+    width: 90%;
+    gap: var(--dl-space-space-twounits);
+  }
+  .a-font-meant-for-display-frame6 {
+    gap: 10px; /* Adjust gap */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center;
+  }
+  .a-font-meant-for-display-rectangle34, 
+  .a-font-meant-for-display-rectangle341, 
+  .a-font-meant-for-display-rectangle342 {
+    width: 48%; /* Two columns when wrapped */
+  }
+}
+
+@media(max-width: 420px) {
+  /* Menu adjustments handled in menue.css */
+  .a-font-meant-for-display-text16 {
+    font-size: 20px;
+  }
+  .a-font-meant-for-display-container1 {
+    width: 90%;
+    gap: var(--dl-space-space-twounits);
+  }
+  .a-font-meant-for-display-frame6 {
+    gap: 20px;
+    flex-direction: column; /* Stack images */
+    align-items: center;
+  }
+  .a-font-meant-for-display-rectangle34, 
+  .a-font-meant-for-display-rectangle341, 
+  .a-font-meant-for-display-rectangle342 {
+    width: 100%; /* Full width when stacked */
+  }
+}
+
 .a-font-meant-for-display-navlink {
   display: contents;
 }
@@ -247,263 +412,4 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
-}
-.a-font-meant-for-display-text16 {
-  margin-top: 10%;
-  color: rgb(255, 255, 255);
-  width: 100%;
-  height: auto;
-  font-size: 50px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  padding-top: 0px;
-  font-stretch: normal;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 0px;
-  text-decoration: none;
-}
-.a-font-meant-for-display-container1 {
-  gap: var(--dl-space-space-threeunits);
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-top: 2%;
-  padding-left: 15%;
-  padding-right: 15%;
-  flex-direction: column;
-  padding-bottom: 12%;
-}
-.a-font-meant-for-display-rectangle8 {
-  width: 100%;
-  height: auto;
-}
-.a-font-meant-for-display-rectangle81 {
-  width: 100%;
-  height: auto;
-}
-.a-font-meant-for-display-frame6 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-.a-font-meant-for-display-rectangle34 {
-  width: 45%;
-  height: auto;
-}
-.a-font-meant-for-display-rectangle341 {
-  width: 45%;
-  height: auto;
-}
-.a-font-meant-for-display-rectangle342 {
-  width: 45%;
-  height: auto;
-}
-.a-font-meant-for-display-rectangle82 {
-  width: 100%;
-  height: auto;
-}
-@media(max-width: 1900px) {
-  .a-font-meant-for-display-text16 {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .a-font-meant-for-display-container1 {
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 12&;
-  }
-  .a-font-meant-for-display-rectangle34 {
-    width: 45%;
-  }
-  .a-font-meant-for-display-rectangle341 {
-    width: 45%;
-  }
-  .a-font-meant-for-display-rectangle342 {
-    width: 45%;
-  }
-}
-@media(max-width: 1800px) {
-  .a-font-meant-for-display-rectangle34 {
-    width: 45%;
-  }
-  .a-font-meant-for-display-rectangle341 {
-    width: 45%;
-  }
-}
-@media(max-width: 1400px) {
-  .a-font-meant-for-display-text16 {
-    margin-top: 15%;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .a-font-meant-for-display-container1 {
-    align-items: center;
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 12%;
-    justify-content: center;
-  }
-  .a-font-meant-for-display-rectangle34 {
-    width: 45%;
-    height: 100%;
-  }
-  .a-font-meant-for-display-rectangle341 {
-    width: 45%;
-    height: 100%;
-  }
-  .a-font-meant-for-display-rectangle342 {
-    width: 45%;
-    height: 100%;
-  }
-}
-@media(max-width: 991px) {
-  .a-font-meant-for-display-menue {
-    gap: var(--dl-space-space-fourunits);
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .a-font-meant-for-display-frame84 {
-    transform: rotate(270deg);
-  }
-  .a-font-meant-for-display-text16 {
-    margin-top: 20%;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .a-font-meant-for-display-container1 {
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 12%;
-  }
-  .a-font-meant-for-display-frame6 {
-    align-self: stretch;
-    justify-content: space-between;
-  }
-  .a-font-meant-for-display-rectangle34 {
-    width: 45%;
-    height: auto;
-  }
-  .a-font-meant-for-display-rectangle341 {
-    width: 45%;
-    height: auto;
-  }
-  .a-font-meant-for-display-rectangle342 {
-    width: 45%;
-    height: auto;
-  }
-}
-@media(max-width: 767px) {
-  .a-font-meant-for-display-menue {
-    gap: var(--dl-space-space-fourunits);
-    width: 100vw;
-  }
-  .a-font-meant-for-display-text16 {
-    margin-top: 25%;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .a-font-meant-for-display-container1 {
-    gap: var(--dl-space-space-twounits);
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 12%;
-  }
-  .a-font-meant-for-display-frame6 {
-    gap: 5px;
-    height: auto;
-    flex-direction: row;
-  }
-  .a-font-meant-for-display-rectangle34 {
-    width: 45%;
-  }
-  .a-font-meant-for-display-rectangle341 {
-    width: 45%;
-  }
-  .a-font-meant-for-display-rectangle342 {
-    width: 45%;
-  }
-}
-@media(max-width: 420px) {
-  .a-font-meant-for-display-container {
-    background-color: #000000;
-  }
-  .a-font-meant-for-display-menue {
-    gap: var(--dl-space-space-fourunits);
-    width: 417px;
-    height: 77px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    justify-content: center;
-  }
-  .a-font-meant-for-display-frame92 {
-    transform: scale(0.6,0.6);
-  }
-  .a-font-meant-for-display-frame84 {
-    bottom: 9.5rem;
-    transform: rotate(270deg) scale(0.6, 0.6);
-    margin-right: 90px;
-  }
-  .a-font-meant-for-display-text16 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .a-font-meant-for-display-container1 {
-    gap: var(--dl-space-space-twounits);
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 12%;
-  }
-  .a-font-meant-for-display-frame6 {
-    gap: 20px;
-    width: auto;
-    align-self: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .a-font-meant-for-display-rectangle34 {
-    width: 100%;
-  }
-  .a-font-meant-for-display-rectangle341 {
-    width: 100%;
-  }
-  .a-font-meant-for-display-rectangle342 {
-    width: 100%;
-  }
 }

@@ -1,3 +1,4 @@
+/* Base container styles */
 .a-logo-for-a-cafe-container {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
@@ -9,6 +10,8 @@
   justify-content: flex-start;
   background-color: #000000;
 }
+
+/* Menu container styles */
 .a-logo-for-a-cafe-menue {
   height: 121px;
   display: flex;
@@ -19,9 +22,13 @@
   flex-shrink: 0;
   justify-content: space-between;
 }
-.a-logo-for-a-cafe-navlink {
+
+/* Navigation links */
+.a-logo-for-a-cafe-navlink, .a-logo-for-a-cafe-navlink1 {
   display: contents;
 }
+
+/* Logo styling */
 .a-logo-for-a-cafe-frame92 {
   width: 165px;
   height: 51.44117736816406px;
@@ -30,10 +37,16 @@
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   text-decoration: none;
-  background-image: url("/external/tq_olqytaor-_-9ctg-1500h.png");
+  background-image: url("/external/logo2-200h.png");
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
+
+/* Menu items container */
 .a-logo-for-a-cafe-frame84 {
   gap: 10px;
   bottom: 8rem;
@@ -45,495 +58,278 @@
   margin-right: 130px;
   flex-direction: column;
 }
-.a-logo-for-a-cafe-navlink1 {
-  display: contents;
-}
-.a-logo-for-a-cafe-frame841 {
-  width: 120px;
-  height: 38px;
-  display: flex;
-  align-items: flex-start;
-  flex-shrink: 0;
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 1);
-}
-.a-logo-for-a-cafe-text {
-  top: 6px;
-  left: 5px;
-  color: rgba(0, 0, 0, 1);
-  width: 110px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.a-logo-for-a-cafe-frame85 {
+
+/* Common button styles */
+.a-logo-for-a-cafe-frame841, .a-logo-for-a-cafe-frame85, .a-logo-for-a-cafe-frame86, 
+.a-logo-for-a-cafe-frame87, .a-logo-for-a-cafe-frame88, .a-logo-for-a-cafe-frame89, 
+.a-logo-for-a-cafe-frame90, .a-logo-for-a-cafe-frame91 {
   width: 120px;
   height: 38px;
   display: flex;
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
+  cursor: pointer;
+  transition: width 0.3s ease-out, margin 0.3s ease-out;
+}
+
+/* Button hover styles */
+.a-logo-for-a-cafe-frame841:hover, .a-logo-for-a-cafe-frame85:hover, .a-logo-for-a-cafe-frame86:hover,
+.a-logo-for-a-cafe-frame87:hover, .a-logo-for-a-cafe-frame88:hover, .a-logo-for-a-cafe-frame89:hover,
+.a-logo-for-a-cafe-frame90:hover, .a-logo-for-a-cafe-frame91:hover {
+  width: 160px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+/* Button background colors */
+.a-logo-for-a-cafe-frame841 {
+  background-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.a-logo-for-a-cafe-frame85 {
   background-color: rgba(255, 71, 247, 1);
 }
-.a-logo-for-a-cafe-text02 {
-  top: 6px;
-  left: 5px;
-  color: rgba(255, 255, 255, 1);
-  width: 110px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
+
 .a-logo-for-a-cafe-frame86 {
-  width: 120px;
-  height: 38px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
   background-color: rgba(71, 199, 255, 1);
 }
-.a-logo-for-a-cafe-text04 {
-  top: 6px;
-  left: 5px;
-  color: rgba(255, 255, 255, 1);
-  width: 110px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
+
 .a-logo-for-a-cafe-frame87 {
-  width: 120px;
-  height: 38px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
   background-color: rgba(0, 255, 117, 1);
 }
-.a-logo-for-a-cafe-text06 {
-  top: 6px;
-  left: 5px;
-  color: rgba(0, 0, 0, 1);
-  width: 110px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
+
 .a-logo-for-a-cafe-frame88 {
-  width: 120px;
-  height: 38px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
   background-color: rgba(255, 71, 71, 1);
 }
-.a-logo-for-a-cafe-text08 {
-  top: 6px;
-  left: 5px;
-  color: rgba(255, 255, 255, 1);
-  width: 110px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
+
 .a-logo-for-a-cafe-frame89 {
-  width: 120px;
-  height: 38px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
   background-color: rgba(255, 152, 31, 1);
 }
-.a-logo-for-a-cafe-text10 {
-  top: 6px;
-  left: 5px;
-  color: rgba(255, 255, 255, 1);
-  width: 110px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
+
 .a-logo-for-a-cafe-frame90 {
-  width: 120px;
-  height: 38px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
   background-color: rgba(151, 71, 255, 1);
 }
-.a-logo-for-a-cafe-text12 {
-  top: 6px;
-  left: 5px;
-  color: rgba(255, 255, 255, 1);
-  width: 110px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
+
 .a-logo-for-a-cafe-frame91 {
-  width: 120px;
-  height: 38px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
   background-color: rgba(207, 255, 71, 1);
 }
-.a-logo-for-a-cafe-text14 {
+
+/* Common text styles for menu items */
+.a-logo-for-a-cafe-text, .a-logo-for-a-cafe-text02, .a-logo-for-a-cafe-text04, 
+.a-logo-for-a-cafe-text06, .a-logo-for-a-cafe-text08, .a-logo-for-a-cafe-text10, 
+.a-logo-for-a-cafe-text12, .a-logo-for-a-cafe-text14 {
   top: 6px;
   left: 5px;
-  color: rgba(0, 0, 0, 1);
   width: 110px;
   height: auto;
   position: absolute;
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
+
+/* Text colors */
+.a-logo-for-a-cafe-text, .a-logo-for-a-cafe-text06, .a-logo-for-a-cafe-text14 {
+  color: rgba(0, 0, 0, 1);
+}
+
+.a-logo-for-a-cafe-text02, .a-logo-for-a-cafe-text04, .a-logo-for-a-cafe-text08, 
+.a-logo-for-a-cafe-text10, .a-logo-for-a-cafe-text12 {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Main content text */
 .a-logo-for-a-cafe-text16 {
-  margin-top: 10%;
   color: rgb(255, 255, 255);
-  width: 100%;
-  height: auto;
-  font-size: 50px;
-  font-style: Bold;
+  width: 910px;
+  font-size: 80px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 60px;
   text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  padding-top: 0px;
-  font-stretch: normal;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 0px;
-  text-decoration: none;
+  font-family: Helvetica Neue;
+  font-weight: 600;
+  line-height: 1.15;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 60px;
 }
+
+/* T-shirts section */
 .a-logo-for-a-cafe-tshirts {
-  gap: var(--dl-space-space-fourunits);
-  width: 100%;
-  height: auto;
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  padding-top: 2%;
-  padding-left: 15%;
-  padding-right: 15%;
-  flex-direction: column;
-  padding-bottom: 12%;
+  flex-direction: row;
   justify-content: center;
 }
-.a-logo-for-a-cafe-rectangle34 {
-  width: 100%;
-  height: auto;
+
+/* Rectangle elements - common styles */
+.a-logo-for-a-cafe-rectangle34, .a-logo-for-a-cafe-rectangle341, 
+.a-logo-for-a-cafe-rectangle342, .a-logo-for-a-cafe-rectangle343 {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  object-fit: cover;
 }
-.a-logo-for-a-cafe-rectangle341 {
-  width: 100%;
-  height: auto;
-}
-.a-logo-for-a-cafe-rectangle342 {
-  width: 100%;
-  height: auto;
-}
-.a-logo-for-a-cafe-rectangle343 {
-  width: 100%;
-  height: auto;
-}
+
+/* Description text */
 .a-logo-for-a-cafe-text19 {
   color: rgb(255, 255, 255);
-  width: 100%;
-  height: auto;
-  flex-grow: 1;
-  font-size: 30px;
-  font-style: Bold;
+  width: 910px;
+  font-size: 24px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 60px;
   text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
+  font-family: Helvetica Neue;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 60px;
 }
+
+/* Responsive styles */
 @media(max-width: 1900px) {
-  .a-logo-for-a-cafe-text16 {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
+  .a-logo-for-a-cafe-text16, .a-logo-for-a-cafe-text19 {
+    width: 800px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
-  .a-logo-for-a-cafe-text17 {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
+  
   .a-logo-for-a-cafe-tshirts {
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 12%;
-  }
-  .a-logo-for-a-cafe-text19 {
-    font-size: 28px;
+    width: 90%;
+    justify-content: space-around;
   }
 }
+
 @media(max-width: 1400px) {
-  .a-logo-for-a-cafe-text16 {
-    margin-top: 15%;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
+  .a-logo-for-a-cafe-text16, .a-logo-for-a-cafe-text19 {
+    width: 700px;
+    font-size: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
-  .a-logo-for-a-cafe-text17 {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .a-logo-for-a-cafe-tshirts {
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 12%;
-  }
+  
   .a-logo-for-a-cafe-text19 {
-    font-size: 25px;
+    font-size: 22px;
+  }
+  
+  .a-logo-for-a-cafe-tshirts {
+    width: 95%;
   }
 }
+
 @media(max-width: 991px) {
   .a-logo-for-a-cafe-menue {
     gap: var(--dl-space-space-fourunits);
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  
   .a-logo-for-a-cafe-frame84 {
     transform: rotate(270deg);
   }
-  .a-logo-for-a-cafe-text16 {
-    margin-top: 20%;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
+  
+  .a-logo-for-a-cafe-text16, .a-logo-for-a-cafe-text19 {
+    width: 600px;
+    font-size: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
-  .a-logo-for-a-cafe-text17 {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .a-logo-for-a-cafe-tshirts {
-    gap: var(--dl-space-space-threeunits);
-    padding-top: 2%;
-  }
-  .a-logo-for-a-cafe-rectangle34 {
-    width: 100%;
-    height: auto;
-  }
-  .a-logo-for-a-cafe-rectangle341 {
-    width: 100%;
-    height: auto;
-  }
-  .a-logo-for-a-cafe-rectangle342 {
-    width: 100%;
-    height: auto;
-  }
-  .a-logo-for-a-cafe-rectangle343 {
-    width: 100%;
-    height: auto;
-  }
+  
   .a-logo-for-a-cafe-text19 {
-    color: rgb(255, 255, 255);
-    width: auto;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .a-logo-for-a-cafe-tshirts {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .a-logo-for-a-cafe-rectangle34, .a-logo-for-a-cafe-rectangle341, 
+  .a-logo-for-a-cafe-rectangle342, .a-logo-for-a-cafe-rectangle343 {
+    width: 350px;
+    height: 350px;
   }
 }
+
 @media(max-width: 767px) {
   .a-logo-for-a-cafe-menue {
     gap: var(--dl-space-space-fourunits);
     width: 100vw;
   }
-  .a-logo-for-a-cafe-text16 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
+  
+  .a-logo-for-a-cafe-text16, .a-logo-for-a-cafe-text19 {
+    width: 500px;
+    font-size: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
-  .a-logo-for-a-cafe-text17 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .a-logo-for-a-cafe-tshirts {
-    gap: var(--dl-space-space-twounits);
-    padding-top: 2%;
-  }
-  .a-logo-for-a-cafe-rectangle34 {
-    width: 100%;
-  }
-  .a-logo-for-a-cafe-rectangle341 {
-    width: 100%;
-  }
-  .a-logo-for-a-cafe-rectangle342 {
-    width: 100%;
-  }
-  .a-logo-for-a-cafe-rectangle343 {
-    width: 100%;
-  }
+  
   .a-logo-for-a-cafe-text19 {
-    color: rgb(255, 255, 255);
     font-size: 18px;
-    padding-left: 0px;
-    padding-right: 0px;
+  }
+  
+  .a-logo-for-a-cafe-tshirts {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .a-logo-for-a-cafe-rectangle34, .a-logo-for-a-cafe-rectangle341, 
+  .a-logo-for-a-cafe-rectangle342, .a-logo-for-a-cafe-rectangle343 {
+    width: 300px;
+    height: 300px;
   }
 }
+
 @media(max-width: 420px) {
   .a-logo-for-a-cafe-menue {
     gap: var(--dl-space-space-fourunits);
-    width: 417px;
+    width: 100vw;
     height: 77px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     justify-content: center;
   }
+  
   .a-logo-for-a-cafe-frame92 {
     transform: scale(0.6,0.6);
   }
+  
   .a-logo-for-a-cafe-frame84 {
     bottom: 9.5rem;
     transform: rotate(270deg) scale(0.6, 0.6);
     margin-right: 90px;
   }
-  .a-logo-for-a-cafe-text16 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
+  
+  .a-logo-for-a-cafe-text16, .a-logo-for-a-cafe-text19 {
+    width: 95%;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
-  .a-logo-for-a-cafe-text17 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-    padding-top: var(--dl-space-space-unit);
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: var(--dl-space-space-unit);
-    text-decoration: none;
-  }
-  .a-logo-for-a-cafe-tshirts {
-    gap: var(--dl-space-space-twounits);
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  .a-logo-for-a-cafe-rectangle34 {
-    width: 100%;
-  }
-  .a-logo-for-a-cafe-rectangle341 {
-    width: 100%;
-  }
-  .a-logo-for-a-cafe-rectangle342 {
-    width: 100%;
-  }
-  .a-logo-for-a-cafe-rectangle343 {
-    width: 100%;
-  }
+  
   .a-logo-for-a-cafe-text19 {
-    color: rgb(255, 255, 255);
-    width: 100%;
     font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 0px;
-    padding-right: 0px;
-    text-decoration: none;
+  }
+  
+  .a-logo-for-a-cafe-tshirts {
+    padding: 10px;
+  }
+  
+  .a-logo-for-a-cafe-rectangle34, .a-logo-for-a-cafe-rectangle341, 
+  .a-logo-for-a-cafe-rectangle342, .a-logo-for-a-cafe-rectangle343 {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
   }
 }

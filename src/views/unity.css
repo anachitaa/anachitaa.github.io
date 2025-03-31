@@ -1,3 +1,4 @@
+/* Base container styles */
 .unity-container {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
@@ -8,6 +9,8 @@
   flex-direction: column;
   background-color: #000000;
 }
+
+/* Menu container styles (Inherited from Menue component) */
 .unity-menue {
   height: 121px;
   display: flex;
@@ -18,6 +21,7 @@
   flex-shrink: 0;
   justify-content: space-between;
 }
+
 .unity-frame92 {
   width: 165px;
   height: 51.44117736816406px;
@@ -29,6 +33,7 @@
   background-size: cover;
   background-image: url("/external/tq_olqytaor-_-9ctg-1500h.png");
 }
+
 .unity-frame84 {
   gap: 10px;
   bottom: 8rem;
@@ -40,9 +45,11 @@
   margin-right: 130px;
   flex-direction: column;
 }
+
 .unity-navlink {
   display: contents;
 }
+
 .unity-frame841 {
   width: 120px;
   height: 38px;
@@ -52,6 +59,7 @@
   text-decoration: none;
   background-color: rgba(255, 255, 255, 1);
 }
+
 .unity-text {
   top: 6px;
   left: 5px;
@@ -68,6 +76,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 .unity-frame85 {
   width: 120px;
   height: 38px;
@@ -77,6 +86,7 @@
   flex-shrink: 0;
   background-color: rgba(255, 71, 247, 1);
 }
+
 .unity-text02 {
   top: 6px;
   left: 5px;
@@ -93,6 +103,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 .unity-frame86 {
   width: 120px;
   height: 38px;
@@ -102,6 +113,7 @@
   flex-shrink: 0;
   background-color: rgba(71, 199, 255, 1);
 }
+
 .unity-text04 {
   top: 6px;
   left: 5px;
@@ -118,6 +130,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 .unity-frame87 {
   width: 120px;
   height: 38px;
@@ -127,6 +140,7 @@
   flex-shrink: 0;
   background-color: rgba(0, 255, 117, 1);
 }
+
 .unity-text06 {
   top: 6px;
   left: 5px;
@@ -143,6 +157,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 .unity-frame88 {
   width: 120px;
   height: 38px;
@@ -152,6 +167,7 @@
   flex-shrink: 0;
   background-color: rgba(255, 71, 71, 1);
 }
+
 .unity-text08 {
   top: 6px;
   left: 5px;
@@ -168,6 +184,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 .unity-frame89 {
   width: 120px;
   height: 38px;
@@ -177,6 +194,7 @@
   flex-shrink: 0;
   background-color: rgba(255, 152, 31, 1);
 }
+
 .unity-text10 {
   top: 6px;
   left: 5px;
@@ -193,6 +211,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 .unity-frame90 {
   width: 120px;
   height: 38px;
@@ -202,6 +221,7 @@
   flex-shrink: 0;
   background-color: rgba(151, 71, 255, 1);
 }
+
 .unity-text12 {
   top: 6px;
   left: 5px;
@@ -218,6 +238,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 .unity-frame91 {
   width: 120px;
   height: 38px;
@@ -227,6 +248,7 @@
   flex-shrink: 0;
   background-color: rgba(207, 255, 71, 1);
 }
+
 .unity-text14 {
   top: 6px;
   left: 5px;
@@ -243,6 +265,8 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
+/* Main title text */
 .unity-text16 {
   margin-top: 10%;
   color: rgb(255, 255, 255);
@@ -251,46 +275,46 @@
   font-size: 50px;
   font-style: Bold;
   text-align: left;
-  
   font-weight: 700;
   line-height: normal;
-  padding-top: 0px;
+  padding: 0 15%;
   font-stretch: normal;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 0px;
   text-decoration: none;
 }
+
+/* Content section container */
 .unity-tshirts {
   gap: 65px;
-  width: 100%;
+  width: 70%; /* Use width instead of padding */
   height: auto;
   display: flex;
   align-items: center;
-  padding-top: 2%;
-  padding-left: 15%;
-  padding-right: 15%;
+  margin: 2% auto 12%; /* Use margin for spacing */
   flex-direction: column;
-  padding-bottom: 12%;
   justify-content: center;
 }
+
+/* Image row container */
 .unity-frame6 {
   width: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  gap: 4%;
 }
-.unity-rectangle35 {
-  width: 48%;
+
+/* Image styles */
+.unity-rectangle35, .unity-rectangle34 {
+  width: 48%; /* Two columns */
   height: auto;
+  object-fit: cover;
 }
-.unity-rectangle34 {
-  width: 48%;
-  height: auto;
-}
+
+/* Link button container */
 .unity-link {
-  display: contents;
+  display: contents; /* Allows link to inherit container styles */
 }
+
 .unity-frame53 {
   gap: 20px;
   width: 100%;
@@ -301,36 +325,52 @@
   justify-content: center;
   text-decoration: none;
   background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+.unity-frame53:hover {
+  background-color: rgba(220, 220, 220, 1); /* Lighter gray on hover */
+}
+
+/* Link button text */
 .unity-text17 {
   color: rgba(0, 0, 0, 1);
   height: auto;
   font-size: 25px;
   font-style: Bold;
   text-align: left;
-  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
+
+/* Video container */
 .unity-frame52 {
   gap: 20px;
   width: 100%;
   display: flex;
   align-items: flex-end;
   flex-shrink: 0;
+  justify-content: center; /* Center video */
 }
+
 .unity-video {
   width: 100%;
+  max-width: 1000px; /* Limit video width */
   height: auto;
 }
+
+/* Text description container */
 .unity-frame49 {
   width: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
+
+/* Description text */
 .unity-text19 {
   color: rgb(255, 255, 255);
   height: auto;
@@ -338,181 +378,74 @@
   font-size: 30px;
   font-style: Bold;
   text-align: left;
-  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
+
+/* Responsive Styles */
 @media(max-width: 1900px) {
   .unity-text16 {
-    color: rgb(255, 255, 255);
     font-size: 40px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
+    padding: 0 10%;
   }
   .unity-tshirts {
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 12%;
+    width: 80%;
   }
   .unity-text19 {
     font-size: 28px;
   }
 }
+
 @media(max-width: 1400px) {
   .unity-text16 {
     margin-top: 15%;
-    color: rgb(255, 255, 255);
     font-size: 30px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .unity-tshirts {
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 12%;
   }
   .unity-text19 {
     font-size: 25px;
   }
 }
+
 @media(max-width: 991px) {
-  .unity-menue {
-    gap: var(--dl-space-space-fourunits);
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .unity-frame84 {
-    transform: rotate(270deg);
-  }
+  /* Menu adjustments handled in menue.css */
   .unity-text16 {
     margin-top: 20%;
-    color: rgb(255, 255, 255);
     font-size: 30px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
   }
   .unity-tshirts {
+    width: 80%;
     gap: var(--dl-space-space-twounits);
   }
   .unity-frame6 {
     align-items: center;
   }
-  .unity-rectangle35 {
-    width: 48%;
-    height: auto;
-  }
-  .unity-rectangle34 {
-    width: 48%;
-    height: auto;
-  }
-  .unity-frame53 {
-    width: 100%;
-  }
-  .unity-frame52 {
-    width: 100%;
-    justify-content: center;
-  }
-  .unity-video {
-    width: 100%;
-    height: 100%;
-    align-self: center;
-  }
-  .unity-frame49 {
-    width: 100%;
-  }
   .unity-text19 {
-    color: rgb(255, 255, 255);
     font-size: 22px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
   }
 }
+
 @media(max-width: 767px) {
-  .unity-menue {
-    gap: var(--dl-space-space-fourunits);
-    width: 100vw;
-  }
+  /* Menu adjustments handled in menue.css */
   .unity-text16 {
-    color: rgb(255, 255, 255);
     font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
   }
   .unity-tshirts {
-    gap: var(--dl-space-space-twounits);
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  .unity-rectangle35 {
-    width: 48%;
-  }
-  .unity-rectangle34 {
-    width: 48%;
-  }
-  .unity-frame53 {
-    width: 100%;
-  }
-  .unity-frame52 {
-    width: 100%;
-  }
-  .unity-video {
-    width: 100%;
-  }
-  .unity-frame49 {
-    padding-left: 0px;
+    width: 80%;
   }
   .unity-text19 {
-    color: rgb(255, 255, 255);
     font-size: 18px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
   }
 }
+
 @media(max-width: 420px) {
-  .unity-menue {
-    gap: var(--dl-space-space-fourunits);
-    width: 417px;
-    height: 77px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    justify-content: center;
-  }
-  .unity-frame92 {
-    transform: scale(0.6,0.6);
-  }
-  .unity-frame84 {
-    bottom: 9.5rem;
-    transform: rotate(270deg) scale(0.6, 0.6);
-    margin-right: 90px;
-  }
+  /* Menu adjustments handled in menue.css */
   .unity-text16 {
-    color: rgb(255, 255, 255);
     font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
   }
   .unity-tshirts {
+    width: 90%;
     gap: var(--dl-space-space-twounits);
   }
   .unity-frame6 {
@@ -521,26 +454,10 @@
     flex-direction: column;
     justify-content: flex-start;
   }
-  .unity-rectangle35 {
-    width: 100%;
-  }
-  .unity-rectangle34 {
-    width: 100%;
-  }
-  .unity-frame53 {
-    width: 100%;
-  }
-  .unity-video {
-    width: 100%;
-  }
-  .unity-frame49 {
-    padding-left: 0px;
+  .unity-rectangle35, .unity-rectangle34 {
+    width: 100%; /* Full width when stacked */
   }
   .unity-text19 {
-    color: rgb(255, 255, 255);
     font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
   }
 }

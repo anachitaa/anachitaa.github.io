@@ -550,900 +550,165 @@
   width: 100%;
   height: auto;
 }
+
+/* Responsive Styles */
 @media(max-width: 1900px) {
   .a-series-of-hoodies-t-shirts-and-tote-bags-text16 {
-    color: rgb(255, 255, 255);
     font-size: 40px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
+    padding: 0 10%;
   }
   .a-series-of-hoodies-t-shirts-and-tote-bags-tshirts {
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 12%;
+    width: 80%;
   }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame6 {
-    gap: 1%;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame58 {
-    width: 12%;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text17 {
-    color: rgb(255, 255, 255);
-    font-size: 28px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text21 {
-    color: rgb(255, 255, 255);
-    font-size: 28px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle34 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle36 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle35 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame51 {
-    gap: 0;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame581 {
-    width: 12%;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text25 {
-    color: rgb(255, 255, 255);
-    font-size: 28px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text32 {
-    font-size: 28px;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle341 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle351 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle352 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame49 {
-    gap: 0;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame582 {
-    width: 12%;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text36 {
-    font-size: 28px;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text41 {
-    font-size: 28px;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle342 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle353 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle361 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame52 {
-    gap: 0;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame583 {
-    width: 12%;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text45 {
-    font-size: 28px;
-    letter-spacing: 0;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text46 {
-    font-size: 28px;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle343 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle354 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle362 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame50 {
-    gap: 0;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame584 {
-    width: 12%;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text50 {
-    color: rgb(255, 255, 255);
-    width: auto;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
+  /* Adjust text sizes */
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text17, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text21, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text25, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text32, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text36, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text41, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text45, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text46, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text50, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-text55 {
-    color: rgb(255, 255, 255);
     font-size: 28px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle344 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle355 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle356 {
-    width: 100%;
   }
 }
+
 @media(max-width: 1400px) {
   .a-series-of-hoodies-t-shirts-and-tote-bags-text16 {
     margin-top: 15%;
-    color: rgb(255, 255, 255);
     font-size: 30px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
   }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-tshirts {
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 12%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame6 {
-    gap: 1%;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame58 {
-    gap: 30px;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text17 {
-    width: auto;
-    font-size: 25px;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text21 {
-    font-size: 25px;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame51 {
-    gap: 0;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame581 {
-    gap: 30px;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text25 {
-    width: 100%;
-    font-size: 25px;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text32 {
-    width: auto;
-    font-size: 25px;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame49 {
-    gap: 0;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame582 {
-    gap: 30px;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text36 {
-    width: 100%;
-    font-size: 25px;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text41 {
-    width: auto;
-    font-size: 25px;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame52 {
-    gap: 0;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame583 {
-    gap: 30px;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text45 {
-    width: 100%;
-    font-size: 25px;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text46 {
-    font-size: 25px;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame50 {
-    gap: 0;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame584 {
-    gap: 30px;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text50 {
-    width: auto;
-    font-size: 25px;
-  }
+  /* Adjust text sizes */
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text17, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text21, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text25, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text32, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text36, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text41, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text45, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text46, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text50, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-text55 {
-    width: auto;
     font-size: 25px;
   }
 }
+
 @media(max-width: 991px) {
-  .a-series-of-hoodies-t-shirts-and-tote-bags-menue {
-    gap: var(--dl-space-space-fourunits);
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame84 {
-    transform: rotate(270deg);
-  }
+  /* Menu adjustments handled in menue.css */
   .a-series-of-hoodies-t-shirts-and-tote-bags-text16 {
     margin-top: 20%;
-    color: rgb(255, 255, 255);
     font-size: 30px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
   }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame6 {
-    gap: 1%;
-    align-self: stretch;
-    align-items: flex-end;
-    justify-content: space-between;
+  .a-series-of-hoodies-t-shirts-and-tote-bags-tshirts {
+    width: 80%;
   }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame58 {
-    gap: 10px;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text17 {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text21 {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle34 {
-    width: 100%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle36 {
-    width: 100%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle35 {
-    width: 100%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame51 {
-    gap: 0;
-    width: 100%;
-    align-self: center;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame581 {
-    gap: 10px;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text25 {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.6px;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text32 {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle341 {
-    width: 100%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle351 {
-    width: 100%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle352 {
-    width: 100%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame49 {
-    gap: 0;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame582 {
-    gap: 10px;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text36 {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text41 {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle342 {
-    width: 100%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle353 {
-    width: 100%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle361 {
-    width: 100%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame52 {
-    gap: 0;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame583 {
-    gap: 10px;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text45 {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text46 {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle343 {
-    width: 100%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle354 {
-    width: 100%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle362 {
-    width: 100%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame50 {
-    gap: 0;
-    width: 100%;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
+  .a-series-of-hoodies-t-shirts-and-tote-bags-frame58, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-frame581, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-frame582, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-frame583, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-frame584 {
-    gap: 10px;
-    height: auto;
+    gap: 10px; /* Reduce gap */
   }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text50 {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.6px;
-    text-decoration: none;
-  }
+  /* Adjust text sizes */
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text17, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text21, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text25, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text32, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text36, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text41, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text45, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text46, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text50, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-text55 {
-    color: rgb(255, 255, 255);
     font-size: 18px;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle344 {
-    width: 100%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle355 {
-    width: 100%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle356 {
-    width: 100%;
-    height: auto;
   }
 }
+
 @media(max-width: 767px) {
-  .a-series-of-hoodies-t-shirts-and-tote-bags-menue {
-    gap: var(--dl-space-space-fourunits);
-    width: 100vw;
-  }
+  /* Menu adjustments handled in menue.css */
   .a-series-of-hoodies-t-shirts-and-tote-bags-text16 {
-    color: rgb(255, 255, 255);
     font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
+    padding: 0 10%;
   }
   .a-series-of-hoodies-t-shirts-and-tote-bags-tshirts {
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
+    width: 90%;
+    padding: 2% var(--dl-space-space-threeunits) 12%;
   }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame6 {
-    height: auto;
-    align-items: flex-end;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 1%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame58 {
-    width: 12%;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text17 {
-    color: rgb(255, 255, 255);
-    width: auto;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text21 {
-    color: rgb(255, 255, 255);
-    width: auto;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle34 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle36 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle35 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame51 {
-    width: 100%;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame581 {
-    width: 12%;
-    height: auto;
-    align-self: flex-end;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text25 {
-    color: rgb(255, 255, 255);
-    width: 100%;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text32 {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle341 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle351 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle352 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame49 {
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame582 {
-    gap: 10px;
-    width: 12%;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-end;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text36 {
-    color: rgb(255, 255, 255);
-    width: 100%;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text41 {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle342 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle353 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle361 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame52 {
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame583 {
-    width: 12%;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text45 {
-    color: rgb(255, 255, 255);
-    width: auto;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text46 {
-    color: rgb(255, 255, 255);
-    width: auto;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle343 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle354 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle362 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame50 {
-    width: 100%;
-    align-items: flex-end;
-    justify-content: space-between;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame584 {
-    width: 12%x;
-    height: auto;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text50 {
-    color: rgb(255, 255, 255);
-    width: auto;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0;
-    text-decoration: none;
-  }
+   /* Adjust text sizes */
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text17, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text21, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text25, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text32, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text36, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text41, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text45, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text46, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text50, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-text55 {
-    color: rgb(255, 255, 255);
     font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle344 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle355 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle356 {
-    width: 100%;
   }
 }
+
 @media(max-width: 420px) {
-  .a-series-of-hoodies-t-shirts-and-tote-bags-menue {
-    gap: var(--dl-space-space-fourunits);
-    width: 417px;
-    height: 77px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    justify-content: center;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame92 {
-    transform: scale(0.6,0.6);
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame84 {
-    bottom: 9.5rem;
-    transform: rotate(270deg) scale(0.6, 0.6);
-    margin-right: 90px;
-  }
+  /* Menu adjustments handled in menue.css */
   .a-series-of-hoodies-t-shirts-and-tote-bags-text16 {
-    color: rgb(255, 255, 255);
     font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 0%;
-    text-decoration: none;
+    padding-right: 10%; /* Ensure padding is consistent */
   }
   .a-series-of-hoodies-t-shirts-and-tote-bags-tshirts {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    width: 90%;
+    padding: 2% var(--dl-space-space-twounits) 12%;
   }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame6 {
-    gap: 20px;
-    width: auto;
-    align-self: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame58 {
-    gap: 20px;
-    width: 100%;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text17 {
-    color: rgb(255, 255, 255);
-    width: 240px;
-    font-size: 16px;
-    align-self: center;
-    text-align: center;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text21 {
-    width: 240px;
-    font-size: 16px;
-    text-align: center;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle34 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle36 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle35 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame51 {
-    gap: 20px;
-    width: auto;
-    align-self: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame581 {
-    gap: 20px;
-    width: 100%;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text25 {
-    color: rgb(255, 255, 255);
-    width: 240px;
-    font-size: 16px;
-    text-align: center;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.6px;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text32 {
-    width: 240px;
-    font-size: 16px;
-    text-align: center;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle341 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle351 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle352 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame49 {
-    gap: 20px;
-    width: auto;
-    align-items: center;
-    flex-direction: column;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame582 {
-    gap: 20px;
-    width: 100%;
-    height: auto;
-    align-items: center;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text36 {
-    color: rgb(255, 255, 255);
-    width: 240px;
-    font-size: 16px;
-    text-align: center;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text41 {
-    width: 240px;
-    font-size: 16px;
-    text-align: center;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle342 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle353 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle361 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame52 {
-    gap: 20px;
-    width: auto;
-    align-items: center;
-    flex-direction: column;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-frame583 {
-    gap: 20px;
-    width: 100%;
-    height: auto;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text45 {
-    color: rgb(255, 255, 255);
-    width: 240px;
-    font-size: 16px;
-    align-self: center;
-    text-align: center;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.6px;
-    text-decoration: none;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text46 {
-    width: 240px;
-    font-size: 16px;
-    text-align: center;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle343 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle354 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle362 {
-    width: 100%;
-  }
+  .a-series-of-hoodies-t-shirts-and-tote-bags-frame6, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-frame51, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-frame49, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-frame52, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-frame50 {
     gap: 20px;
-    width: auto;
-    flex-direction: column;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
   }
+  .a-series-of-hoodies-t-shirts-and-tote-bags-frame58, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-frame581, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-frame582, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-frame583, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-frame584 {
     gap: 20px;
     width: 100%;
-    height: auto;
     align-items: center;
-    justify-content: center;
   }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-text50 {
-    color: rgb(255, 255, 255);
-    width: 240px;
-    font-size: 16px;
-    text-align: center;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.6px;
-    text-decoration: none;
-  }
+  /* Make text centered and adjust width */
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text17, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text21, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text25, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text32, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text36, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text41, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text45, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text46, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-text50, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-text55 {
     width: 240px;
     font-size: 16px;
     text-align: center;
   }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle344 {
-    width: 100%;
-  }
-  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle355 {
-    width: 100%;
-  }
+  /* Images take full width */
+  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle34, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle36, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle35, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle341, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle351, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle352, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle342, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle353, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle361, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle343, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle354, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle362, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle344, 
+  .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle355, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-rectangle356 {
     width: 100%;
   }

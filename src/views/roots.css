@@ -1,3 +1,4 @@
+/* Base container styles */
 .roots-container {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
@@ -9,6 +10,8 @@
   justify-content: flex-start;
   background-color: #000000;
 }
+
+/* Menu container styles (Inherited from Menue component) */
 .roots-menue {
   height: 121px;
   display: flex;
@@ -19,6 +22,161 @@
   flex-shrink: 0;
   justify-content: space-between;
 }
+
+/* Main title text */
+.roots-text16 {
+  margin-top: 10%;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  font-size: 50px;
+  font-style: Bold;
+  text-align: left;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0 15%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+/* Main content container */
+.roots-frame54 {
+  gap: 65px;
+  width: 70%; /* Use width instead of padding */
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin: 2% auto 12%; /* Use margin for spacing */
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Image row containers */
+.roots-tshirts, .roots-tshirts1, .roots-tshirts2, .roots-tshirts3, .roots-frame6 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4%; /* Consistent gap */
+}
+
+/* Image styles */
+.roots-rectangle35, .roots-rectangle351, .roots-rectangle352, 
+.roots-rectangle353, .roots-rectangle354, .roots-rectangle355, 
+.roots-rectangle356, .roots-rectangle357, .roots-rectangle36 {
+  width: 48%; /* Adjust width for 2-column layout */
+  height: auto;
+  object-fit: cover;
+}
+
+/* Special case for single full-width image in a row (adjust if needed) */
+/* If a row has only one image, it might need width: 100% */
+
+/* Text description container */
+.roots-frame49 {
+  gap: 60px; /* Original gap */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+/* Description text */
+.roots-text19 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  flex-grow: 1;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: left;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+/* Responsive Styles */
+@media(max-width: 1900px) {
+  .roots-text16 {
+    font-size: 40px;
+    padding: 0 10%;
+  }
+  .roots-frame54 {
+    width: 80%;
+  }
+  .roots-text19 {
+    font-size: 28px;
+  }
+}
+
+@media(max-width: 1400px) {
+  .roots-text16 {
+    margin-top: 15%;
+    font-size: 30px;
+  }
+  .roots-text19 {
+    font-size: 25px;
+  }
+}
+
+@media(max-width: 991px) {
+  /* Menu adjustments are handled in menue.css */
+  .roots-text16 {
+    margin-top: 20%;
+    font-size: 30px;
+    padding: 0 10%;
+  }
+  .roots-tshirts, .roots-tshirts1, .roots-tshirts2, .roots-tshirts3, .roots-frame6 {
+    gap: var(--dl-space-space-threeunits);
+  }
+  /* Images will naturally stack if container width is reduced */
+  .roots-text19 {
+    font-size: 22px;
+  }
+}
+
+@media(max-width: 767px) {
+  /* Menu adjustments are handled in menue.css */
+  .roots-text16 {
+    font-size: 20px;
+  }
+  .roots-frame54 {
+    width: 80%;
+  }
+  /* Images will already stack due to container width */
+  .roots-text19 {
+    font-size: 18px;
+  }
+}
+
+@media(max-width: 420px) {
+  /* Menu adjustments are handled in menue.css */
+  .roots-text16 {
+    font-size: 20px;
+    padding: 0 10%;
+  }
+  .roots-frame54 {
+    width: 90%; /* Increase width slightly for small screens */
+  }
+  .roots-tshirts, .roots-tshirts1, .roots-tshirts2, .roots-tshirts3, .roots-frame6 {
+    flex-direction: column; /* Stack images vertically */
+    gap: var(--dl-space-space-twounits);
+  }
+  .roots-rectangle35, .roots-rectangle351, .roots-rectangle352, 
+  .roots-rectangle353, .roots-rectangle354, .roots-rectangle355, 
+  .roots-rectangle356, .roots-rectangle357, .roots-rectangle36 {
+    width: 100%; /* Full width when stacked */
+  }
+  .roots-frame49 {
+    padding: 0; /* Remove padding if needed */
+  }
+  .roots-text19 {
+    font-size: 16px;
+  }
+}
+
 .roots-frame92 {
   width: 165px;
   height: 51.44117736816406px;
@@ -243,393 +401,4 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
-}
-.roots-text16 {
-  margin-top: 10%;
-  color: rgb(255, 255, 255);
-  width: 100%;
-  height: auto;
-  font-size: 50px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  padding-top: 0px;
-  font-stretch: normal;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 0px;
-  text-decoration: none;
-}
-.roots-frame54 {
-  gap: 65px;
-  width: auto;
-  height: auto;
-  display: flex;
-  margin-top: 2%;
-  align-items: center;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-bottom: 12%;
-  flex-direction: column;
-  justify-content: center;
-}
-.roots-tshirts {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap:4%;
-}
-.roots-rectangle35 {
-  width: 100%;
-  height: auto;
-}
-.roots-rectangle351 {
-  width: 100%;
-  height: auto;
-}
-.roots-tshirts1 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap:4%;
-}
-.roots-rectangle352 {
-  width: 100%;
-  height: auto;
-}
-.roots-rectangle353 {
-  width: 100%;
-  height: auto;
-}
-.roots-tshirts2 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 4%;
-}
-.roots-rectangle354 {
-  width: 48%;
-  height: auto;
-}
-.roots-rectangle355 {
-  width: 48%;
-  height: auto;
-}
-.roots-frame49 {
-  gap: 60PX;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-  justify-content: center;
-}
-.roots-text19 {
-  color: rgb(255, 255, 255);
-  height: auto;
-  flex-grow: 1;
-  font-size: 30px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.roots-frame6 {
-  width: 100%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 4%;
-}
-.roots-rectangle36 {
-  width: 48%;
-  height: auto;
-}
-.roots-rectangle356 {
-  width: 48%;
-  height: auto;
-}
-@media(max-width: 1900px) {
-  .roots-text16 {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .roots-text17 {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    font-weight: 700;
-    line-height: normal;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .roots-frame54 {
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 12%;
-  }
-  .roots-text19 {
-    font-size: 28px;
-  }
-}
-@media(max-width: 1400px) {
-  .roots-text16 {
-    margin-top: 15%;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .roots-text17 {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 700;
-    line-height: normal;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .roots-frame54 {
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 12%;
-  }
-  .roots-text19 {
-    font-size: 25px;
-  }
-}
-@media(max-width: 991px) {
-  .roots-menue {
-    gap: var(--dl-space-space-fourunits);
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .roots-frame84 {
-    transform: rotate(270deg);
-  }
-  .roots-text16 {
-    margin-top: 20%;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .roots-text17 {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 700;
-    line-height: normal;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .roots-tshirts {
-    gap: var(--dl-space-space-threeunits);
-  }
-  .roots-rectangle35 {
-    width: 100%;
-    height: auto;
-  }
-  .roots-rectangle351 {
-    width: 100%;
-    height: auto;
-  }
-  .roots-tshirts1 {
-    gap: var(--dl-space-space-threeunits);
-  }
-  .roots-rectangle352 {
-    width: 100%;
-    height: auto;
-  }
-  .roots-rectangle353 {
-    width: 100%;
-    height: auto;
-  }
-  .roots-tshirts2 {
-    gap: var(--dl-space-space-threeunits);
-  }
-  .roots-rectangle354 {
-    width: 100%;
-    height: auto;
-  }
-  .roots-rectangle355 {
-    width: 100%;
-    height: auto;
-  }
-  .roots-frame49 {
-    width: 100%;
-  }
-  .roots-text19 {
-    color: rgb(255, 255, 255);
-    width: auto;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .roots-rectangle36 {
-    width: 100%;
-    height: auto;
-  }
-  .roots-rectangle356 {
-    width: 100%;
-    height: auto;
-  }
-}
-@media(max-width: 767px) {
-  .roots-menue {
-    gap: var(--dl-space-space-fourunits);
-    width: 100vw;
-  }
-  .roots-text16 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .roots-text17 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .roots-rectangle35 {
-    width: 100%;
-  }
-  .roots-rectangle351 {
-    width: 100%;
-  }
-  .roots-rectangle352 {
-    width: 100%;
-  }
-  .roots-rectangle353 {
-    width: 100%;
-  }
-  .roots-rectangle354 {
-    width: 100%;
-  }
-  .roots-rectangle355 {
-    width: 100%;
-  }
-  .roots-frame49 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .roots-text19 {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-  }
-  .roots-rectangle36 {
-    width: 100%;
-  }
-  .roots-rectangle356 {
-    width: 100%;
-  }
-}
-@media(max-width: 420px) {
-  .roots-menue {
-    gap: var(--dl-space-space-fourunits);
-    width: 417px;
-    height: 77px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    justify-content: center;
-  }
-  .roots-frame92 {
-    transform: scale(0.6,0.6);
-  }
-  .roots-frame84 {
-    bottom: 9.5rem;
-    transform: rotate(270deg) scale(0.6, 0.6);
-    margin-right: 90px;
-  }
-  .roots-text16 {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
-  .roots-text17 {
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
-    padding-top: var(--dl-space-space-unit);
-    padding-right: 10%;
-    padding-bottom: var(--dl-space-space-unit);
-    text-decoration: none;
-  }
-  .roots-tshirts {
-    flex-direction: column;
-  }
-  .roots-rectangle35 {
-    width: 100%;
-  }
-  .roots-rectangle351 {
-    width: 100%;
-  }
-  .roots-tshirts1 {
-    flex-direction: column;
-  }
-  .roots-rectangle352 {
-    width: 100%;
-  }
-  .roots-rectangle353 {
-    width: 100%;
-  }
-  .roots-tshirts2 {
-    flex-direction: column;
-  }
-  .roots-rectangle354 {
-    width: 100%;
-  }
-  .roots-rectangle355 {
-    width: 100%;
-  }
-  .roots-frame49 {
-    padding-left: 0px;
-  }
-  .roots-text19 {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
-  }
-  .roots-frame6 {
-    gap: var(--dl-space-space-twounits);
-    flex-direction: column;
-    justify-content: center;
-  }
-  .roots-rectangle36 {
-    width: 100%;
-  }
-  .roots-rectangle356 {
-    width: 100%;
-  }
 }

@@ -589,8 +589,8 @@
       text-decoration: none;
     }
     .a-campaign-for-a-cinema-tshirts {
-      padding-left: 10&;
-      padding-right: 10&;
+      padding-left: 10%;
+      padding-right: 10%;
       padding-bottom: 12%;
     }
     .a-campaign-for-a-cinema-rectangle34 {
@@ -927,7 +927,7 @@
       width: auto;
     }
     .a-campaign-for-a-cinema-text24 {
-      width: auto;
+      color: rgb(255, 255, 255);
       font-size: 18px;
     }
   }
