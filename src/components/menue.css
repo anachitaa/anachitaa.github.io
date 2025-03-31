@@ -18,8 +18,12 @@
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
-  background-size: cover;
-  background-image: url("/external/tq_olqytaor-_-9ctg-1500h.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/external/logo2-200h.png");
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 .menue-frame84 {
