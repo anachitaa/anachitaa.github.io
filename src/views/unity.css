@@ -67,8 +67,8 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
-  font-style: Bold;
+  font-size: 18px;
+  font-weight: 400;
   text-align: left;
   
   font-weight: 700;
@@ -94,8 +94,8 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
-  font-style: Bold;
+  font-size: 18px;
+  font-weight: 400;
   text-align: left;
   
   font-weight: 700;
@@ -121,8 +121,8 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
-  font-style: Bold;
+  font-size: 18px;
+  font-weight: 400;
   text-align: left;
   
   font-weight: 700;
@@ -148,8 +148,8 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
-  font-style: Bold;
+  font-size: 18px;
+  font-weight: 400;
   text-align: left;
   
   font-weight: 700;
@@ -175,8 +175,8 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
-  font-style: Bold;
+  font-size: 18px;
+  font-weight: 400;
   text-align: left;
   
   font-weight: 700;
@@ -202,8 +202,8 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
-  font-style: Bold;
+  font-size: 18px;
+  font-weight: 400;
   text-align: left;
   
   font-weight: 700;
@@ -229,8 +229,8 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
-  font-style: Bold;
+  font-size: 18px;
+  font-weight: 400;
   text-align: left;
   
   font-weight: 700;
@@ -256,8 +256,8 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
-  font-style: Bold;
+  font-size: 18px;
+  font-weight: 400;
   text-align: left;
   
   font-weight: 700;
@@ -268,16 +268,15 @@
 
 /* Main title text */
 .unity-text16 {
-  margin-top: 10%;
+  margin-top: 15%;
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 50px;
-  font-style: Bold;
+  padding-left: 15%;
+  font-size: 22px;
   text-align: left;
   font-weight: 700;
   line-height: normal;
-  padding: 0 15%;
   font-stretch: normal;
   text-decoration: none;
 }
@@ -303,11 +302,26 @@
   gap: 4%;
 }
 
+/* Image container */
+.unity-image-container {
+  width: 48%; /* Two columns */
+  height: 400px; /* Fixed height */
+  overflow: hidden; /* Contains the zoomed image */
+  position: relative;
+}
+
 /* Image styles */
 .unity-rectangle35, .unity-rectangle34 {
-  width: 48%; /* Two columns */
-  height: auto;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  transition: transform 0.3s ease; /* Smooth zoom transition */
+}
+
+/* Zoom effect on hover */
+.unity-image-container:hover .unity-rectangle35,
+.unity-image-container:hover .unity-rectangle34 {
+  transform: scale(1.1); /* 10% zoom */
 }
 
 /* Link button container */
@@ -337,10 +351,10 @@
 .unity-text17 {
   color: rgba(0, 0, 0, 1);
   height: auto;
-  font-size: 25px;
-  font-style: Bold;
+  font-size: 18px;
   text-align: left;
-  font-weight: 700;
+  font-weight: 400;
+  font-style: oblique;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -375,10 +389,9 @@
   color: rgb(255, 255, 255);
   height: auto;
   flex-grow: 1;
-  font-size: 30px;
-  font-style: Bold;
+  font-size: 18px;
   text-align: left;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -387,49 +400,59 @@
 /* Responsive Styles */
 @media(max-width: 1900px) {
   .unity-text16 {
-    font-size: 40px;
-    padding: 0 10%;
+    font-size: 22px;
+    font-weight: 700;
   }
   .unity-tshirts {
-    width: 80%;
+    width: 70%;
   }
   .unity-text19 {
-    font-size: 28px;
+    font-size: 18px;
+  }
+  .unity-image-container {
+    height: 350px;
   }
 }
 
 @media(max-width: 1400px) {
   .unity-text16 {
-    margin-top: 15%;
-    font-size: 30px;
+    font-size: 22px;
+    font-weight: 700;
   }
   .unity-text19 {
-    font-size: 25px;
+    font-size: 18px;
+  }
+  .unity-image-container {
+    height: 300px;
   }
 }
 
 @media(max-width: 991px) {
   /* Menu adjustments handled in menue.css */
   .unity-text16 {
-    margin-top: 20%;
-    font-size: 30px;
+    font-size: 22px;
+    font-weight: 700;
   }
   .unity-tshirts {
-    width: 80%;
+    width: 70%;
     gap: var(--dl-space-space-twounits);
   }
   .unity-frame6 {
     align-items: center;
   }
   .unity-text19 {
-    font-size: 22px;
+    font-size: 18px;
+  }
+  .unity-image-container {
+    height: 250px;
   }
 }
 
 @media(max-width: 767px) {
   /* Menu adjustments handled in menue.css */
   .unity-text16 {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 400;
   }
   .unity-tshirts {
     width: 80%;
@@ -437,12 +460,16 @@
   .unity-text19 {
     font-size: 18px;
   }
+  .unity-image-container {
+    height: 200px;
+  }
 }
 
 @media(max-width: 420px) {
   /* Menu adjustments handled in menue.css */
   .unity-text16 {
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 700;
   }
   .unity-tshirts {
     width: 90%;
@@ -458,6 +485,10 @@
     width: 100%; /* Full width when stacked */
   }
   .unity-text19 {
-    font-size: 16px;
+    font-size: 18px;
+  }
+  .unity-image-container {
+    width: 100%; /* Full width when stacked */
+    height: 300px; /* Taller height for mobile */
   }
 }

@@ -30,12 +30,12 @@ const About = (props) => {
             <div className="about-frame66">
               <span className="about-text02">instagram:</span>
               <a
-                href="https://www.instagram.com/ana.are.un.mar/"
+                href="https://www.instagram.com/ana__chita/"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="about-text03"
               >
-                @ana.are.un.mar
+                @ana__chita
               </a>
             </div>
             <div className="about-frame67">
@@ -50,41 +50,34 @@ const About = (props) => {
               <span>education:</span>
             </span>
             <span className="about-text08">
-              (2021) Royal Academy of Art, The Hague
+              (2021—2025) Royal Academy of Art, The Hague
             </span>
           </div>
           <div className="about-frame671">
             <span className="about-text09">
               <span>projects:</span>
             </span>
-            <span className="about-text11">
+            <span className="about-text23">
               <span>(2020) brand identity for Harvest Craiova, a cafe</span>
-            </span>
-          </div>
-          <div className="about-frame68">
-            <span className="about-text13">
-              <span>(2022) brand identity for MTD Technology</span>
+              <br></br>
+              <span>(2021) brand identity for MTD Technology</span>
+              <br></br>
+              <span>(2025) brand identity for Filmhuis Den Haag Program Lines</span>
             </span>
           </div>
           <div className="about-frame71">
             <div className="about-frame69">
-              <span className="about-text15">
+              <span className="about-text09">
                 <span>employment:</span>
               </span>
-              <span className="about-text17">
-                <span>(2021- NOW) UX&amp;UI designer</span>
-              </span>
-            </div>
-            <div className="about-frame70">
-              <span className="about-text19">
-                <span>
-                  Responsible for UX and UI design, along with crafting app and
-                  web flow structures, as well as creating media and social
-                  designs.
-                </span>
+              <span className="about-text23">
+                <span>(2021—2024) UX&amp;UI designer at MTD Technology</span>              
+                <br></br>
+                <span>(2024 Sep—2024 Nov) intern at Policromic</span>
               </span>
             </div>
           </div>
+
           <div className="about-frame79">
             <div className="about-frame72">
               <span className="about-text21">
@@ -117,18 +110,20 @@ const About = (props) => {
               <span className="about-text35">
                 <span>intermediate knowledge of:</span>
               </span>
-              <span className="about-text37">
+              <span className="about-text23">
                 <span>Unity</span>
                 <br></br>
                 <span>Fusion 360</span>
                 <br></br>
                 <span>Robo Fonts</span>
                 <br></br>
+                <span>After Effects</span>
+                <br></br>
                 <span>Premiere Pro</span>
                 <br></br>
-                <span>coding in html and css </span>
+                <span>Touchdesigner</span>
                 <br></br>
-                <span>(basics of Java Script)</span>
+                <span>coding in html, css and basics of Java Script</span>
               </span>
             </div>
           </div>
@@ -137,7 +132,7 @@ const About = (props) => {
               <span className="about-text49">
                 <span> experience in:</span>
               </span>
-              <span className="about-text51">
+              <span className="about-text23">
                 <span>ComColor</span>
                 <br></br>
                 <span>Illustrarion</span>
@@ -149,15 +144,10 @@ const About = (props) => {
                 <span>Screenprinting</span>
                 <br></br>
                 <span>App and Web Flow Design</span>
-                <br></br>
-                <br></br>
-                <br></br>
-                <div className='about-text51'>website coded with the help of Stefan Jiroveanu</div>
-
-                <span></span>
               </span>
             </div>
           </div>
+          <div className='about-text23 thanks'>website coded with the help of Stefan Jiroveanu</div>
         </div>
       </div>
     </div>

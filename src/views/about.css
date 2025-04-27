@@ -16,22 +16,22 @@
 /* Main title text */
 .about-text {
   margin-top: 10%;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   width: 100%;
   height: auto;
-  font-size: 50px;
-  font-style: Bold;
+  font-size: 22px;
+  font-style: normal;
   text-align: left;
   font-weight: 700;
   line-height: normal;
-  padding: 0 15%;
+  padding-left:15%;
   font-stretch: normal;
   text-decoration: none;
 }
 
 /* Content section container */
 .about-tshirts {
-  gap: 40px;
+  gap: 10px;
   width: 70%; /* Adjust width instead of padding */
   height: auto;
   display: flex;
@@ -60,7 +60,7 @@
 
 /* Info column container */
 .about-frame52 {
-  gap: var(--dl-space-space-twounits);
+  /* gap: var(--dl-space-space-twounits); */
   width: auto; /* Allow it to take remaining space */
   height: 100%;
   display: flex;
@@ -69,17 +69,25 @@
   flex-shrink: 1;
   flex-direction: column;
   justify-content: flex-start;
+  gap: 10px;
 }
 
+.about-text23{
+  align-self: flex-start;
+}
+
+.thanks{
+  opacity: 0.5;
+}
 /* Main description text */
 .about-text01 {
   color: rgb(255, 255, 255);
   height: auto;
-  font-size: 30px;
+  font-size: 18px;
   align-self: stretch;
-  font-style: Bold;
+  font-style: normal;
   text-align: left;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -92,34 +100,36 @@
   gap: 20px;
   display: flex;
   align-self: stretch;
-  align-items: flex-end;
+  align-items: center;
   flex-shrink: 0;
   justify-content: space-between;
 }
 
 /* Specific alignment adjustments */
 .about-frame68, .about-frame70 {
-  justify-content: flex-end;
-  align-items: center; /* Align items vertically */
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .about-frame661, .about-frame671, .about-frame69 {
-  align-items: flex-start; /* Adjust alignment */
+  align-items: flex-start;
 }
 
 /* Info label styles */
-.about-text02, .about-text04, .about-text06, .about-text09, .about-text15, .about-text21, .about-text49 {
+.about-text02, .about-text04, .about-text06, .about-text09, .about-text15, .about-text21, .about-text35, .about-text49 {
   color: rgba(255, 255, 255, 1);
   width: 182px;
   height: auto;
-  font-size: 30px;
-  font-style: Bold;
+  font-size: 18px;
+  font-style: normal;
   text-align: left;
-  font-weight: 700;
+  align-self: flex-start;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
-  flex-shrink: 0; /* Prevent shrinking */
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 /* Info value styles */
@@ -127,29 +137,38 @@
 .about-text17, .about-text19, .about-text23, .about-text35, .about-text37, .about-text51 {
   color: rgb(255, 255, 255);
   height: auto;
-  font-size: 30px;
-  font-style: Bold;
+  font-size: 18px;
+  font-style: normal;
   text-align: right;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  flex-grow: 1;
+}
+
+.about-text35{
+  text-align: left;
+  align-self: flex-start;
 }
 
 /* Specific value styles */
 .about-text03 {
   text-decoration: underline;
-  width: 100%; /* Take available space */
+  width: auto;
 }
 
 .about-text19 {
-  width: 479px;
+  width: 100%;
+  max-width: 479px;
   font-style: italic;
-  font-weight: 500;
+  text-align: right;
+  white-space: normal;
+  line-height: 1.3;
 }
 
 .about-text23, .about-text37, .about-text51 {
-  line-height: 1.5; /* Adjust line height for lists */
+  line-height: 1.3;
   text-align: right;
 }
 
@@ -158,14 +177,27 @@
   gap: 10px;
   display: flex;
   align-self: stretch;
-  align-items: flex-start;
+  align-items: flex-end;
   flex-direction: column;
 }
 
-/* Nested groupings */
-.about-frame71 {
-  /* Additional styles if needed */
+/* Brand identity group */
+.about-brand-identity-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+  width: 100%;
 }
+
+.about-brand-identity-group .about-text23,
+.about-brand-identity-group .about-text37 {
+  text-align: right;
+  width: auto;
+  white-space: nowrap;
+}
+
+/* Nested groupings */
 
 .about-frame79, .about-frame80, .about-frame81 {
   gap: 5px; /* Smaller gap for nested items */
@@ -174,21 +206,22 @@
 /* Helper text at the bottom */
 .about-text51 > div {
   margin-top: 20px; /* Add space above the helper text */
-  font-size: 14px; /* Smaller font size */
-  font-style: italic;
+  font-size: 18px; /* Smaller font size */
+  font-style: normal;
   color: #aaa; /* Lighter color */
-  text-align: right;
+  text-align: left;
+  font-weight: 400;
 }
 
 /* Responsive Styles */
 @media(max-width: 1900px) {
   .about-text, .about-tshirts {
-    width: 80%;
+    width: 70%;
     padding: 0; /* Remove padding, use width/margin */
     margin: 10% auto 0; /* Adjust top margin */
   }
   .about-text {
-    font-size: 40px;
+    font-size: 22px;
   }
   .about-tshirts {
     margin-top: 2%;
@@ -198,14 +231,14 @@
   .about-text06, .about-text08, .about-text09, .about-text11, .about-text13, 
   .about-text15, .about-text17, .about-text19, .about-text21, .about-text23, 
   .about-text35, .about-text37, .about-text49, .about-text51 {
-    font-size: 28px;
+    font-size: 18px;
   }
 }
 
 @media(max-width: 1400px) {
   .about-text {
     margin-top: 15%;
-    font-size: 30px;
+    font-size: 22px;
   }
   .about-rectangle35 {
     width: 15%;
@@ -214,7 +247,7 @@
   .about-text06, .about-text08, .about-text09, .about-text11, .about-text13, 
   .about-text15, .about-text17, .about-text19, .about-text21, .about-text23, 
   .about-text35, .about-text37, .about-text49, .about-text51 {
-    font-size: 25px;
+    font-size: 18px;
   }
 }
 
@@ -222,7 +255,7 @@
   /* Menu adjustments are handled in menue.css */
   .about-text {
     margin-top: 20%;
-    font-size: 35px;
+    font-size: 22px;
     width: 90%;
   }
   .about-tshirts {
@@ -239,17 +272,20 @@
   .about-text06, .about-text08, .about-text09, .about-text11, .about-text13, 
   .about-text15, .about-text17, .about-text19, .about-text21, .about-text23, 
   .about-text35, .about-text37, .about-text49, .about-text51 {
-    font-size: 22px;
+    font-size: 18px;
   }
   .about-text02, .about-text04, .about-text06, .about-text09, .about-text15, .about-text21, .about-text49 {
      width: auto; /* Let labels take natural width */
+  }
+  .about-text19 {
+    max-width: 100%;
   }
 }
 
 @media(max-width: 767px) {
   /* Menu adjustments are handled in menue.css */
   .about-text {
-    font-size: 20px;
+    font-size: 22px;
     width: 90%;
   }
   .about-tshirts {
@@ -264,12 +300,15 @@
   .about-text35, .about-text37, .about-text49, .about-text51 {
     font-size: 18px;
   }
+  .about-text19 {
+    max-width: 100%;
+  }
 }
 
 @media(max-width: 420px) {
   /* Menu adjustments are handled in menue.css */
   .about-text {
-    font-size: 20px;
+    font-size: 22px;
     width: 90%;
   }
   .about-tshirts {
@@ -289,28 +328,37 @@
   .about-frame66, .about-frame67, .about-frame661, .about-frame671, 
   .about-frame68, .about-frame69, .about-frame70, .about-frame72, 
   .about-frame721, .about-frame722 {
-    flex-direction: column; /* Stack label and value */
-    align-items: flex-start; /* Align text left */
-    gap: 5px;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
   }
   .about-text02, .about-text04, .about-text06, .about-text09, .about-text15, .about-text21, .about-text49 {
-    width: 100%; /* Full width for labels */
+    width: auto;
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
   }
   .about-text03, .about-text05, .about-text08, .about-text11, .about-text13, 
   .about-text17, .about-text19, .about-text23, .about-text35, .about-text37, .about-text51 {
-    width: 100%;
-    text-align: left; /* Align values left */
-    font-size: 16px;
+    width: auto;
+    text-align: right;
+    font-size: 18px;
   }
   .about-frame68, .about-frame70 {
     align-items: flex-start;
   }
   .about-text19 {
     width: 100%;
+    max-width: 100%;
+    text-align: left;
   }
   .about-text51 > div {
-    text-align: left; /* Align helper text left */
+    text-align: left;
+  }
+  .about-brand-identity-group {
+    align-items: flex-start;
+  }
+  .about-brand-identity-group .about-text23,
+  .about-brand-identity-group .about-text37 {
+    text-align: left;
   }
 }

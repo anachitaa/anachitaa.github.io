@@ -5,6 +5,7 @@
   display: flex;
   overflow: auto;
   min-height: 100vh;
+  padding: 0;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
@@ -25,16 +26,15 @@
 
 /* Main title text */
 .roots-text16 {
-  margin-top: 10%;
+  margin-top: 15%;
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 50px;
-  font-style: Bold;
+  font-size: 20px;
   text-align: left;
   font-weight: 700;
   line-height: normal;
-  padding: 0 15%;
+  padding-left:15%;
   font-stretch: normal;
   text-decoration: none;
 }
@@ -46,7 +46,7 @@
   height: auto;
   display: flex;
   align-self: center;
-  margin: 2% auto 12%; /* Use margin for spacing */
+  /* margin: 2% auto 12%;  */
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -58,14 +58,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 4%; /* Consistent gap */
+  gap: 4%; 
 }
 
 /* Image styles */
 .roots-rectangle35, .roots-rectangle351, .roots-rectangle352, 
 .roots-rectangle353, .roots-rectangle354, .roots-rectangle355, 
 .roots-rectangle356, .roots-rectangle357, .roots-rectangle36 {
-  width: 48%; /* Adjust width for 2-column layout */
+  /* width: 48%;  */
   height: auto;
   object-fit: cover;
 }
@@ -88,10 +88,9 @@
   color: rgb(255, 255, 255);
   height: auto;
   flex-grow: 1;
-  font-size: 30px;
-  font-style: Bold;
+  font-size: 18px;
   text-align: left;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -100,11 +99,11 @@
 /* Responsive Styles */
 @media(max-width: 1900px) {
   .roots-text16 {
-    font-size: 40px;
-    padding: 0 10%;
+    font-size: 18px;
+    font-weight: 400;
   }
   .roots-frame54 {
-    width: 80%;
+    width: 70%;
   }
   .roots-text19 {
     font-size: 28px;
@@ -113,34 +112,34 @@
 
 @media(max-width: 1400px) {
   .roots-text16 {
-    margin-top: 15%;
-    font-size: 30px;
+    font-size: 18px;
+    font-weight: 400;
   }
   .roots-text19 {
-    font-size: 25px;
+    font-size: 18px;
   }
 }
 
 @media(max-width: 991px) {
   /* Menu adjustments are handled in menue.css */
   .roots-text16 {
-    margin-top: 20%;
-    font-size: 30px;
-    padding: 0 10%;
+    font-size: 18px;
+    font-weight: 400;
   }
   .roots-tshirts, .roots-tshirts1, .roots-tshirts2, .roots-tshirts3, .roots-frame6 {
     gap: var(--dl-space-space-threeunits);
   }
   /* Images will naturally stack if container width is reduced */
   .roots-text19 {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
 @media(max-width: 767px) {
   /* Menu adjustments are handled in menue.css */
   .roots-text16 {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 400;
   }
   .roots-frame54 {
     width: 80%;
@@ -154,8 +153,8 @@
 @media(max-width: 420px) {
   /* Menu adjustments are handled in menue.css */
   .roots-text16 {
-    font-size: 20px;
-    padding: 0 10%;
+    font-size: 18px;
+    font-weight: 400;
   }
   .roots-frame54 {
     width: 90%; /* Increase width slightly for small screens */
@@ -218,11 +217,11 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -243,11 +242,11 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -268,11 +267,11 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -293,11 +292,11 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -318,11 +317,11 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -343,11 +342,11 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -368,11 +367,11 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -393,12 +392,81 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.roots-text,
+.roots-text02,
+.roots-text04,
+.roots-text06,
+.roots-text08,
+.roots-text10,
+.roots-text12,
+.roots-text14,
+.roots-text21,
+.roots-text25,
+.roots-text32,
+.roots-text36,
+.roots-text41,
+.roots-text45,
+.roots-text46,
+.roots-text50,
+.roots-text55 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.roots-text17 {
+  margin-top: 15%;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  font-size: 22px;
+  text-align: left;
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+
+@media(max-width: 1900px) {
+  .roots-text17 {
+    font-size: 22px;
+    margin-top: 15%;
+  }
+}
+
+@media(max-width: 1400px) {
+  .roots-text17 {
+    font-size: 22px;
+    margin-top: 15%;
+  }
+}
+
+@media(max-width: 991px) {
+  .roots-text17 {
+    font-size: 22px;
+    margin-top: 15%;
+  }
+}
+
+@media(max-width: 767px) {
+  .roots-text17 {
+    font-size: 22px;
+    margin-top: 15%;
+  }
+}
+
+@media(max-width: 420px) {
+  .roots-text17 {
+    font-size: 22px;
+    margin-top: 15%;
+  }
 }

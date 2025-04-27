@@ -60,11 +60,9 @@
     width: 110px;
     height: auto;
     position: absolute;
-    font-size: 20px;
-    font-style: Bold;
+    font-size: 18px;
+    font-weight: 400;
     text-align: left;
-    
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -88,7 +86,6 @@
     font-size: 20px;
     font-style: Bold;
     text-align: left;
-    
     font-weight: 700;
     line-height: normal;
     font-stretch: normal;
@@ -245,23 +242,21 @@
     text-decoration: none;
   }
   .riso-prints-text16 {
-    margin-top: 10%;
+    margin-top: 15%;
     color: rgb(255, 255, 255);
     width: 100%;
     height: auto;
-    font-size: 50px;
-    font-style: Bold;
+    font-size: 22px;
     text-align: left;
-    
     font-weight: 700;
     line-height: normal;
-    padding: 0 15%;
+    padding-left: 15%;
     font-stretch: normal;
     text-decoration: none;
   }
   .riso-prints-frame54 {
     gap: 65px;
-    width: 70%;
+    width: 100%;
     height: auto;
     display: flex;
     align-self: center;
@@ -278,12 +273,12 @@
     justify-content: center;
   }
   .riso-prints-rectangle35 {
-    width: 45%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
   .riso-prints-rectangle351 {
-    width: 45%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
@@ -295,12 +290,12 @@
     justify-content: center;
   }
   .riso-prints-rectangle352 {
-    width: 45%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
   .riso-prints-rectangle353 {
-    width: 45%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
@@ -312,12 +307,12 @@
     justify-content: center;
   }
   .riso-prints-rectangle354 {
-    width: 45%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
   .riso-prints-rectangle355 {
-    width: 45%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
@@ -329,12 +324,12 @@
     justify-content: center;
   }
   .riso-prints-rectangle356 {
-    width: 45%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
   .riso-prints-rectangle357 {
-    width: 45%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
@@ -362,10 +357,10 @@
   @media(max-width: 1900px) {
     .riso-prints-text16 {
       font-size: 40px;
-      padding: 0 10%;
+      padding-left: 15%;
     }
     .riso-prints-frame54 {
-      width: 80%;
+      width: 70%;
     }
     .riso-prints-text17 {
       font-size: 28px;
@@ -374,23 +369,25 @@
   @media(max-width: 1400px) {
     .riso-prints-text16 {
       margin-top: 15%;
-      font-size: 30px;
+      font-size: 22px;
     }
     .riso-prints-text17 {
-      font-size: 25px;
+      font-size: 18px;
+      font-weight: 400;
+
     }
   }
   @media(max-width: 991px) {
     .riso-prints-text16 {
-      margin-top: 20%;
-      font-size: 30px;
+      margin-top: 15%;
+      font-size: 22px;
     }
     .riso-prints-tshirts, .riso-prints-tshirts1, 
     .riso-prints-tshirts2, .riso-prints-tshirts3 {
       gap: var(--dl-space-space-threeunits);
     }
     .riso-prints-text17 {
-      font-size: 22px;
+      font-size: 18px;
     }
   }
   @media(max-width: 767px) {

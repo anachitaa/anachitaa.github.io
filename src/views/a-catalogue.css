@@ -25,12 +25,11 @@
 
 /* Main title text */
 .a-catalogue-text16 {
-  margin-top: 10%;
+  margin-top: 15%;
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 50px;
-  font-style: Bold;
+  font-size: 22px;
   text-align: left;
   font-weight: 700;
   line-height: normal;
@@ -98,7 +97,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between; /* Position arrows at ends */
-  width: 80%; /* Control arrow positioning */
+  width: 70%; /* Control arrow positioning */
   margin-top: 20px;
 }
 
@@ -109,7 +108,7 @@
   background-color: transparent;
   border: none;
   color: #fff; /* White arrows */
-  font-size: 36px; /* Larger arrows */
+  font-size: 22px; /* Larger arrows */
   padding: 0 20px;
   line-height: 1;
 }
@@ -120,10 +119,9 @@
   width: 100%;
   height: auto;
   flex-grow: 1;
-  font-size: 30px;
-  font-style: Bold;
+  font-size: 18px;
   text-align: left;
-  font-weight: 700;
+  font-weight:400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -132,38 +130,38 @@
 /* Responsive Styles */
 @media(max-width: 1900px) {
   .a-catalogue-text16 {
-    font-size: 40px;
-    padding: 0 10%;
+    font-size: 22px;
+    padding-left: 15%;
   }
   .a-catalogue-tshirts {
-    width: 80%;
+    width: 70%;
   }
   .a-catalogue-text17 {
-    font-size: 28px;
+    font-size: 18px;
   }
 }
 
 @media(max-width: 1400px) {
   .a-catalogue-text16 {
     margin-top: 15%;
-    font-size: 30px;
+    font-size: 22px;
   }
   .a-catalogue-text17 {
-    font-size: 25px;
+    font-size: 18px;
   }
 }
 
 @media(max-width: 991px) {
   /* Menu adjustments handled in menue.css */
   .a-catalogue-text16 {
-    margin-top: 20%;
-    font-size: 30px;
+    margin-top: 15%;
+    font-size: 22px;
   }
   .a-catalogue-tshirts {
-    width: 80%;
+    width: 70%;
   }
   .a-catalogue-text17 {
-    font-size: 22px;
+    font-size: 18px;
   }
   .a-catalogue-rectangle351 {
     width: 80%; /* Make slider images wider on medium screens */

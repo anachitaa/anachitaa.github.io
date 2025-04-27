@@ -59,10 +59,8 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
-  font-style: Bold;
+  font-size: 18px;
   text-align: left;
-  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -84,7 +82,7 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
@@ -109,7 +107,7 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
@@ -134,7 +132,7 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
@@ -159,7 +157,7 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
@@ -184,7 +182,7 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
@@ -209,10 +207,8 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
-  font-style: Bold;
+  font-size: 18px;
   text-align: left;
-  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -234,31 +230,24 @@
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
-  font-style: Bold;
+  font-size: 18px;
   text-align: left;
-  
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
 .a-series-of-hoodies-t-shirts-and-tote-bags-text16 {
-  margin-top: 10%;
+  margin-top: 15%;
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 50px;
-  font-style: Bold;
+  font-size: 22px;
   text-align: left;
-  
   font-weight: 700;
   line-height: normal;
-  padding-top: 0px;
-  font-stretch: normal;
   padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 0px;
+  font-stretch: normal;
   text-decoration: none;
 }
 .a-series-of-hoodies-t-shirts-and-tote-bags-tshirts {
@@ -296,11 +285,8 @@
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 30px;
-  font-style: Bold;
+  font-size: 18px;
   text-align: left;
-  
-  font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -309,7 +295,7 @@
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 30px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
@@ -351,7 +337,7 @@
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 30px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
@@ -364,7 +350,7 @@
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 30px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
@@ -406,7 +392,7 @@
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 30px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
@@ -419,7 +405,7 @@
   color: rgb(255, 255, 255);
   width: 167px;
   height: auto;
-  font-size: 30px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
@@ -461,7 +447,7 @@
   color: rgb(255, 255, 255);
   width: auto;
   height: auto;
-  font-size: 30px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
@@ -474,7 +460,7 @@
   color: rgb(255, 255, 255);
   width: 167px;
   height: auto;
-  font-size: 30px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
@@ -516,11 +502,9 @@
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 30px;
-  font-style: Bold;
-  text-align: left;
-  
-  font-weight: 700;
+  font-size: 18px;
+  text-align: left; 
+  /* font-weight: 700; */
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -529,7 +513,7 @@
   color: rgb(255, 255, 255);
   width: 167px;
   height: auto;
-  font-size: 30px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
   
@@ -554,11 +538,11 @@
 /* Responsive Styles */
 @media(max-width: 1900px) {
   .a-series-of-hoodies-t-shirts-and-tote-bags-text16 {
-    font-size: 40px;
-    padding: 0 10%;
+    font-size: 22px;
+    margin-top: 15%;
   }
   .a-series-of-hoodies-t-shirts-and-tote-bags-tshirts {
-    width: 80%;
+    width: 100%;
   }
   /* Adjust text sizes */
   .a-series-of-hoodies-t-shirts-and-tote-bags-text17, 
@@ -571,14 +555,15 @@
   .a-series-of-hoodies-t-shirts-and-tote-bags-text46, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-text50, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-text55 {
-    font-size: 28px;
+    font-size: 18px;
+    font-weight: 400;
   }
 }
 
 @media(max-width: 1400px) {
   .a-series-of-hoodies-t-shirts-and-tote-bags-text16 {
+    font-size: 22px;
     margin-top: 15%;
-    font-size: 30px;
   }
   /* Adjust text sizes */
   .a-series-of-hoodies-t-shirts-and-tote-bags-text17, 
@@ -591,15 +576,15 @@
   .a-series-of-hoodies-t-shirts-and-tote-bags-text46, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-text50, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-text55 {
-    font-size: 25px;
+    font-size: 18px;
   }
 }
 
 @media(max-width: 991px) {
   /* Menu adjustments handled in menue.css */
   .a-series-of-hoodies-t-shirts-and-tote-bags-text16 {
-    margin-top: 20%;
-    font-size: 30px;
+    font-size: 22px;
+    margin-top: 15%;
   }
   .a-series-of-hoodies-t-shirts-and-tote-bags-tshirts {
     width: 80%;
@@ -629,8 +614,8 @@
 @media(max-width: 767px) {
   /* Menu adjustments handled in menue.css */
   .a-series-of-hoodies-t-shirts-and-tote-bags-text16 {
-    font-size: 20px;
-    padding: 0 10%;
+    font-size: 22px;
+    margin-top: 15%;
   }
   .a-series-of-hoodies-t-shirts-and-tote-bags-tshirts {
     width: 90%;
@@ -647,15 +632,15 @@
   .a-series-of-hoodies-t-shirts-and-tote-bags-text46, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-text50, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-text55 {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
 @media(max-width: 420px) {
   /* Menu adjustments handled in menue.css */
   .a-series-of-hoodies-t-shirts-and-tote-bags-text16 {
-    font-size: 20px;
-    padding-right: 10%; /* Ensure padding is consistent */
+    font-size: 22px;
+    margin-top: 15%;
   }
   .a-series-of-hoodies-t-shirts-and-tote-bags-tshirts {
     width: 90%;
@@ -691,7 +676,7 @@
   .a-series-of-hoodies-t-shirts-and-tote-bags-text50, 
   .a-series-of-hoodies-t-shirts-and-tote-bags-text55 {
     width: 240px;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
   }
   /* Images take full width */

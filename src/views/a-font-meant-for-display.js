@@ -21,11 +21,13 @@ const AFontMeantForDisplay = (props) => {
         a font meant for display
       </span>
       <div className="a-font-meant-for-display-container1">
-        <img
-          alt="Rectangle83978"
-          src="/animations/b1ce2389-fa76-4288-83f1-1f8dc172c53a-1500w.gif"
-          className="a-font-meant-for-display-rectangle8"
-        />
+        <div className="a-font-meant-for-display-image-wrapper">
+          <img
+            alt="Rectangle83978"
+            src="/animations/b1ce2389-fa76-4288-83f1-1f8dc172c53a-1500w.gif"
+            className="a-font-meant-for-display-rectangle8"
+          />
+        </div>
         <img
           alt="Rectangle83978"
           src="/external/font1i397-6a5n-1500w.png"

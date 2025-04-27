@@ -36,7 +36,7 @@ const Roots = (props) => {
             className="roots-rectangle35"
           />
         </div>
-        <div className="roots-tshirts1">
+        <div className="roots-tshirts">
         <ModalImage
             alt="photo 2"
             small="/external/roots/3.png"
@@ -52,7 +52,7 @@ const Roots = (props) => {
             className="roots-rectangle353"
           />
         </div>
-        <div className="roots-tshirts2">
+        <div className="roots-tshirts">
         <ModalImage
             alt="photo 2"
             small="/external/roots/5.png"

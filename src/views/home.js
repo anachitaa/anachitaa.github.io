@@ -53,7 +53,7 @@ const Home = (props) => {
               />
               <img
                 alt="Rectangle295391"
-                src="/external/rectangle295391-c59i-300w.png"
+                src="/3d/chess-1500w.jpg"
                 className="home-rectangle29"
               />
             </div>

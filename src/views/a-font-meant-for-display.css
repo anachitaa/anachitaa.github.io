@@ -25,12 +25,11 @@
 
 /* Main title text */
 .a-font-meant-for-display-text16 {
-  margin-top: 10%;
+  margin-top: 15%;
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 50px;
-  font-style: Bold;
+  font-size: 22px;
   text-align: left;
   font-weight: 700;
   line-height: normal;
@@ -41,7 +40,7 @@
 
 /* Content section container */
 .a-font-meant-for-display-container1 {
-  gap: var(--dl-space-space-threeunits);
+  gap: 30px; /* Consistent spacing between elements */
   width: 70%; /* Use width instead of padding */
   display: flex;
   align-items: center;
@@ -59,6 +58,31 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+/* Zoom effect for rectangle8 with appropriate scale */
+.a-font-meant-for-display-image-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: block; /* Ensure display */
+  max-height: 350px; /* Control maximum height */
+}
+
+.a-font-meant-for-display-rectangle8 {
+  width: 100%;
+  object-fit: cover; /* Cover ensures it fills the container */
+  display: block; /* Ensure display */
+  transform: scale(1.5); /* Slight zoom effect */
+  transform-origin: center center;
+  /* Make it narrower on y-axis by setting specific height */
+  height: 350px; /* Control the height precisely */
+  margin-top: -10%;
+}
+
+/* Space between images */
+.a-font-meant-for-display-container1 > * {
+  margin-bottom: 0; /* Remove additional margin */
 }
 
 /* Three-column row container */
@@ -83,17 +107,13 @@
 @media(max-width: 1900px) {
   .a-font-meant-for-display-text16 {
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 22px;
     font-weight: 700;
     line-height: normal;
-    padding-left: 10%;
-    padding-right: 10%;
     text-decoration: none;
   }
   .a-font-meant-for-display-container1 {
     padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
     padding-bottom: 12%; /* Corrected percentage */
   }
   .a-font-meant-for-display-rectangle34, 
@@ -115,10 +135,10 @@
 @media(max-width: 1400px) {
   .a-font-meant-for-display-text16 {
     margin-top: 15%;
-    font-size: 30px;
+    font-size: 22px;
   }
   .a-font-meant-for-display-container1 {
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -126,7 +146,7 @@
   /* Menu adjustments handled in menue.css */
   .a-font-meant-for-display-text16 {
     margin-top: 20%;
-    font-size: 30px;
+    font-size: 22px;
   }
   .a-font-meant-for-display-container1 {
     width: 80%;

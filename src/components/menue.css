@@ -14,8 +14,8 @@
 
 /* Logo styling */
 .menue-frame92 {
-  width: 165px;
-  height: 51.44117736816406px;
+  width: 120px;
+  height: 37px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -101,18 +101,19 @@
 /* Common text styles */
 .menue-text, .menue-text02, .menue-text04, .menue-text06,
 .menue-text08, .menue-text10, .menue-text12, .menue-text14 {
-  top: 6px;
-  left: 5px;
   width: 110px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 16px;
   font-style: Bold;
   text-align: left;
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
 }
 
 /* Text colors */

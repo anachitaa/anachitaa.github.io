@@ -36,7 +36,7 @@ const Unity = (props) => {
         >
           <div className="unity-frame53">
             <span className="unity-text17">
-              <span>Try it yourself</span>
+              <span>try it yourself</span>
             </span>
           </div>
         </a>
