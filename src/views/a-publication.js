@@ -14,7 +14,7 @@ const APublication = (props) => {
 
   const handleRightSlide = () => {
     setSlideIndex((prevIndex) =>
-      prevIndex < 4 ? prevIndex + 1 : 4
+      prevIndex < 2 ? prevIndex + 1 : 2
     );
   };
 
@@ -53,7 +53,7 @@ const APublication = (props) => {
           alignItems: "center",
           transform: `translateX(-${slideIndex * slideWidth}%)`, 
           transition: "transform 0.5s ease-in-out",
-          gap: "5%",
+          gap: "2%",
           width: "80%",
           height: "80%",
         }}>

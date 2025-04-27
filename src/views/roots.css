@@ -41,7 +41,7 @@
 
 /* Main content container */
 .roots-frame54 {
-  gap: 65px;
+  gap: 30px;
   width: 70%; /* Use width instead of padding */
   height: auto;
   display: flex;
@@ -50,6 +50,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 6%;
 }
 
 /* Image row containers */
@@ -58,7 +59,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 4%; 
+  gap: 2%; 
 }
 
 /* Image styles */

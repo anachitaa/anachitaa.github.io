@@ -31,12 +31,12 @@
 
 /* Content section container */
 .d-tshirts {
-  gap: 65px;
+  gap: 30px;
   width: 70%; /* Reduced padding by setting width */
   height: auto;
   display: flex;
   align-items: center;
-  margin: 2% auto 12%; /* Replaced padding with margin */
+  margin: 2% auto 6%; /* Replaced padding with margin */
   flex-direction: column;
   justify-content: center;
 }
@@ -47,7 +47,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  gap: 4%;
+  gap: 2%;
 }
 
 /* Description text styles */

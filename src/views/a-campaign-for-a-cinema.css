@@ -63,7 +63,7 @@
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -88,7 +88,7 @@
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -113,7 +113,7 @@
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -138,7 +138,7 @@
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -163,7 +163,7 @@
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -188,7 +188,7 @@
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -213,7 +213,7 @@
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -238,11 +238,25 @@
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
   }
+
+  .a-campaign-for-a-cinema-frame92 {
+    gap: 30px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-self: center;
+    /* margin: 2% auto 12%; */
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 6%;
+}
+
   .a-campaign-for-a-cinema-text16 {
     margin-top: 10%;
     color: rgb(255, 255, 255);
@@ -260,7 +274,7 @@
     text-decoration: none;
   }
   .a-campaign-for-a-cinema-tshirts {
-    gap: 65px;
+    gap: 30px;
     width: 100%;
     height: auto;
     display: flex;
@@ -269,7 +283,7 @@
     padding-left: 15%;
     padding-right: 15%;
     flex-direction: column;
-    padding-bottom: 12%;
+    padding-bottom: 6%;
     justify-content: center;
   }
   .a-campaign-for-a-cinema-frame95 {
@@ -278,13 +292,14 @@
     align-items: center;
     flex-shrink: 0;
     justify-content: space-between;
+    gap: 2%;
   }
   .a-campaign-for-a-cinema-rectangle34 {
-    width: 47%;
+    width: 50%;
     height: auto;
   }
   .a-campaign-for-a-cinema-rectangle35 {
-    width: 47%;
+    width: 50%;
     height: auto;
   }
   .a-campaign-for-a-cinema-frame93 {
@@ -305,17 +320,18 @@
     align-items: center;
     flex-shrink: 0;
     justify-content: space-between;
+    gap: 2%;
   }
   .a-campaign-for-a-cinema-rectangle342 {
-    width: 30%;
+    width: 33.3%;
     height: auto;
   }
   .a-campaign-for-a-cinema-rectangle36 {
-    width: 30%;
+    width: 33.3%;
     height: auto;
   }
   .a-campaign-for-a-cinema-rectangle351 {
-    width: 30%;
+    width: 33.3%;
     height: auto;
   }
   .a-campaign-for-a-cinema-frame54 {
@@ -343,11 +359,11 @@
     color: rgb(255, 255, 255);
     width: 320px;
     height: auto;
-    font-size: 30px;
+    font-size: 18px;
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -367,11 +383,11 @@
     color: rgb(255, 255, 255);
     width: 376px;
     height: auto;
-    font-size: 30px;
+    font-size: 18px;
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -391,11 +407,11 @@
     color: rgb(255, 255, 255);
     width: 376px;
     height: auto;
-    font-size: 30px;
+    font-size: 18px;
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -412,11 +428,11 @@
     color: rgba(255, 255, 255, 1);
     width: 376px;
     height: auto;
-    font-size: 30px;
+    font-size: 18px;
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -433,11 +449,11 @@
     color: rgba(255, 255, 255, 1);
     width: 376px;
     height: auto;
-    font-size: 30px;
+    font-size: 18px;
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -454,11 +470,11 @@
     color: rgba(255, 255, 255, 1);
     width: 376px;
     height: auto;
-    font-size: 30px;
+    font-size: 18px;
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -469,7 +485,6 @@
     align-items: center;
     flex-shrink: 0;
     padding-top: 0 0 0 70px;
-    padding-left: 1000px;
     padding-right: 0 0 0 70px;
     padding-bottom: 0 0 0 70px;
     justify-content: flex-end;
@@ -478,11 +493,10 @@
     color: rgba(255, 255, 255, 1);
     width: 376px;
     height: auto;
-    font-size: 30px;
-    font-style: Bold;
+    font-size: 18px;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -498,11 +512,11 @@
     width: auto;
     height: auto;
     flex-grow: 1;
-    font-size: 30px;
+    font-size: 18px;
     font-style: Bold;
     text-align: left;
     
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -579,7 +593,7 @@
   @media(max-width: 1400px) {
     .a-campaign-for-a-cinema-text16 {
       color: rgb(255, 255, 255);
-      font-size: 30px;
+      font-size: 18px;
       font-weight: 700;
       line-height: normal;
       padding-left: 10%;
@@ -613,7 +627,7 @@
     .a-campaign-for-a-cinema-text18 {
       color: rgb(255, 255, 255);
       font-size: 25px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -657,7 +671,7 @@
     .a-campaign-for-a-cinema-text16 {
     margin-top: 20%;
       color: rgb(255, 255, 255);
-      font-size: 30px;
+      font-size: 18px;
       font-weight: 700;
       line-height: normal;
       padding-left: 10%;
@@ -705,7 +719,7 @@
       color: rgb(255, 255, 255);
       width: 160px;
       font-size: 22px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -715,7 +729,7 @@
     .a-campaign-for-a-cinema-text18 {
       color: rgb(255, 255, 255);
       font-size: 22px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -725,7 +739,7 @@
     .a-campaign-for-a-cinema-text19 {
       color: rgb(255, 255, 255);
       font-size: 22px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -735,7 +749,7 @@
     .a-campaign-for-a-cinema-text20 {
       color: rgb(255, 255, 255);
       font-size: 22px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -745,7 +759,7 @@
     .a-campaign-for-a-cinema-text21 {
       color: rgb(255, 255, 255);
       font-size: 22px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -755,7 +769,7 @@
     .a-campaign-for-a-cinema-text22 {
       color: rgb(255, 255, 255);
       font-size: 22px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -765,7 +779,7 @@
     .a-campaign-for-a-cinema-text23 {
       color: rgb(255, 255, 255);
       font-size: 22px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -777,7 +791,7 @@
     .a-campaign-for-a-cinema-text24 {
       color: rgb(255, 255, 255);
       font-size: 22px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -790,7 +804,7 @@
     .a-campaign-for-a-cinema-text16 {
       color: rgb(255, 255, 255);
       font-size: 20px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       padding-left: 10%;
       padding-right: 10%;
@@ -844,7 +858,7 @@
       color: rgb(255, 255, 255);
       width: 120px;
       font-size: 18px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -856,7 +870,7 @@
       color: rgb(255, 255, 255);
       width: 200px;
       font-size: 18px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -868,7 +882,7 @@
       color: rgb(255, 255, 255);
       width: 200px;
       font-size: 18px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -880,7 +894,7 @@
       color: rgb(255, 255, 255);
       width: 200px;
       font-size: 18px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -892,7 +906,7 @@
       color: rgb(255, 255, 255);
       width: 200px;
       font-size: 18px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -904,7 +918,7 @@
       color: rgb(255, 255, 255);
       width: 200px;
       font-size: 20px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -917,7 +931,7 @@
       color: rgb(255, 255, 255);
       width: 200px;
       font-size: 18px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -949,7 +963,7 @@
     .a-campaign-for-a-cinema-text16 {
       color: rgb(255, 255, 255);
       font-size: 20px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       padding-left: 10%;
       padding-right: 10%;
@@ -997,7 +1011,7 @@
     .a-campaign-for-a-cinema-text17 {
       color: rgb(255, 255, 255);
       font-size: 16px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -1005,7 +1019,7 @@
       color: rgb(255, 255, 255);
       width: 100%;
       font-size: 16px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -1013,7 +1027,7 @@
       color: rgb(255, 255, 255);
       width: 100%;
       font-size: 16px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -1021,7 +1035,7 @@
       color: rgb(255, 255, 255);
       width: 100%;
       font-size: 16px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -1029,7 +1043,7 @@
       color: rgb(255, 255, 255);
       width: 100%;
       font-size: 16px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -1037,7 +1051,7 @@
       color: rgb(255, 255, 255);
       width: 100%;
       font-size: 16px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }
@@ -1048,7 +1062,7 @@
       color: rgb(255, 255, 255);
       width: 100%;
       font-size: 16px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: normal;
       text-decoration: none;
     }

@@ -283,14 +283,15 @@
 
 /* Content section container */
 .unity-tshirts {
-  gap: 65px;
+  gap: 30px;
   width: 70%; /* Use width instead of padding */
   height: auto;
   display: flex;
   align-items: center;
-  margin: 2% auto 12%; /* Use margin for spacing */
+  margin: 2% auto; /* Use margin for spacing */
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 6%;
 }
 
 /* Image row container */
@@ -299,7 +300,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  gap: 4%;
+  gap: 2%;
 }
 
 /* Image container */

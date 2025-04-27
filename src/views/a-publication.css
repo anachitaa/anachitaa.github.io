@@ -3,7 +3,8 @@
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
   display: flex;
-  overflow: auto;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-y: auto; /* Allow vertical scrolling */
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
@@ -174,8 +175,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
-  margin: 0 auto 60px;
+  gap: 30px;
+  margin: 0 auto 6%;
+  position: relative; /* Add position relative */
+  overflow: visible; /* Allow content to overflow */
 }
 
 /* Image row container */
@@ -193,7 +196,7 @@
 .a-publication-rectangle34,
 .a-publication-rectangle35,
 .a-publication-rectangle36 {
-  width: 30%;
+  width: 33.3%;
   height: auto;
   object-fit: cover;
   border-radius: 4px;
@@ -239,6 +242,13 @@
   font-family: Helvetica Neue;
   font-weight: 400;
   line-height: 1.5;
+}
+
+/* Slider container - add this new class */
+.carousel-container {
+  position: relative;
+  width: 80%;
+  overflow: hidden; /* Hide overflow for carousel container only */
 }
 
 /* Responsive styles */

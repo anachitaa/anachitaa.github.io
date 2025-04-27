@@ -9,6 +9,8 @@
   flex-direction: column;
   background-color: #000000;
   position: relative; /* For slider positioning */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-y: auto; /* Allow vertical scrolling */
 }
 
 /* Menu container styles (Inherited from Menue component) */
@@ -48,6 +50,10 @@
   margin: 2% auto 12%; /* Use margin for spacing */
   flex-direction: column;
   justify-content: center;
+  gap: 30px;
+  margin: 0 auto 6%;
+  position: relative; /* Add position relative */
+  overflow: visible; /* Allow content to overflow */
 }
 
 /* Image row container */
@@ -57,14 +63,14 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  gap: 4%;
+  gap: 2%;
 }
 
 /* Top row image styles */
 .a-catalogue-rectangle34, 
 .a-catalogue-rectangle341, 
 .a-catalogue-rectangle342 {
-  width: 30%; /* Three columns */
+  width: 33.3%; /* Three columns */
   height: auto;
   object-fit: cover;
 }

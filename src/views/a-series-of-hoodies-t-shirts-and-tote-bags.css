@@ -251,7 +251,7 @@
   text-decoration: none;
 }
 .a-series-of-hoodies-t-shirts-and-tote-bags-tshirts {
-  gap: 65px;
+  gap: 30px;
   width: 100%;
   height: auto;
   display: flex;
@@ -260,7 +260,7 @@
   padding-left: 15%;
   padding-right: 15%;
   flex-direction: column;
-  padding-bottom: 12%;
+  padding-bottom: 6%;
   justify-content: center;
 }
 .a-series-of-hoodies-t-shirts-and-tote-bags-frame6 {

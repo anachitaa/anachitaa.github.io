@@ -52,7 +52,7 @@ const ACatalogue = (props) => {
             alignItems: "center",
             transform: `translateX(-${slideIndex * slideWidth}%)`,
             transition: "transform 0.5s ease-in-out",
-            gap: "5%",
+            gap: "2%",
             width: "100%",
             height: "100%",
           }}
