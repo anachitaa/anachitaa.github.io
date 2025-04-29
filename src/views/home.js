@@ -373,7 +373,7 @@ const Home = (props) => {
               />
             </span>
             <br></br>
-            <span>updated in April 2024</span>
+            <span>updated in April 2025</span>
           </span>
         </div>
       </div>

@@ -25,28 +25,27 @@
 
 /* Main title text */
 .a-logo-for-an-it-company-text16 {
-  margin-top: 10%;
+  margin-top: 15%;
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 50px;
-  font-style: Bold;
+  font-size: 20px;
   text-align: left;
   font-weight: 700;
   line-height: normal;
-  padding: 0 15%;
+  padding-left:15%;
   font-stretch: normal;
   text-decoration: none;
 }
 
 /* Content section container */
 .a-logo-for-an-it-company-tshirts {
-  gap: 65px;
+  gap: 30px;
   width: 70%; /* Use width instead of padding */
   height: auto;
   display: flex;
   align-items: center;
-  margin: 2% auto 12%; /* Use margin for spacing */
+  margin: 2% auto 6%; /* Use margin for spacing */
   flex-direction: column;
   justify-content: center;
 }
@@ -75,10 +74,10 @@
   width: 100%; /* Let text take full width */
   height: auto;
   flex-grow: 1;
-  font-size: 30px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;

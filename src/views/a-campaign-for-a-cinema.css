@@ -295,11 +295,11 @@
     gap: 2%;
   }
   .a-campaign-for-a-cinema-rectangle34 {
-    width: 50%;
+    width: 49%;
     height: auto;
   }
   .a-campaign-for-a-cinema-rectangle35 {
-    width: 50%;
+    width: 49%;
     height: auto;
   }
   .a-campaign-for-a-cinema-frame93 {
@@ -323,15 +323,15 @@
     gap: 2%;
   }
   .a-campaign-for-a-cinema-rectangle342 {
-    width: 33.3%;
+    width: 32%;
     height: auto;
   }
   .a-campaign-for-a-cinema-rectangle36 {
-    width: 33.3%;
+    width: 32%;
     height: auto;
   }
   .a-campaign-for-a-cinema-rectangle351 {
-    width: 33.3%;
+    width: 32%;
     height: auto;
   }
   .a-campaign-for-a-cinema-frame54 {
@@ -371,13 +371,13 @@
   .a-campaign-for-a-cinema-frame971 {
     width: 100%;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     flex-shrink: 0;
     padding-top: 0 0 0 70px;
     padding-left: 0px;
     padding-right: 0 0 0 70px;
     padding-bottom: 0 0 0 70px;
-    justify-content: flex-end;
   }
   .a-campaign-for-a-cinema-text18 {
     color: rgb(255, 255, 255);
@@ -385,8 +385,7 @@
     height: auto;
     font-size: 18px;
     font-style: Bold;
-    text-align: left;
-    
+    text-align: right;
     font-weight: 400;
     line-height: normal;
     font-stretch: normal;
@@ -395,13 +394,13 @@
   .a-campaign-for-a-cinema-frame972 {
     width: 100%;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     flex-shrink: 0;
     padding-top: 0 0 0 70px;
     padding-left: 0px;
     padding-right: 0 0 0 70px;
     padding-bottom: 0 0 0 70px;
-    justify-content: flex-end;
   }
   .a-campaign-for-a-cinema-text19 {
     color: rgb(255, 255, 255);
@@ -409,8 +408,7 @@
     height: auto;
     font-size: 18px;
     font-style: Bold;
-    text-align: left;
-    
+    text-align: right;
     font-weight: 400;
     line-height: normal;
     font-stretch: normal;
@@ -419,10 +417,10 @@
   .a-campaign-for-a-cinema-frame98 {
     width: 100%;
     display: flex;
-    padding: 0 0 0 70px;
+    justify-content: flex-end;
     align-items: center;
     flex-shrink: 0;
-    justify-content: flex-end;
+    padding: 0 0 0 70px;
   }
   .a-campaign-for-a-cinema-text20 {
     color: rgba(255, 255, 255, 1);
@@ -430,8 +428,7 @@
     height: auto;
     font-size: 18px;
     font-style: Bold;
-    text-align: left;
-    
+    text-align: right;
     font-weight: 400;
     line-height: normal;
     font-stretch: normal;
@@ -440,10 +437,10 @@
   .a-campaign-for-a-cinema-frame99 {
     width: 100%;
     display: flex;
-    padding: 0 0 0 70px;
+    justify-content: flex-end;
     align-items: center;
     flex-shrink: 0;
-    justify-content: flex-end;
+    padding: 0 0 0 70px;
   }
   .a-campaign-for-a-cinema-text21 {
     color: rgba(255, 255, 255, 1);
@@ -451,8 +448,7 @@
     height: auto;
     font-size: 18px;
     font-style: Bold;
-    text-align: left;
-    
+    text-align: right;
     font-weight: 400;
     line-height: normal;
     font-stretch: normal;
@@ -461,10 +457,10 @@
   .a-campaign-for-a-cinema-frame100 {
     width: 100%;
     display: flex;
-    padding: 0 0 0 70px;
+    justify-content: flex-end;
     align-items: center;
     flex-shrink: 0;
-    justify-content: flex-end;
+    padding: 0 0 0 70px;
   }
   .a-campaign-for-a-cinema-text22 {
     color: rgba(255, 255, 255, 1);
@@ -472,8 +468,7 @@
     height: auto;
     font-size: 18px;
     font-style: Bold;
-    text-align: left;
-    
+    text-align: right;
     font-weight: 400;
     line-height: normal;
     font-stretch: normal;
@@ -482,20 +477,19 @@
   .a-campaign-for-a-cinema-frame101 {
     width: 100%;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     flex-shrink: 0;
     padding-top: 0 0 0 70px;
     padding-right: 0 0 0 70px;
     padding-bottom: 0 0 0 70px;
-    justify-content: flex-end;
   }
   .a-campaign-for-a-cinema-text23 {
     color: rgba(255, 255, 255, 1);
     width: 376px;
     height: auto;
     font-size: 18px;
-    text-align: left;
-    
+    text-align: right;
     font-weight: 400;
     line-height: normal;
     font-stretch: normal;

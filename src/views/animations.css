@@ -24,11 +24,11 @@
 
 /* Main title text */
 .animations-text16 {
-  margin-top: 10%;
+  margin-top: 15%;
   color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
-  font-size: 50px;
+  font-size: 20px;
   font-style: Bold;
   text-align: left;
   font-weight: 700;
@@ -44,8 +44,9 @@
   width: 70%; /* Use width instead of padding */
   display: flex;
   align-items: center;
-  margin: 2% auto 12%; /* Use margin for spacing */
+  margin: 2% auto 6%; /* Use margin for spacing */
   flex-direction: column;
+  gap: 30px;
 }
 
 /* Image/GIF styles */
@@ -64,7 +65,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 4%; /* Gap between columns */
+  gap: 2%; /* Gap between columns */
 }
 
 /* Images within the two-column row */
@@ -90,10 +91,10 @@
   color: rgb(255, 255, 255);
   height: auto;
   flex-grow: 1;
-  font-size: 30px;
+  font-size: 18px;
   font-style: Bold;
   text-align: left;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;

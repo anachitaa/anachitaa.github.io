@@ -17,10 +17,8 @@ const ALogoForACafe = (props) => {
         />
       </Helmet>
       <Menue />
-      <span className="a-logo-for-a-cafe-text16">
         <span className="a-logo-for-a-cafe-text17">a logo for a cafe</span>
-        <br></br>
-      </span>
+      <div className='a-logo-for-a-cafe-frame95'>
       <div className="a-logo-for-a-cafe-tshirts">
         <img
           alt="Rectangle344657"
@@ -48,6 +46,7 @@ const ALogoForACafe = (props) => {
           identity I ever created.
         </span>
       </div>
+      </div> 
     </div>
   )
 }
