@@ -239,7 +239,6 @@
 .home-rectangle222 {
   left: 0px;
   width: 230px;
-  bottom: 1px;
   height: 172px;
 }
 
@@ -431,7 +430,7 @@
   }
 }
 
-@media(max-width: 420px) {
+@media(max-width: 450px) {
   .home-menue {
     gap: var(--dl-space-space-fourunits);
     width: 287px;
@@ -440,28 +439,537 @@
     padding-right: var(--dl-space-space-unit);
     justify-content: center;
   }
+  
   .home-frame92 {
     transform: scale(0.6,0.6);
   }
+  
   .home-frame84 {
     bottom: 9.5rem;
     transform: rotate(270deg) scale(0.6, 0.6);
     margin-right: 90px;
   }
+
   .home-frame47 {
-    gap: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
+    gap: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Standardize all home-image containers */
+  .home-image2, .home-image3, .home-image4, .home-image5, .home-image6, 
+  .home-image7, .home-image8, .home-image21, .home-image22, .home-image51, 
+  .home-image52, .home-iamge1, .home-iamge11, .home-iamge12, .home-iamge13, 
+  .home-iamge14, .home-iamge15, .home-iamge16, .home-iamge17 {
+    width: 280px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+
+  /* Standardize all group containers with 3D chess effect */
+  .home-group44, .home-group45, .home-group46, .home-group47, .home-group48, 
+  .home-group49, .home-group50, .home-group51, .home-group441, .home-group442, 
+  .home-group443, .home-group444, .home-group445, .home-group446, .home-group451, 
+  .home-group452, .home-group481, .home-group482 {
+    width: 280px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .home-group46 {
+    width:300px;
+  }
+
+  /* Primary rectangles (back layer) - fit to actual image aspect ratios */
+  
+  /* Standard portrait rectangles (186x207 aspect ratio) */
+  .home-rectangle21, .home-rectangle23, .home-rectangle24, .home-rectangle25,
+  .home-rectangle18, .home-rectangle184, .home-rectangle32, .home-rectangle33,
+  .home-rectangle26, .home-rectangle264 {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    width: 186px;
+    height: 207px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* Landscape rectangles (234x172 aspect ratio) */
+  .home-rectangle19, .home-rectangle191, .home-rectangle192 {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    width: 234px;
+    height: 172px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* Wide landscape rectangle (551x145 aspect ratio - scaled down) */
+  .home-rectangle20 {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    width: 280px;
+    height: 74px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* Medium wide rectangle (275x207 aspect ratio - scaled down) */
+  .home-rectangle22 {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    width: 220px;
+    height: 166px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* Small landscape rectangles (various aspect ratios) */
+  .home-rectangle183 {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    width: 186px;
+    height: 145px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .home-rectangle181 {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    width: 217px;
+    height: 145px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .home-rectangle182 {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    width: 221px;
+    height: 172px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .home-rectangle186 {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    width: 172px;
+    height: 172px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .home-rectangle185 {
+    position: relative;
+    left: 0px;
+    width: 218px;
+    bottom: 0px;
+    height: 139px;
+  }
+
+  .home-rectangle221 {
+    position: relative;
+    left: 0px;
+    width: 238px;
+    bottom: 0px;
+    height: 172px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .home-rectangle222 {
+    position: absolute;
+    left: 50px;
+    width: 230px;
+    height: 172px;
+  }
+
+  /* Secondary rectangles (front layer) - 3D chess overlapping effect */
+  
+  /* Standard portrait overlays - match 186x207 */
+  .home-rectangle29, .home-rectangle31 {
+    position: absolute;
+    top: -10px;
+    left: 60px;
+    width: 186px;
+    height: 207px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+  }
+
+  /* Medium wide overlay - match 220x166 */
+  .home-rectangle30 {
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    width: 220px;
+    height: 166px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+  }
+
+  /* Standard portrait overlay - match 186x207 */
+  .home-rectangle32 {
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    width: 186px;
+    height: 207px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+  }
+
+  /* Standard portrait overlay - match 186x207 */
+  .home-rectangle33 {
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    width: 186px;
+    height: 207px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+  }
+
+  /* Landscape overlays - match 234x172 */
+  .home-rectangle27, .home-rectangle271 {
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    width: 234px;
+    height: 172px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+  }
+
+  /* Wide landscape overlay - match 280x74 */
+  .home-rectangle28 {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    width: 100%;
+    height: 74px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+  }
+
+  /* Small landscape overlays - match their respective base rectangles */
+  .home-rectangle261 {
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    width: 217px;
+    height: 145px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+  }
+
+  .home-rectangle262 {
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    width: 221px;
+    height: 172px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+  }
+
+  .home-rectangle263 {
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    width: 186px;
+    height: 145px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+  }
+
+  .home-rectangle264 {
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    width: 186px;
+    height: 207px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+  }
+
+  .home-rectangle265 {
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    width: 218px;
+    height: 139px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+  }
+
+  .home-rectangle266 {
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    width: 172px;
+    height: 172px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+  }
+
+  .home-rectangle272 {
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    width: 234px;
+    height: 145px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+  }
+
+  .home-rectangle301 {
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    width: 238px;
+    height: 172px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+  }
+
+  .home-rectangle302 {
+    position: absolute;
+    left: 60px;
+    width: 230px;
+    height: 172px;
+  }
+
+  /* Text adjustments */
+  .home-text16, .home-text18, .home-text20, .home-text22, .home-text23, .home-text25,
+  .home-text26, .home-text28, .home-text30, .home-text32, .home-text33, .home-text35,
+  .home-text36, .home-text37, .home-text39, .home-text41, .home-text42, .home-text43,
+  .home-text44 {
+    width: 260px;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 3;
+    position: relative;
+  }
+
+  .home-rectangle27{
+    top: 0px;
+  }
+
+  .home-rectangle29 {
+    top: 5px;
+  }
+
+  .home-rectangle28 {
+    top: 40px;
+  }
+
+  .home-rectangle30 {
+    left: 40px;
+    top: 35px;
+  }
+
+  .home-rectangle31 {
+    left: 60px;
+    top: 5px;
+  }
+
+  .home-rectangle271 {
+    left: 40px;
+    top: 0px;
+  }
+
+  .home-rectangle32 {
+    left: 60px;
+    top: 5px;
+  }
+
+  .home-rectangle26 {
+    position: absolute;
+    left: 60px;
+    top: 5px;
+  }
+
+  .home-rectangle33 {
+    left: 60px;
+    top: 5px;
+  }
+
+  .home-rectangle261 {
+    left: 42px;
+    top: 5px;
+  }
+
+  .home-rectangle192 {
+    height: 145px;
+  }
+
+  .home-rectangle272 {
+    left: 35px;
+    top: 5px;
+  }
+
+  .home-rectangle262 {
+    left: 40px;
+    top: 5px;
   }
   
-  /* Maintain image quality on small screens */
-  .home-group50, .home-group49, .home-group51, .home-group48,
-  .home-group46, .home-group45, .home-group44, .home-group451,
-  .home-group452, .home-group443, .home-group481, .home-group445,
-  .home-group482, .home-group446 {
-    width: 100%;
-    max-width: 330px;
+  .home-rectangle263 {
+    left: 60px;
+    top: 0px;
   }
+
+  .home-rectangle221 {
+    top: 10px;
+  }
+
+  .home-rectangle301 {
+    left: 35px;
+    top:-5px;
+    height: 172px;
+  }
+  
+  .home-rectangle264{
+    left: 60px;
+    top: 0px;
+  }
+
+  .home-rectangle185{
+    position: absolute;
+    left: 50px;
+  }
+
+  .home-rectangle265{
+    position: absolute;
+    left: 60px;
+    top: 0px;
+  }
+
+  .home-rectangle222{
+    position: absolute;
+    left: 30px;
+    width: 230px;
+    height: 172px;
+    top: 10px;
+  }
+
+  .home-rectangle302{
+    position: relative;
+    left: 15px;
+    width: 230px;
+    height: 172px;
+    top: -5px;
+  }
+
+  .home-rectangle266{
+    left: 65px;
+    top: 5px;
+  }
+
+  .home-text44{
+    margin-bottom: 50%;
+  }
+  
+  .home-text18 {
+    right: 23px;
+  }
+
+  .home-text20 {
+    left: 30px;
+    top: -10px;
+  }
+
+  .home-text22 {
+    right: 10px;
+    top: -10px;
+  }
+
+  .home-text23 {
+    right: 20px;
+  }
+
+  .home-text25 {
+    right: 20px;
+  }
+
+  .home-text26 {
+    right: -5px;
+  }
+  
+  .home-text28 {
+    right: 23px;
+  }
+
+  .home-text30 {
+    right: 23px;
+  }
+
+  .home-text32 {
+    right: 12px;
+  }
+
+  .home-text33 {
+    right: 1px;
+  }
+
+  .home-text35 {
+    right: 7px;
+  }
+
+  .home-text37 {
+    left: 5px;
+  }
+  
+  .home-text39 {
+    right: 22px;
+  }
+
+  .home-text41 {
+    left: 8px;
+  }
+  
+  .home-text42 {
+    left: 1px;
+  }
+
+  .home-text43 {
+    right: 32px;
+  }
+  
+  
+
 }
 
 /* Responsive Styles */
@@ -501,11 +1009,12 @@
   }
 }
 
-@media(max-width: 420px) {
+@media(max-width: 450px) {
   .home-text16, .home-text18, .home-text20, .home-text22, .home-text23, .home-text25,
   .home-text26, .home-text28, .home-text30, .home-text32, .home-text33, .home-text35,
   .home-text36, .home-text37, .home-text39, .home-text41, .home-text42, .home-text43,
   .home-text44 {
-    font-size: 18px;
+    text-align: end;
+    font-size: 16px;
   }
 }
