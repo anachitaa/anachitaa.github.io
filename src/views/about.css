@@ -222,6 +222,7 @@
   }
   .about-text {
     font-size: 22px;
+    padding-left: 1.6%;
   }
   .about-tshirts {
     margin-top: 2%;
@@ -361,4 +362,127 @@
   .about-brand-identity-group .about-text37 {
     text-align: left;
   }
+}
+
+@media(max-width: 450px) {
+  /* Set all text elements to 16px font size */
+  .about-text {
+    font-size: 18px;
+  }
+  
+  .about-text01, .about-text02, .about-text03, .about-text04, .about-text05, 
+  .about-text06, .about-text08, .about-text09, .about-text11, .about-text13, 
+  .about-text15, .about-text17, .about-text19, .about-text21, .about-text23, 
+  .about-text35, .about-text37, .about-text49, .about-text51 {
+    font-size: 16px;
+  }
+  
+  .about-text51 > div {
+    font-size: 16px;
+  }
+  
+  /* Main container setup */
+  .about-tshirts {
+    width: 88%;
+  }
+  
+  /* Keep photo and description side by side */
+  .about-frame6 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about-rectangle35 {
+    width: 30%;
+    margin-bottom: 0;
+  }
+  
+  /* Frame52 contains description and contact info */
+  .about-frame52 {
+    width: calc(70% - 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+  }
+  
+  /* Keep description at top */
+  .about-text01 {
+    margin-bottom: 10px;
+  }
+  
+  /* Position Instagram and email to span full container width */
+  .about-frame52::after {
+    content: "";
+    display: block;
+    height: 80px; /* Space for the absolutely positioned elements */
+  }
+  
+  .about-frame66, .about-frame67 {
+    position: absolute;
+    left: calc(-100% / 0.7 * 0.38); /* Move to align with container start */
+    width: calc(100% / 0.7 * 1.37); /* Scale to parent container width */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding-right: calc(100% / 0.7 * 0.3); /* Add padding to maintain proper right alignment */
+  }
+  
+  .about-frame66 {
+    bottom: 30px;
+  }
+  
+  .about-frame67 {
+    bottom: 0;
+  }
+  
+  /* Style all labels consistently */
+  .about-text02, .about-text04, .about-text06, .about-text09, 
+  .about-text15, .about-text21, .about-text35, .about-text49 {
+    width: auto;
+    text-align: left;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  
+  /* Style all values consistently */
+  .about-text03, .about-text05, .about-text08, .about-text11, .about-text13, 
+  .about-text17, .about-text19, .about-text23, .about-text37, .about-text51 {
+    text-align: right;
+    font-size: 16px;
+    line-height: 1.3;
+    flex-grow: 1;
+  }
+  
+  /* Remove extra spacing */
+  .about-frame521 {
+    margin-top: 0;
+  }
+  
+  /* Ensure all section rows have consistent styling */
+  .about-frame66, .about-frame67,
+  .about-frame661, .about-frame671, .about-frame69, .about-frame72, 
+  .about-frame721, .about-frame722 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
+/* Ensure all section rows have consistent styling */
+.about-frame66, .about-frame67,
+.about-frame661, .about-frame671, .about-frame69, .about-frame72, 
+.about-frame721, .about-frame722 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
 }

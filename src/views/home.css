@@ -777,11 +777,13 @@
   .home-text26, .home-text28, .home-text30, .home-text32, .home-text33, .home-text35,
   .home-text36, .home-text37, .home-text39, .home-text41, .home-text42, .home-text43,
   .home-text44 {
-    width: 260px;
-    text-align: center;
-    margin: 0 auto;
+    width: 280px;
+    text-align: right;
+    margin: 0;
     z-index: 3;
     position: relative;
+    left: auto !important;
+    right: auto !important;
   }
 
   .home-rectangle27{
@@ -902,73 +904,103 @@
     margin-bottom: 50%;
   }
   
+  /* Individual text positioning to align with overlay right edges */
+  /* Rectangle27 (left: 35px, width: 234px) = right edge at 269px */
+  .home-text16 {
+    padding-right: 11px; /* 280 - 269 = 11px */
+  }
+
+  /* Rectangle29 (left: 60px, width: 186px) = right edge at 246px */
   .home-text18 {
-    right: 23px;
+    padding-right: 34px; /* 280 - 246 = 34px */
   }
 
+  /* Rectangle28 (left: 15px, width: 100%) = right edge at 280px */
   .home-text20 {
-    left: 30px;
-    top: -10px;
-  }
+    right: -20px !important;
+    top: -20px;
+}
 
+  /* Rectangle30 (left: 40px, width: 220px) = right edge at 260px */
   .home-text22 {
-    right: 10px;
+    right: 20px !important;
     top: -10px;
   }
 
+  /* Rectangle32 (left: 60px, width: 186px) = right edge at 246px */
   .home-text23 {
-    right: 20px;
+    right: 35px !important; /* 280 - 246 = 34px */
   }
 
+  /* Rectangle31 (left: 60px, width: 186px) = right edge at 246px */
   .home-text25 {
-    right: 20px;
+    padding-right: 34px; /* 280 - 246 = 34px */
   }
 
+  /* Rectangle271 (left: 40px, width: 234px) = right edge at 274px */
   .home-text26 {
-    right: -5px;
+    padding-right: 6px; /* 280 - 274 = 6px */
   }
-  
+
+  /* Rectangle26 (left: 60px, width: 186px) = right edge at 246px */
   .home-text28 {
-    right: 23px;
+    padding-right: 34px; /* 280 - 246 = 34px */
   }
 
+  /* Rectangle33 (left: 60px, width: 186px) = right edge at 246px */
   .home-text30 {
-    right: 23px;
+    padding-right: 34px; /* 280 - 246 = 34px */
   }
 
+  /* Rectangle261 (left: 42px, width: 217px) = right edge at 259px */
   .home-text32 {
-    right: 12px;
+    padding-right: 21px; /* 280 - 259 = 21px */
   }
 
+  /* Rectangle272 (left: 35px, width: 234px) = right edge at 269px */
   .home-text33 {
-    right: 1px;
+    padding-right: 11px; /* 280 - 269 = 11px */
   }
 
+  /* Rectangle262 (left: 40px, width: 221px) = right edge at 261px */
   .home-text35 {
-    right: 7px;
+    padding-right: 19px; /* 280 - 261 = 19px */
   }
 
+  /* Rectangle263 (left: 60px, width: 186px) = right edge at 246px */
+  .home-text36 {
+    padding-right: 34px; /* 280 - 246 = 34px */
+  }
+
+  /* Rectangle301 (left: 35px, width: 238px) = right edge at 273px */
   .home-text37 {
-    left: 5px;
+    padding-right: 7px; /* 280 - 273 = 7px */
   }
-  
+
+  /* Rectangle264 (left: 60px, width: 186px) = right edge at 246px */
   .home-text39 {
-    right: 22px;
+    padding-right: 34px; /* 280 - 246 = 34px */
   }
 
+  /* Rectangle265 (left: 60px, width: 218px) = right edge at 278px */
   .home-text41 {
-    left: 8px;
-  }
-  
-  .home-text42 {
-    left: 1px;
+    padding-right: 2px; /* 280 - 278 = 2px */
   }
 
-  .home-text43 {
-    right: 32px;
+  /* Rectangle302 (left: 15px, width: 230px) = right edge at 245px */
+  .home-text42 {
+    left: -10px !important; /* 280 - 245 = 35px */
   }
-  
-  
+
+  /* Rectangle266 (left: 65px, width: 172px) = right edge at 237px */
+  .home-text43 {
+    padding-right: 43px; /* 280 - 237 = 43px */
+  }
+
+  .home-text44{
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
 
 }
 
@@ -1014,7 +1046,7 @@
   .home-text26, .home-text28, .home-text30, .home-text32, .home-text33, .home-text35,
   .home-text36, .home-text37, .home-text39, .home-text41, .home-text42, .home-text43,
   .home-text44 {
-    text-align: end;
+    text-align: right;
     font-size: 16px;
   }
 }

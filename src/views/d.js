@@ -56,23 +56,8 @@ const D = (props) => {
         <div className="d-frame51">
           <span className="d-text20">
             <span>
-              a vase fully
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+              a vase fully 3D printed with PLA
             </span>
-            <span>
-              3D printed
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <br></br>
-            <span>with PLA</span>
           </span>
           <ModalImage
             alt="Rectangle374139"

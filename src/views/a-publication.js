@@ -14,7 +14,7 @@ const APublication = (props) => {
 
   const handleRightSlide = () => {
     setSlideIndex((prevIndex) =>
-      prevIndex < 2 ? prevIndex + 1 : 2
+      prevIndex < 4 ? prevIndex + 1 : 4
     );
   };
 
@@ -54,8 +54,8 @@ const APublication = (props) => {
           transform: `translateX(-${slideIndex * slideWidth}%)`, 
           transition: "transform 0.5s ease-in-out",
           gap: "2%",
-          width: "80%",
-          height: "80%",
+          width: "90%",
+          height: "auto",
         }}>
           <img
             alt="Rectangle354204"
@@ -97,7 +97,7 @@ const APublication = (props) => {
         <div className="a-publication-frame49">
           <span className="a-publication-text17">
             This publication draws inspiration from a 1971 magazine called
-            &apos;Ain’t I A Woman.&apos; While its content is derived from the
+            &apos;Ain't I A Woman.&apos; While its content is derived from the
             original magazine, my main focus lies in exploring how we read
             articles, emphasizing grid and microtypography.
           </span>

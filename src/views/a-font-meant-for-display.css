@@ -183,10 +183,11 @@
   }
 }
 
-@media(max-width: 420px) {
+@media(max-width: 450px) {
   /* Menu adjustments handled in menue.css */
   .a-font-meant-for-display-text16 {
-    font-size: 20px;
+    font-size: 18px;
+    padding-left: 6%;
   }
   .a-font-meant-for-display-container1 {
     width: 90%;

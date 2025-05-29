@@ -151,14 +151,21 @@
   }
 }
 
-@media(max-width: 420px) {
+@media(max-width: 600px) {
   /* Menu adjustments are handled in menue.css */
   .roots-text16 {
     font-size: 18px;
     font-weight: 400;
+    padding-left: 6%;
+    margin-top: 20%;
   }
+
+  .roots-text17 {
+    font-size: 18px;
+  }
+
   .roots-frame54 {
-    width: 90%; /* Increase width slightly for small screens */
+    width: 88%; /* Increase width slightly for small screens */
   }
   .roots-tshirts, .roots-tshirts1, .roots-tshirts2, .roots-tshirts3, .roots-frame6 {
     flex-direction: column; /* Stack images vertically */
@@ -439,35 +446,35 @@
 
 @media(max-width: 1900px) {
   .roots-text17 {
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 15%;
   }
 }
 
 @media(max-width: 1400px) {
   .roots-text17 {
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 15%;
   }
 }
 
 @media(max-width: 991px) {
   .roots-text17 {
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 15%;
   }
 }
 
 @media(max-width: 767px) {
   .roots-text17 {
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 15%;
   }
 }
 
 @media(max-width: 420px) {
   .roots-text17 {
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 15%;
   }
 }

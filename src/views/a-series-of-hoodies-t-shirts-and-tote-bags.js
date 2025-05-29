@@ -29,14 +29,8 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
             <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text17">
               <span>
                 a hoodie inspired by
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span>the idea of </span>
-              <span>“what is a car?”</span>
+              the idea of 
+              “what is a car?”</span>
             </span>
             <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text21">
               <span>
@@ -47,7 +41,6 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
                   }}
                 />
               </span>
-              <br></br>
               <span>printed</span>
             </span>
           </div>
@@ -77,7 +70,6 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
           <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame581">
             <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text25">
               <span>a t-shirt </span>
-              <br></br>
               <span>
                 inspired
                 <span
@@ -106,7 +98,6 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
                   }}
                 />
               </span>
-              <br></br>
               <span>printed</span>
             </span>
           </div>
@@ -171,7 +162,6 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
                   }}
                 />
               </span>
-              <br></br>
               <span>printed</span>
             </span>
           </div>
@@ -212,7 +202,6 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
                   }}
                 />
               </span>
-              <br></br>
               <span>printed</span>
             </span>
           </div>
@@ -242,7 +231,6 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
           <div className="a-series-of-hoodies-t-shirts-and-tote-bags-frame584">
             <span className="a-series-of-hoodies-t-shirts-and-tote-bags-text50">
               <span>a t-shirt</span>
-              <br></br>
               <span>
                 inspired by a photo of old cars from a book found
                 <span
@@ -262,7 +250,6 @@ const ASeriesOfHoodiesTShirtsAndToteBags = (props) => {
                   }}
                 />
               </span>
-              <br></br>
               <span>printed</span>
             </span>
           </div>

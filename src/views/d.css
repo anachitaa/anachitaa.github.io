@@ -157,3 +157,48 @@
     text-align: center;
   }
 }
+
+@media(max-width: 450px) {
+  /* Menu adjustments are handled in menue.css */
+  .d-text16 {
+    font-size: 18px;
+    padding-left: 6%;
+    margin-top: 20%;
+  }
+
+  .d-text20 {
+    margin-right: 44%;
+  }
+
+  .d-text19 {
+    margin-right: 28%;
+  }
+  .d-tshirts {
+    width: 88%;
+  }
+  .d-frame6, .d-frame51 {
+    gap: var(--dl-space-space-oneunit);
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* Make text take full width and appear above images */
+  .d-text19, .d-text20 {
+    width: 100%;
+    font-size: 16px;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 20px;
+    order: -1; /* Ensure text appears first */
+  }
+  /* Ensure images stack vertically one by one */
+  .d-rectangle34, .d-rectangle36, .d-rectangle35, 
+  .d-rectangle37, .d-rectangle341, .d-rectangle351 {
+  }
+
+  /* Video takes full width */
+  .d-video {
+    width: 100%;
+    margin: 20px 0;
+  }
+}

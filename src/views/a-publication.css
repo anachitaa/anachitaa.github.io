@@ -181,6 +181,13 @@
   overflow: visible; /* Allow content to overflow */
 }
 
+/* Add specific container for the slider to control its size */
+.a-publication-frame55 > div:nth-child(2) {
+  width: 100%; /* Make the slider container take full width of parent */
+  display: flex;
+  justify-content: center;
+}
+
 /* Image row container */
 .a-publication-frame6 {
   width: 100%;
@@ -205,10 +212,11 @@
 /* Slider images */
 .a-publication-rectangle351 {
   width: 100%;
-  max-width: 500px;
+  max-width: 100%;
   height: auto;
   object-fit: contain;
   border-radius: 4px;
+  flex-shrink: 0; /* Prevent images from shrinking */
 }
 
 /* Arrow navigation */
@@ -247,7 +255,7 @@
 /* Slider container - add this new class */
 .carousel-container {
   position: relative;
-  width: 80%;
+  width: 90%; /* Increased from 80% to 90% */
   overflow: hidden; /* Hide overflow for carousel container only */
 }
 
@@ -268,7 +276,7 @@
   }
   
   .a-publication-frame55 {
-    width: 70%;
+    width: 100%;
   }
 }
 
@@ -332,7 +340,7 @@
   }
 }
 
-@media(max-width: 420px) {
+@media(max-width: 450px) {
   .a-publication-menue {
     gap: var(--dl-space-space-fourunits);
     width: 100vw;
@@ -354,17 +362,46 @@
   
   .a-publication-text16 {
     width: 95%;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 100px;
+    position: relative;
+    right: 5%;
   }
   
   .a-publication-text17 {
-    width: 95%;
     font-size: 16px;
+    display: block;       /* ensure it’s a block */
+    padding-left: 6%;
+    padding-right: 6%;
   }
   
   .a-publication-arrow {
     font-size: 28px;
     padding: 5px 10px;
   }
+
+  .a-publication-frame6 {
+    gap: 2%;
+  }
+
+  .a-publication-text16 {
+    padding-left: 9%;
+  }
+
+  .a-publication-rectangle34 {
+    margin-top: -10%;
+    max-width: 88%;
+  }
+
+  .a-publication-rectangle36 {
+    max-width: 88%;
+  }
+
+  .a-publication-rectangle35 {
+    max-width: 88%;
+  }
+
+  .a-publication-rectangle351 {
+    max-width: 100%;
+    }
 }
