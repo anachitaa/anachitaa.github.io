@@ -466,7 +466,7 @@
   }
 }
 
-@media(max-width: 420px) {
+@media(max-width: 450px) {
   /* Menu adjustments handled in menue.css */
   .unity-text16 {
     font-size: 22px;
@@ -491,5 +491,17 @@
   .unity-image-container {
     width: 100%; /* Full width when stacked */
     height: 300px; /* Taller height for mobile */
+  }
+  .unity-frame6{
+    flex-direction: column;
+  }
+  .unity-text16 {
+    position: relative;
+    right: 9%;
+    margin-top: 20%;
+    font-size: 18px;
+  }
+  .unity-text19 {
+    font-size: 16px;
   }
 }

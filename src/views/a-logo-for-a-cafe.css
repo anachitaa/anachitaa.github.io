@@ -319,6 +319,89 @@
   }
 }
 
+@media(max-width: 450px) {
+  /* Menu styles */
+  .a-logo-for-a-cafe-menue {
+    gap: var(--dl-space-space-fourunits);
+    width: 100vw;
+    height: 77px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    justify-content: center;
+  }
+  
+  .a-logo-for-a-cafe-frame92 {
+    transform: scale(0.6,0.6);
+  }
+  
+  .a-logo-for-a-cafe-frame84 {
+    bottom: 9.5rem;
+    transform: rotate(270deg) scale(0.6, 0.6);
+    margin-right: 90px;
+  }
+  
+  /* Title with 20% margin-top */
+  .a-logo-for-a-cafe-text17 {
+    margin-top: 20%;
+    font-size: 18px;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    right: 3%;
+  }
+  
+  /* Main container at 88% of viewport */
+  .a-logo-for-a-cafe-frame95 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Images container with column layout */
+  .a-logo-for-a-cafe-tshirts {
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+  }
+  
+  /* Images styled one after another */
+  .a-logo-for-a-cafe-rectangle34, 
+  .a-logo-for-a-cafe-rectangle341, 
+  .a-logo-for-a-cafe-rectangle342, 
+  .a-logo-for-a-cafe-rectangle343 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  
+  /* Text underneath */
+  .a-logo-for-a-cafe-text19 {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    text-align: left;
+  }
+  
+  /* Title and description text */
+  .a-logo-for-a-cafe-text16 {
+    width: 95%;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 @media(max-width: 420px) {
   .a-logo-for-a-cafe-menue {
     gap: var(--dl-space-space-fourunits);

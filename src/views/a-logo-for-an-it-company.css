@@ -136,13 +136,16 @@
   }
 }
 
-@media(max-width: 420px) {
+@media(max-width: 450px) {
   /* Menu adjustments handled in menue.css */
   .a-logo-for-an-it-company-text16 {
-    font-size: 20px;
+    font-size: 18px;
+    position: relative;
+    right: 4%;
+    margin-top: 20%;
   }
   .a-logo-for-an-it-company-tshirts {
-    width: 90%;
+    width: 88%;
     gap: var(--dl-space-space-twounits);
   }
   .a-logo-for-an-it-company-text17 {

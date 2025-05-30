@@ -154,10 +154,13 @@
   }
 }
 
-@media(max-width: 420px) {
+@media(max-width: 450px) {
   /* Menu adjustments handled in menue.css */
   .animations-text16 {
-    font-size: 20px;
+    font-size: 18px;
+    position: relative;
+    right: 4%;
+    margin-top: 20%;
   }
   .animations-container1 {
     width: 90%;
