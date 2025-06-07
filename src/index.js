@@ -24,6 +24,7 @@ import ACatalogue from './views/a-catalogue'
 import ACampaignForACinema from './views/a-campaign-for-a-cinema'
 import NotFound from './views/not-found'
 import { CategoryProvider } from './context/CategoryContext'
+import AZine from './views/a-zine'
 
 const App = () => {
   return (
@@ -59,6 +60,7 @@ const App = () => {
           exact
           path="/a-campaign-for-a-cinema"
         />
+        <Route component={AZine} exact path="/a-zine" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

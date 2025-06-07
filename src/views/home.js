@@ -362,6 +362,97 @@ const Home = (props) => {
             <span className="home-text43">and another animation</span>
           </div>
         </Link>
+        <Link to="/animations" className={`home-navlink ${!isActive("animations") ? "hidden" : ""}`}>
+          <div className="home-image52">
+            <div className="home-group482">
+              <img
+                alt="Rectangle225392"
+                src="/external/rectangle195392-aj3j-300h.png"
+                className="home-rectangle222"
+              />
+              <img
+                alt="Rectangle305392"
+                src="/animations/culture-2-300h.gif"
+                className="home-rectangle302"
+              />
+            </div>
+            <span className="home-text42">a book questioning propaganda</span>
+          </div>
+        </Link>
+        <Link to="/a-zine" className={`home-navlink ${!isActive('3d') ? "hidden" : ""}`}>
+          <div className="home-image4">
+            <div className="home-group47">
+              <img
+                alt="Rectangle215391"
+                src="/external/rectangle195392-aj3j-300h.png"
+                className="home-rectangle21"
+              />
+              <img
+                alt="Rectangle295391"
+                src="/external/DSC08284.jpg"
+                className="home-rectangle29"
+              />
+            </div>
+            <span className="home-text18">
+              <span>a zine about arrows</span>
+            </span>
+          </div>
+        </Link>
+        <Link to="/animations" className={`home-navlink ${!isActive("animations") ? "hidden" : ""}`}>
+          <div className="home-image52">
+            <div className="home-group482">
+              <img
+                alt="Rectangle225392"
+                src="/external/rectangle195392-aj3j-300h.png"
+                className="home-rectangle222"
+              />
+              <img
+                alt="Rectangle305392"
+                src="/animations/culture-2-300h.gif"
+                className="home-rectangle302"
+              />
+            </div>
+            <span className="home-text42">a photo book about markets</span>
+          </div>
+        </Link>
+        <Link to="/d" className={`home-navlink ${!isActive('3d') ? "hidden" : ""}`}>
+          <div className="home-image4">
+            <div className="home-group47">
+              <img
+                alt="Rectangle215391"
+                src="/external/rectangle195392-aj3j-300h.png"
+                className="home-rectangle21"
+              />
+              <img
+                alt="Rectangle295391"
+                src="/3d/chess-1500w.jpg"
+                className="home-rectangle29"
+              />
+            </div>
+            <span className="home-text18">
+              <span>another publication</span>
+            </span>
+          </div>
+        </Link>
+        <Link to="/d" className={`home-navlink ${!isActive('3d') ? "hidden" : ""}`}>
+          <div className="home-image4">
+            <div className="home-group47">
+              <img
+                alt="Rectangle215391"
+                src="/external/rectangle195392-aj3j-300h.png"
+                className="home-rectangle21"
+              />
+              <img
+                alt="Rectangle295391"
+                src="/3d/chess-1500w.jpg"
+                className="home-rectangle29"
+              />
+            </div>
+            <span className="home-text18">
+              <span>another animation</span>
+            </span>
+          </div>
+        </Link>
         <div className="home-iamge17">
           <span className="home-text44">
             <span>
