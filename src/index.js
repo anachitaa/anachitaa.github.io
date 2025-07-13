@@ -25,6 +25,7 @@ import ACampaignForACinema from './views/a-campaign-for-a-cinema'
 import NotFound from './views/not-found'
 import { CategoryProvider } from './context/CategoryContext'
 import AZine from './views/a-zine'
+import OrangePub from './views/orange_pub'
 
 const App = () => {
   return (
@@ -61,6 +62,7 @@ const App = () => {
           path="/a-campaign-for-a-cinema"
         />
         <Route component={AZine} exact path="/a-zine" />
+        <Route component={OrangePub} exact path="/orange-pub" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

@@ -14,7 +14,7 @@ const AZine = () => {
     
       const handleRightSlide = () => {
         setSlideIndex((prevIndex) =>
-          prevIndex < 4 ? prevIndex + 1 : 4
+          prevIndex < 5 ? prevIndex + 1 : 5
         );
       };
     
@@ -53,33 +53,61 @@ const AZine = () => {
               alignItems: "center",
               transform: `translateX(-${slideIndex * slideWidth}%)`, 
               transition: "transform 0.5s ease-in-out",
-              gap: "2%",
-              width: "90%",
+              gap: "10%",
+              width: "70%",
               height: "auto",
+              marginTop: "-15%",
             }}>
               <img
+                style={{
+                width: "100%",
+                height: "auto",
+                transform: "rotate(90deg)",
+              }}
                 alt="Rectangle354204"
-                src="/external/publication/pg1.png"
+                src="/external/zine/IMG_0003.png"
                 className="a-publication-rectangle351"
               />
               <img
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  transform: "rotate(-90deg)",
+                  marginRight: "36%",
+                }}
                 alt="Rectangle354204"
-                src="/external/publication/1st spread.png"
+                src="/external/zine/IMG.png"
                 className="a-publication-rectangle351"
               />
               <img
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  transform: "rotate(-90deg)",
+                  marginRight: "36%",
+                }}
                 alt="Rectangle354204"
-                src="/external/publication/spread 2.png"
+                src="/external/zine/IMG_0001.png"
                 className="a-publication-rectangle351"
               />
               <img
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  transform: "rotate(-90deg)",
+                }}
                 alt="Rectangle354204"
-                src="/external/publication/spread3.png"
+                src="/external/zine/IMG_0002.png"
                 className="a-publication-rectangle351"
               />
               <img
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  transform: "rotate(90deg)",
+                }}
                 alt="Rectangle354204"
-                src="/external/publication/page8.png"
+                src="/external/zine/IMG_0004.png"
                 className="a-publication-rectangle351"
               />
             </div>
@@ -89,6 +117,7 @@ const AZine = () => {
                 display: "flex",
                 flexDirection: "row",
                 gap: "30%",
+                marginTop: "-15%",
               }
             }>
               <div className="a-publication-arrow" onClick={handleLeftSlide}>{"<"}</div>
