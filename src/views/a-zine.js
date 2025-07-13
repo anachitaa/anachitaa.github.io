@@ -118,7 +118,8 @@ const AZine = () => {
                 flexDirection: "row",
                 gap: "30%",
                 marginTop: "-15%",
-              }
+                zIndex: 1000,
+             }
             }>
               <div className="a-publication-arrow" onClick={handleLeftSlide}>{"<"}</div>
               <div className="a-publication-arrow" onClick={handleRightSlide}>{">"}</div>

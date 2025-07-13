@@ -362,7 +362,7 @@ const Home = (props) => {
             <span className="home-text43">and another animation</span>
           </div>
         </Link>
-        <Link to="/animations" className={`home-navlink ${!isActive("animations") ? "hidden" : ""}`}>
+        <Link to="/propaganda" className={`home-navlink ${!isActive("publication") ? "hidden" : ""}`}>
           <div className="home-image52">
             <div className="home-group482">
               <img
@@ -372,14 +372,14 @@ const Home = (props) => {
               />
               <img
                 alt="Rectangle305392"
-                src="/animations/culture-2-300h.gif"
+                src="/external/propaganda/IMG_6959.png"
                 className="home-rectangle302"
               />
             </div>
             <span className="home-text42">a book questioning propaganda</span>
           </div>
         </Link>
-        <Link to="/a-zine" className={`home-navlink ${!isActive('3d') ? "hidden" : ""}`}>
+        <Link to="/a-zine" className={`home-navlink ${!isActive('publication') ? "hidden" : ""}`}>
           <div className="home-image4">
             <div className="home-group47">
               <img
@@ -398,7 +398,7 @@ const Home = (props) => {
             </span>
           </div>
         </Link>
-        <Link to="/animations" className={`home-navlink ${!isActive("animations") ? "hidden" : ""}`}>
+        <Link to="/markets" className={`home-navlink ${!isActive("publication") ? "hidden" : ""}`}>
           <div className="home-image52">
             <div className="home-group482">
               <img
@@ -408,14 +408,14 @@ const Home = (props) => {
               />
               <img
                 alt="Rectangle305392"
-                src="/animations/culture-2-300h.gif"
+                src="/external/marktes/GRS80385.jpg"
                 className="home-rectangle302"
               />
             </div>
             <span className="home-text42">a photo book about markets</span>
           </div>
         </Link>
-        <Link to="/d" className={`home-navlink ${!isActive('3d') ? "hidden" : ""}`}>
+        <Link to="/orange-pub" className={`home-navlink ${!isActive('publication') ? "hidden" : ""}`}>
           <div className="home-image4">
             <div className="home-group47">
               <img
@@ -425,7 +425,7 @@ const Home = (props) => {
               />
               <img
                 alt="Rectangle295391"
-                src="/3d/chess-1500w.jpg"
+                src="/external/orange-pub/DSC08236.jpg"
                 className="home-rectangle29"
               />
             </div>
@@ -434,22 +434,26 @@ const Home = (props) => {
             </span>
           </div>
         </Link>
-        <Link to="/d" className={`home-navlink ${!isActive('3d') ? "hidden" : ""}`}>
+        <Link to="/touch-designer" className={`home-navlink ${!isActive('animations') ? "hidden" : ""}`}>
           <div className="home-image4">
             <div className="home-group47">
               <img
                 alt="Rectangle215391"
-                src="/external/rectangle195392-aj3j-300h.png"
+                src="/external/rectangle225392-ncuj-300h.png"
                 className="home-rectangle21"
               />
-              <img
+              <video
                 alt="Rectangle295391"
-                src="/3d/chess-1500w.jpg"
+                src="/external/touch-designer/TDMovieOut.4.mp4"
                 className="home-rectangle29"
+                autoPlay
+                loop
+                muted
+                playsInline
               />
             </div>
             <span className="home-text18">
-              <span>another animation</span>
+              <span>TouchDesigner animations</span>
             </span>
           </div>
         </Link>

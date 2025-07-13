@@ -26,6 +26,9 @@ import NotFound from './views/not-found'
 import { CategoryProvider } from './context/CategoryContext'
 import AZine from './views/a-zine'
 import OrangePub from './views/orange_pub'
+import Markets from './views/markets'
+import Propaganda from './views/propaganda'
+import TouchDesigner from './views/touch-designer'
 
 const App = () => {
   return (
@@ -63,6 +66,9 @@ const App = () => {
         />
         <Route component={AZine} exact path="/a-zine" />
         <Route component={OrangePub} exact path="/orange-pub" />
+        <Route component={Markets} exact path="/markets" />
+        <Route component={Propaganda} exact path="/propaganda" />
+        <Route component={TouchDesigner} exact path="/touch-designer" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
